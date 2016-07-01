@@ -1,0 +1,50 @@
+(.../Documents/eagle/ulp/pcb-gcode.ulp)
+(Copyright 2005 - 2009 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../Teensy-Futurlec/Teensy-Futurlec-Shield.brd)
+(Current profile is .../eagle/ulp/profiles/generic.pp  )
+(This file generated 11/4/12 2:19 PM)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(0.0120 )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(1.0000 	0.1000 	-0.0020 	-0.0800 )
+(spindle on time = 0.0000)
+(milling depth = -0.1000)
+(text depth = -0.0050)
+(tool change at 24.0000 48.0000 0.0000 )
+(feed rate xy = F20.00 )
+(feed rate z  = F20.00 )
+(Settings from pcb-defaults.h)
+(Default isolate = 0.0010)
+(isolate max = 0.0100)
+(isolate step = 0.0100)
+(Generated bottom outlines, bottom drill, )
+(Unit of measure: inch)
+(Beginning of every file)
+(Beginning of every top file)
+(MILL Begin)
+(Top MILL Begin)
+(Inch Mode)
+G20
+(Absolute Coordinates)
+G90
+G00 X0.0000 Y0.0000 
+M03
+G04 P0.000000
+G00 Z0.1000 
+G00 X-0.1250 Y2.1375 
+G01 Z-0.1000 F20.00 
+G01 X3.0625 Y2.1375 F20.00 
+G01 X3.0625 Y-0.1250 
+G01 X-0.1250 Y-0.1250 
+G01 X-0.1250 Y2.1375 
+(Top MILL End)
+(MILL End)
+(End of every top file)
+(End of every file)
+G00 Z1.0000 
+M05
+M02
