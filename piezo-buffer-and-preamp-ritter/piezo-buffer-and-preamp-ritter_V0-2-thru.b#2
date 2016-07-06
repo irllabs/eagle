@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -140,10 +140,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="25.451" y2="0" width="0" layer="20"/>
-<wire x1="25.451" y1="0" x2="25.451" y2="37.455" width="0" layer="20"/>
-<wire x1="25.451" y1="37.455" x2="0.127" y2="37.455" width="0" layer="20"/>
-<wire x1="0.127" y1="37.455" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="33.96" y2="0" width="0" layer="20"/>
+<wire x1="33.96" y1="0" x2="33.96" y2="34.915" width="0" layer="20"/>
+<wire x1="33.96" y1="34.915" x2="0.127" y2="34.915" width="0" layer="20"/>
+<wire x1="0.127" y1="34.915" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1346,55 +1346,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CPOL-RADIAL-1000UF-25V">
-<wire x1="-1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="5.461" width="0.2032" layer="21"/>
-<pad name="-" x="-2.54" y="0" drill="0.9" diameter="1.9304"/>
-<pad name="+" x="2.54" y="0" drill="0.9" diameter="1.9304" shape="square"/>
-<text x="-1.905" y="-4.318" size="0.8128" layer="27">&gt;Value</text>
-<text x="-0.762" y="2.921" size="0.4064" layer="25">&gt;Name</text>
-</package>
-</packages>
-</library>
-<library name="transistor-fet">
-<description>&lt;b&gt;Field Effect Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;p&gt;
-&lt;p&gt;
-Symbols changed according to IEC617&lt;p&gt; 
-All types, packages and assignment to symbols and pins checked&lt;p&gt;
-Package outlines partly checked&lt;p&gt;
-&lt;p&gt;
-JFET = junction FET&lt;p&gt;
-IGBT-x = insulated gate bipolar transistor&lt;p&gt;
-x=N: NPN; x=P: PNP&lt;p&gt;
-IGFET-mc-nnn; (IGFET=insulated gate field effect transistor)&lt;P&gt;
-m=D: depletion mode (Verdr&amp;auml;ngungstyp)&lt;p&gt;
-m=E: enhancement mode (Anreicherungstyp)&lt;p&gt;
-c: N=N-channel; P=P-Channel&lt;p&gt;
-GDSB: gate, drain, source, bulk&lt;p&gt;
-&lt;p&gt;
-by R. Vogg  15.March.2002</description>
-<packages>
-<package name="TO92-">
-<description>&lt;b&gt;TO 92 pad in line&lt;/b&gt;</description>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="-129.583"/>
-<wire x1="1.1359" y1="-0.127" x2="-1.1359" y2="-0.127" width="0.127" layer="51"/>
-<wire x1="-2.413" y1="1.1359" x2="-2.664" y2="-0.127" width="0.127" layer="51" curve="27.9376"/>
-<wire x1="-2.664" y1="-0.127" x2="-2.413" y2="-1.1359" width="0.127" layer="51" curve="22.4788"/>
-<wire x1="-1.4041" y1="-0.127" x2="-2.664" y2="-0.127" width="0.127" layer="51"/>
-<wire x1="-2.413" y1="-1.1359" x2="-2.0945" y2="-1.651" width="0.127" layer="21" curve="13.0385"/>
-<wire x1="-1.1359" y1="-0.127" x2="-1.4041" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="2.413" y1="-1.1359" x2="2.664" y2="-0.127" width="0.127" layer="51" curve="22.4788"/>
-<wire x1="2.664" y1="-0.127" x2="2.413" y2="1.1359" width="0.127" layer="51" curve="27.9376"/>
-<wire x1="2.664" y1="-0.127" x2="1.4041" y2="-0.127" width="0.127" layer="51"/>
-<wire x1="1.4041" y1="-0.127" x2="1.1359" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="2.0945" y1="-1.651" x2="2.4242" y2="-1.1118" width="0.127" layer="21" curve="13.6094"/>
-<pad name="3" x="-2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="1" x="2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<package name="CPOL-RADIAL-10UF-25V">
+<wire x1="-0.762" y1="1.397" x2="-1.778" y2="1.397" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.5" width="0.2032" layer="21"/>
+<pad name="1" x="1.27" y="0" drill="0.7" diameter="1.651" shape="square"/>
+<pad name="2" x="-1.27" y="0" drill="0.7" diameter="1.651"/>
+<text x="-0.889" y="1.524" size="0.4064" layer="25">&gt;Name</text>
+<text x="-1.905" y="-3.683" size="0.8128" layer="27">&gt;Value</text>
 </package>
 </packages>
 </library>
@@ -1425,22 +1383,22 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
+<param name="mdWireWire" value="24mil"/>
+<param name="mdWirePad" value="24mil"/>
+<param name="mdWireVia" value="24mil"/>
+<param name="mdPadPad" value="24mil"/>
+<param name="mdPadVia" value="24mil"/>
+<param name="mdViaVia" value="24mil"/>
+<param name="mdSmdPad" value="24mil"/>
+<param name="mdSmdVia" value="24mil"/>
+<param name="mdSmdSmd" value="24mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="6mil"/>
+<param name="mdCopperDimension" value="40mil"/>
 <param name="mdDrill" value="16mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="6mil"/>
+<param name="msWidth" value="24mil"/>
+<param name="msDrill" value="24mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -1497,7 +1455,7 @@ design rules under a new name.</description>
 <param name="Efforts" value="2"/>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.1" value="0"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -1587,161 +1545,134 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R1" library="resistor" package="V526-0" value="10M" x="3.556" y="20.701" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.921" y="23.241" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="6.096" y="23.241" size="0.8128" layer="25" rot="R180"/>
+<element name="R1" library="resistor" package="V526-0" value="10M" x="13.716" y="30.861" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.621" y="29.591" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="13.716" y="29.591" size="0.8128" layer="25" rot="R180"/>
 </element>
-<element name="R2" library="resistor" package="V526-0" value="5K" x="8.001" y="14.986" smashed="yes" rot="R180">
-<attribute name="NAME" x="7.366" y="16.891" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="9.906" y="16.891" size="0.8128" layer="25" rot="R180"/>
+<element name="R2" library="resistor" package="V526-0" value="5K" x="26.035" y="20.574" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.94" y="21.209" size="0.8128" layer="25" rot="R90"/>
+<attribute name="VALUE" x="27.94" y="18.669" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="R3" library="resistor" package="V526-0" value="1K" x="3.429" y="2.159" smashed="yes" rot="R180">
-<attribute name="NAME" x="1.524" y="3.429" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="4.064" y="3.429" size="0.8128" layer="25"/>
+<element name="R3" library="resistor" package="V526-0" value="1K" x="17.272" y="8.382" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.542" y="10.287" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="18.542" y="7.747" size="0.8128" layer="25" rot="R270"/>
 </element>
-<element name="R4" library="resistor" package="V526-0" value="1K" x="21.971" y="2.159" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.939" y="3.81" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="23.749" y="4.445" size="0.8128" layer="25" rot="R180"/>
+<element name="R4" library="resistor" package="V526-0" value="1K" x="25.654" y="3.302" smashed="yes" rot="R180">
+<attribute name="NAME" x="27.813" y="4.064" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="23.368" y="2.794" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="R5" library="resistor" package="V526-0" value="30" x="21.844" y="6.604" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.209" y="8.89" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="23.876" y="9.017" size="0.8128" layer="25" rot="R180"/>
+<element name="R5" library="resistor" package="V526-0" value="30" x="25.019" y="9.525" smashed="yes" rot="R180">
+<attribute name="NAME" x="24.511" y="11.43" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="26.797" y="11.557" size="0.8128" layer="25" rot="R180"/>
 </element>
-<element name="Q3" library="CMU-ArtFab" package="TO-92" value="2N5087" x="15.24" y="15.748" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.494" y="19.177" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="17.145" y="17.78" size="0.8128" layer="25" rot="R270"/>
+<element name="Q3" library="CMU-ArtFab" package="TO-92" value="2N5087" x="11.43" y="19.05" smashed="yes">
+<attribute name="NAME" x="9.779" y="17.526" size="0.8128" layer="25" rot="R90"/>
+<attribute name="VALUE" x="14.097" y="17.018" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="Q1" library="CMU-ArtFab" package="TO-92" value="MMBT2222A" x="21.717" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.352" y="24.257" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="23.749" y="23.368" size="0.8128" layer="25" rot="R270"/>
+<element name="Q1" library="CMU-ArtFab" package="TO-92" value="MMBT2222A" x="11.43" y="4.445" smashed="yes" rot="R90">
+<attribute name="NAME" x="12.192" y="6.858" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="13.97" y="2.54" size="0.6096" layer="25" rot="R180"/>
 </element>
-<element name="INPUT" library="CMU-ArtFab" package="1X02_LOCK" value="" x="2.667" y="9.017" smashed="yes" rot="R270">
-<attribute name="NAME" x="0.4318" y="10.3632" size="0.6096" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="-0.508" y="10.287" size="1.27" layer="27" rot="R270"/>
-<attribute name="GND" value="" x="1.143" y="5.588" size="0.6096" layer="27" rot="R90" display="name"/>
+<element name="INPUT" library="CMU-ArtFab" package="1X02_LOCK" value="" x="4.953" y="20.574" smashed="yes" rot="R270">
+<attribute name="NAME" x="2.7178" y="21.9202" size="0.6096" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="1.778" y="21.844" size="1.27" layer="27" rot="R270"/>
+<attribute name="GND" value="" x="3.429" y="17.145" size="0.6096" layer="27" rot="R90" display="name"/>
 </element>
-<element name="BAT+" library="CMU-ArtFab" package="1X02_LOCK" value="" x="2.667" y="13.843" smashed="yes" rot="R90">
-<attribute name="NAME" x="0.9652" y="12.6238" size="0.6096" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="5.842" y="12.573" size="1.27" layer="27" rot="R90"/>
-<attribute name="GND" value="" x="1.016" y="15.24" size="0.6096" layer="27" rot="R90" display="name"/>
+<element name="BAT+" library="CMU-ArtFab" package="1X02_LOCK" value="" x="3.937" y="28.956" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.2352" y="27.7368" size="0.6096" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="7.112" y="27.686" size="1.27" layer="27" rot="R90"/>
+<attribute name="GND" value="" x="2.286" y="30.353" size="0.6096" layer="27" rot="R90" display="name"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="CPOL-RADIAL-1000UF-25V" value="1000" x="11.176" y="6.985" smashed="yes" rot="R90">
-<attribute name="VALUE" x="15.494" y="5.08" size="0.8128" layer="25" rot="R90"/>
-<attribute name="NAME" x="8.255" y="6.223" size="0.8128" layer="25" rot="R90"/>
-</element>
-<element name="TO-PHONE" library="SparkFun-Connectors" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3" x="20.32" y="36.83" rot="R270">
-<attribute name="TO-PHONE" value="" x="15.875" y="33.401" size="0.8128" layer="27" rot="R270" display="name"/>
-</element>
-<element name="MIC-SWITCH" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="12.7" y="22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.8712" y="21.5138" size="0.8128" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="15.875" y="21.59" size="1.27" layer="27" rot="R90"/>
-<attribute name="HEADSET" value="" x="15.24" y="26.67" size="0.8128" layer="27" rot="R90" display="name"/>
-<attribute name="PICKUP" value="" x="15.24" y="20.32" size="0.8128" layer="27" rot="R90" display="name"/>
-</element>
-<element name="TO-HEADSET" library="SparkFun-Connectors" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3" x="5.08" y="36.83" rot="R270">
-<attribute name="TO-HEADSET" value="TO-HEADSET" x="0.508" y="34.036" size="0.8128" layer="27" rot="R270" display="name"/>
-</element>
-<element name="Q2" library="transistor-fet" package="TO92-" value="2N5486" x="21.59" y="12.827" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.352" y="17.145" size="0.8128" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="24.384" y="10.922" size="0.8128" layer="25" ratio="10" rot="R90"/>
-</element>
+<element name="C1" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="1000" x="11.43" y="11.43" rot="R90"/>
+<element name="Q2" library="CMU-ArtFab" package="TO-92" value="548" x="17.78" y="24.13"/>
+<element name="MIC-OUT" library="SparkFun-Connectors" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3" x="31.75" y="39.37" rot="R90"/>
+<element name="JP1" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="24.13" y="52.07" rot="R90"/>
+<element name="TO-HEADSET" library="SparkFun-Connectors" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3" x="13.97" y="39.37" rot="R90"/>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="R1" pad="1"/>
 <contactref element="INPUT" pad="1"/>
 <contactref element="Q2" pad="1"/>
-<wire x1="4.826" y1="20.701" x2="21.59" y2="15.367" width="0" layer="19" extent="1-1"/>
-<wire x1="2.667" y1="9.1948" x2="4.826" y2="20.701" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="24.13" x2="14.986" y2="30.861" width="0" layer="19" extent="1-1"/>
+<wire x1="4.953" y1="20.7518" x2="16.51" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="R1" pad="2"/>
 <contactref element="R3" pad="2"/>
 <contactref element="INPUT" pad="2"/>
 <contactref element="BAT+" pad="2"/>
-<contactref element="C1" pad="-"/>
-<contactref element="TO-PHONE" pad="RING2"/>
+<contactref element="C1" pad="2"/>
+<contactref element="MIC-OUT" pad="RING2"/>
 <contactref element="TO-HEADSET" pad="RING2"/>
-<polygon width="0.4064" layer="1">
-<vertex x="0" y="0"/>
-<vertex x="25.4" y="0"/>
-<vertex x="25.4" y="36.068"/>
-<vertex x="0" y="36.068"/>
-</polygon>
-<polygon width="0.4064" layer="16">
-<vertex x="0" y="0"/>
-<vertex x="25.4" y="0"/>
-<vertex x="25.4" y="36.068"/>
-<vertex x="0" y="36.068"/>
-</polygon>
-<wire x1="8.33" y1="33.63" x2="23.57" y2="33.63" width="0" layer="19" extent="1-1"/>
-<wire x1="2.286" y1="20.701" x2="8.33" y2="33.63" width="0" layer="19" extent="1-1"/>
-<wire x1="2.667" y1="16.5608" x2="2.286" y2="20.701" width="0" layer="19" extent="1-1"/>
-<wire x1="2.667" y1="6.2992" x2="2.667" y2="16.5608" width="0" layer="19" extent="1-1"/>
-<wire x1="2.159" y1="2.159" x2="2.667" y2="6.2992" width="0" layer="19" extent="1-1"/>
-<wire x1="11.176" y1="4.445" x2="2.667" y2="6.2992" width="0" layer="19" extent="1-1"/>
+<wire x1="10.72" y1="42.57" x2="28.5" y2="42.57" width="0" layer="19" extent="1-1"/>
+<wire x1="12.446" y1="30.861" x2="10.72" y2="42.57" width="0" layer="19" extent="1-1"/>
+<wire x1="3.937" y1="31.6738" x2="12.446" y2="30.861" width="0" layer="19" extent="1-1"/>
+<wire x1="4.953" y1="17.8562" x2="3.937" y2="31.6738" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="10.16" x2="4.953" y2="17.8562" width="0" layer="19" extent="1-1"/>
+<wire x1="17.272" y1="9.652" x2="11.43" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R2" pad="2"/>
 <contactref element="Q3" pad="2"/>
 <contactref element="Q2" pad="3"/>
-<wire x1="13.335" y1="15.748" x2="21.59" y2="10.287" width="0" layer="19" extent="1-1"/>
-<wire x1="6.731" y1="14.986" x2="13.335" y2="15.748" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="24.13" x2="26.035" y2="21.844" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="20.955" x2="19.05" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V+">
 <contactref element="Q3" pad="1"/>
 <contactref element="Q1" pad="3"/>
 <contactref element="R2" pad="1"/>
 <contactref element="BAT+" pad="1"/>
-<wire x1="15.24" y1="14.478" x2="21.717" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="9.271" y1="14.986" x2="15.24" y2="14.478" width="0" layer="19" extent="1-1"/>
-<wire x1="2.667" y1="13.6652" x2="9.271" y2="14.986" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="19.05" x2="26.035" y2="19.304" width="0" layer="19" extent="1-1"/>
+<wire x1="3.937" y1="28.7782" x2="10.16" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="5.715" x2="10.16" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R4" pad="1"/>
 <contactref element="R5" pad="1"/>
 <contactref element="Q2" pad="2"/>
-<wire x1="23.114" y1="6.604" x2="21.59" y2="12.827" width="0" layer="19" extent="1-1"/>
-<wire x1="23.241" y1="2.159" x2="23.114" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="26.289" y1="9.525" x2="17.78" y2="26.035" width="0" layer="19" extent="1-1"/>
+<wire x1="26.924" y1="3.302" x2="26.289" y2="9.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R5" pad="2"/>
-<contactref element="C1" pad="+"/>
-<wire x1="11.176" y1="9.525" x2="20.574" y2="6.604" width="0" layer="19" extent="1-1"/>
+<contactref element="C1" pad="1"/>
+<wire x1="11.43" y1="12.7" x2="23.749" y2="9.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="Q3" pad="3"/>
 <contactref element="Q1" pad="2"/>
-<wire x1="15.24" y1="17.018" x2="19.812" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="9.525" y1="4.445" x2="12.7" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="`DEL">
 <contactref element="R4" pad="2"/>
 <contactref element="R3" pad="1"/>
 <contactref element="Q1" pad="1"/>
-<contactref element="MIC-SWITCH" pad="1"/>
-<wire x1="12.573" y1="22.86" x2="21.717" y2="19.05" width="0" layer="19" extent="1-1"/>
-<wire x1="20.701" y1="2.159" x2="21.717" y2="19.05" width="0" layer="19" extent="1-1"/>
-<wire x1="4.699" y1="2.159" x2="20.701" y2="2.159" width="0" layer="19" extent="1-1"/>
+<contactref element="JP1" pad="1"/>
+<wire x1="17.272" y1="7.112" x2="24.384" y2="3.302" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="3.175" x2="17.272" y2="7.112" width="0" layer="19" extent="1-1"/>
+<wire x1="24.003" y1="52.07" x2="11.43" y2="3.175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TO-PHONE">
-<contactref element="TO-PHONE" pad="EARTH"/>
-<contactref element="MIC-SWITCH" pad="2"/>
-<wire x1="12.827" y1="25.4" x2="17.07" y2="25.53" width="0" layer="19" extent="1-1"/>
+<contactref element="MIC-OUT" pad="EARTH"/>
+<contactref element="JP1" pad="2"/>
+<wire x1="24.257" y1="54.61" x2="35" y2="50.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="TO-HEADSET" pad="EARTH"/>
-<contactref element="MIC-SWITCH" pad="3"/>
-<wire x1="1.83" y1="25.53" x2="12.573" y2="27.94" width="0" layer="19" extent="1-1"/>
+<contactref element="JP1" pad="3"/>
+<wire x1="24.003" y1="57.15" x2="17.22" y2="50.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
-<contactref element="TO-PHONE" pad="TIP"/>
+<contactref element="MIC-OUT" pad="TIP"/>
 <contactref element="TO-HEADSET" pad="TIP"/>
-<wire x1="8.33" y1="26.63" x2="23.57" y2="26.63" width="0" layer="19" extent="1-1"/>
+<wire x1="10.72" y1="49.57" x2="28.5" y2="49.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
-<contactref element="TO-PHONE" pad="RING1"/>
+<contactref element="MIC-OUT" pad="RING1"/>
 <contactref element="TO-HEADSET" pad="RING1"/>
-<wire x1="8.33" y1="30.63" x2="23.57" y2="30.63" width="0" layer="19" extent="1-1"/>
+<wire x1="10.72" y1="45.57" x2="28.5" y2="45.57" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
