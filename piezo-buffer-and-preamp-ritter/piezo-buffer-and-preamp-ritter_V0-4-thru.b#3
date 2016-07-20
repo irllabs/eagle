@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1651,7 +1651,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="12.319" y="-0.254" size="1.27" layer="27"/>
 <attribute name="GND" value="" x="17.018" y="1.397" size="0.6096" layer="27" rot="R180" display="name"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="CPOL-RADIAL-1000UF-25V" value="1000uF" x="23.622" y="6.096" smashed="yes" rot="R90">
+<element name="C1" library="SparkFun-Capacitors" package="CPOL-RADIAL-1000UF-25V" value="1000" x="23.622" y="6.096" smashed="yes" rot="R90">
 <attribute name="VALUE" x="28.194" y="6.604" size="0.8128" layer="25" rot="R180"/>
 <attribute name="NAME" x="21.209" y="6.604" size="0.8128" layer="25" rot="R180"/>
 </element>
@@ -1867,15 +1867,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="TO-HEADSET" pad="TIP"/>
 <wire x1="21.6408" y1="21.0312" x2="19.2024" y2="21.0312" width="0.1524" layer="1"/>
 <wire x1="25.908" y1="25.2984" x2="21.6408" y2="21.0312" width="0.1524" layer="1"/>
-<wire x1="25.908" y1="25.908" x2="25.908" y2="25.2984" width="0.1524" layer="1"/>
-<wire x1="26.0604" y1="26.0604" x2="25.908" y2="25.908" width="0.1524" layer="1"/>
-<wire x1="26.0604" y1="26.2128" x2="26.0604" y2="26.0604" width="0.1524" layer="1"/>
-<wire x1="26.2128" y1="26.3652" x2="26.0604" y2="26.2128" width="0.1524" layer="1"/>
-<wire x1="26.2128" y1="27.7368" x2="26.2128" y2="26.3652" width="0.1524" layer="1"/>
-<wire x1="26.0604" y1="27.8892" x2="26.2128" y2="27.7368" width="0.1524" layer="1"/>
-<wire x1="26.0604" y1="28.0416" x2="26.0604" y2="27.8892" width="0.1524" layer="1"/>
-<wire x1="25.908" y1="28.194" x2="26.0604" y2="28.0416" width="0.1524" layer="1"/>
-<wire x1="25.908" y1="28.4988" x2="25.908" y2="28.194" width="0.1524" layer="1"/>
+<wire x1="25.908" y1="28.4988" x2="25.908" y2="25.2984" width="0.1524" layer="1"/>
 <wire x1="26.5176" y1="29.1084" x2="25.908" y2="28.4988" width="0.1524" layer="1"/>
 <wire x1="31.0896" y1="29.1084" x2="26.5176" y2="29.1084" width="0.1524" layer="1"/>
 <wire x1="38.2524" y1="21.9456" x2="31.0896" y2="29.1084" width="0.1524" layer="1"/>
