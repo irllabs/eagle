@@ -6709,7 +6709,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH4" value="1000"/>
 <part name="TO-PHONE" library="SparkFun-Connectors" deviceset="AUDIO-JACK3" device=""/>
-<part name="MIC-SWITCH" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
+<part name="INPUT-SELECT" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="TO-HEADSET" library="SparkFun-Connectors" deviceset="AUDIO-JACK3" device=""/>
 <part name="Q2" library="transistor-fet" deviceset="?548*" device="2N" technology="6"/>
 <part name="BAT1" library="Daniel" deviceset="BATTERY" device="AAA-KIT"/>
@@ -6739,7 +6739,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <instance part="TO-PHONE" gate="G$1" x="127" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="132.08" y="68.072" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="MIC-SWITCH" gate="G$1" x="119.38" y="53.34" rot="R180"/>
+<instance part="INPUT-SELECT" gate="G$1" x="119.38" y="53.34" rot="R180"/>
 <instance part="TO-HEADSET" gate="G$1" x="127" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="132.08" y="88.392" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -6869,7 +6869,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <wire x1="81.28" y1="63.5" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="E"/>
 <wire x1="93.98" y1="63.5" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="MIC-SWITCH" gate="G$1" pin="1"/>
+<pinref part="INPUT-SELECT" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6878,7 +6878,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <pinref part="TO-PHONE" gate="G$1" pin="EARTH"/>
 <wire x1="121.92" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="68.58" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="MIC-SWITCH" gate="G$1" pin="2"/>
+<pinref part="INPUT-SELECT" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6887,7 +6887,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <pinref part="TO-HEADSET" gate="G$1" pin="EARTH"/>
 <wire x1="121.92" y1="88.9" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="88.9" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="MIC-SWITCH" gate="G$1" pin="3"/>
+<pinref part="INPUT-SELECT" gate="G$1" pin="3"/>
 <wire x1="101.6" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>

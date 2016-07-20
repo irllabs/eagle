@@ -6707,7 +6707,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="V+" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH4" value="1000"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH4" value="1000uF"/>
 <part name="TO-PHONE" library="SparkFun-Connectors" deviceset="AUDIO-JACK3" device=""/>
 <part name="MIC-SWITCH" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="TO-HEADSET" library="SparkFun-Connectors" deviceset="AUDIO-JACK3" device=""/>
