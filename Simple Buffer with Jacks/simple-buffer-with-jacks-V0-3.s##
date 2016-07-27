@@ -2201,17 +2201,6 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <technology name=""/>
 </technologies>
 </device>
-<device name="AAA-KIT" package="BATTERY-A23">
-<connects>
-<connect gate="G$1" pin="+" pad="PWR@1"/>
-<connect gate="G$1" pin="-" pad="GND@1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="BATT-08571" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="18650" package="BATTERY_18650-HOLDER">
 <connects>
 <connect gate="G$1" pin="+" pad="PWR@1"/>
