@@ -19,7 +19,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -1610,9 +1610,9 @@ Please make sure your boards conform to these design rules.</description>
 <elements>
 <element name="INPUT" library="CMU-ArtFab" package="1X02_LOCK" value="" x="13.0302" y="2.921" smashed="yes">
 <attribute name="VALUE" x="11.7602" y="-0.254" size="1.27" layer="27"/>
-<attribute name="PIEZO-INPUT" value="" x="17.9578" y="1.3462" size="0.8128" layer="27" rot="R180" display="name"/>
-<attribute name="MINUS" value="(-)" x="15.113" y="4.572" size="0.8128" layer="27"/>
-<attribute name="PLUS" value="(+)" x="12.319" y="4.5466" size="0.8128" layer="27"/>
+<attribute name="PIEZO-INPUT" value="" x="17.9578" y="1.3462" size="0.8128" layer="25" rot="R180" display="name"/>
+<attribute name="MINUS" value="(-)" x="15.113" y="4.572" size="0.8128" layer="25"/>
+<attribute name="PLUS" value="(+)" x="12.319" y="4.5466" size="0.8128" layer="25"/>
 </element>
 <element name="TO-PHONE" library="SparkFun-Connectors" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3" x="35.306" y="31.115" rot="R270">
 <attribute name="TO-PHONE" value="" x="30.861" y="30.353" size="0.8128" layer="25" rot="R270" display="name"/>
@@ -1624,34 +1624,34 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PIEZO" value="" x="39.116" y="5.4102" size="0.8128" layer="25" rot="R180" display="name"/>
 </element>
 <element name="TO-HEADSET" library="SparkFun-Connectors" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3" x="15.875" y="31.115" rot="R270">
-<attribute name="TO-HEADSET" value="TO-HEADSET" x="11.303" y="30.607" size="0.8128" layer="27" rot="R270" display="name"/>
+<attribute name="TO-HEADSET" value="TO-HEADSET" x="11.303" y="30.607" size="0.8128" layer="25" rot="R270" display="name"/>
 </element>
 <element name="BAT1" library="Daniel" package="BATTERY-AAA-KIT" value="" x="5.842" y="15.748" rot="R270">
 <attribute name="PROD_ID" value="BATT-08571" x="5.842" y="15.748" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C2" library="SparkFun-Passives" package="CPOL-RADIAL-10UF-25V" value="10uF" x="15.24" y="13.97" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.1224" y="17.8054" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="19.4564" y="17.9578" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="19.4564" y="17.9578" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="C1" library="capacitor-wima" package="C5B3" value="0.01uF" x="25.6286" y="18.5928" smashed="yes">
 <attribute name="NAME" x="21.8948" y="20.32" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="25.7048" y="20.447" size="1.27" layer="27" ratio="10"/>
+<attribute name="VALUE" x="25.7048" y="20.447" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="Q1" library="transistor-fet" package="TO92-" value="2N5486" x="25.4" y="26.67" smashed="yes">
 <attribute name="NAME" x="24.13" y="29.718" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="22.86" y="23.368" size="1.27" layer="27" ratio="10"/>
+<attribute name="VALUE" x="22.86" y="23.368" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="R1" library="rcl" package="V526-0" value="10M" x="25.6794" y="12.4968" smashed="yes">
 <attribute name="NAME" x="23.0886" y="13.8938" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="26.5938" y="13.9446" size="1.27" layer="27" ratio="10"/>
+<attribute name="VALUE" x="26.5938" y="13.9446" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="R2" library="rcl" package="V526-0" value="6.7K" x="33.8836" y="7.8232" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.4518" y="10.6172" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="38.5064" y="10.6172" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="38.5064" y="10.6172" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="R3" library="rcl" package="V526-0" value="3.3K" x="17.9324" y="7.6708" smashed="yes">
 <attribute name="NAME" x="15.3416" y="9.1694" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="19.1008" y="9.1694" size="1.27" layer="27" ratio="10"/>
+<attribute name="VALUE" x="19.1008" y="9.1694" size="1.27" layer="25" ratio="10"/>
 </element>
 </elements>
 <signals>
