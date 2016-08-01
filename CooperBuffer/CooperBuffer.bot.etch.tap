@@ -4,14 +4,14 @@
 (This file generated from the board:)
 (.../eagle/CooperBuffer/CooperBuffer.brd)
 (Current profile is .../pcb-gcode-3.6.0.4/profiles/iModela.pp  )
-(This file generated 2016-08-01 3:48 PM)
+(This file generated 2016-08-01 4:02 PM)
 (Settings from pcb-machine.h)
 (  Tool Size)
 (0.20 )
 (Z Axis Settings)
 (  High     Up        Down     Drill)
 (2.00 	1.00 	-0.20 	-1.70 )
-(spindle on time = 2.0000)
+(spindle on time = 1.0000)
 (milling depth = -0.2540)
 (text depth = -0.1270)
 (tool change at 0.00 0.00 10.00 )
@@ -29,7 +29,7 @@ G21
 G90
 G00 X0.00 Y0.00 
 M03
-G04 P 2
+G04 P 1
 G00 Z1.00 
 G00 X-17.06 Y1.73 
 G01 Z-0.20 F60.00 
