@@ -1,0 +1,125 @@
+(.../pcb-gcode-3.6.0.4/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../eagle/CooperBuffer/CooperBuffer.brd)
+(Current profile is .../pcb-gcode-3.6.0.4/profiles/iModela.pp  )
+(This file generated 2016-08-01 3:49 PM)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(0.20 )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(2.00 	1.00 	-0.20 	-1.70 )
+(spindle on time = 2.0000)
+(milling depth = -0.2540)
+(text depth = -0.1270)
+(tool change at 0.00 0.00 10.00 )
+(feed rate xy = F140.00 )
+(feed rate z  = F60.00 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0010)
+(isolate max = 0.2000)
+(isolate step = 0.2000)
+(Generated bottom outlines, bottom drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01  0.813mm 0.0320in 0.0000in 0.0000in )
+( T02  1.016mm 0.0400in 0.0000in 0.0000in )
+( T03  1.100mm 0.0433in 0.0000in 0.0000in )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+M05
+G00 Z10.00 
+G00 X0.00 Y0.00 
+(M06 T01  ; 0.81 )
+G01 Z0.00 F60.00 
+(M06 T01  ; 0.81 )
+G00 Z1.00 
+M03
+G04 P 2
+G00 Z1.000000
+G00 X-5.08 Y11.43 
+G01 Z-1.70 F60.00 
+G01 Z1.000000
+(R1.00  P1.000000)
+(G00 Z1.000000)
+G00 X-7.62 Y11.43 
+G01 Z-1.700000
+G01 Z1.000000
+(G00 Z1.000000)
+G00 X-10.16 Y11.43 
+G01 Z-1.700000
+G01 Z1.000000
+(G00 Z1.000000)
+G00 X-17.78 Y7.62 
+G01 Z-1.700000
+G01 Z1.000000
+(G00 Z1.000000)
+G00 X-17.78 Y2.54 
+G01 Z-1.700000
+G01 Z1.000000
+(G00 Z1.000000)
+G00 X-27.94 Y7.62 
+G01 Z-1.700000
+G01 Z1.000000
+(G00 Z1.000000)
+G00 X-27.94 Y2.54 
+G01 Z-1.700000
+G01 Z1.000000
+M05
+G00 Z10.00 
+(M06 T02  ; 1.02 )
+G01 Z0.00 F60.00 
+(M06 T02  ; 1.02 )
+G00 Z1.00 
+M03
+G04 P 2
+G00 Z1.000000
+G00 X-3.63 Y2.54 
+G01 Z-1.70 F60.00 
+G01 Z1.000000
+(R1.00  P1.000000)
+(G00 Z1.000000)
+G00 X-6.53 Y2.54 
+G01 Z-1.700000
+G01 Z1.000000
+M05
+G00 Z10.00 
+(M06 T03  ; 1.10 )
+G01 Z0.00 F60.00 
+(M06 T03  ; 1.10 )
+G00 Z1.00 
+M03
+G04 P 2
+G00 Z1.000000
+G00 X-12.70 Y19.05 
+G01 Z-1.70 F60.00 
+G01 Z1.000000
+(R1.00  P1.000000)
+(G00 Z1.000000)
+G00 X-17.78 Y12.70 
+G01 Z-1.700000
+G01 Z1.000000
+(G00 Z1.000000)
+G00 X-17.78 Y22.86 
+G01 Z-1.700000
+G01 Z1.000000
+(G00 Z1.000000)
+G00 X-2.54 Y19.05 
+G01 Z-1.700000
+G01 Z1.000000
+(G00 Z1.000000)
+G00 X-26.67 Y12.70 
+G01 Z-1.700000
+G01 Z1.000000
+(G00 Z1.000000)
+G00 X-26.67 Y22.86 
+G01 Z-1.700000
+G01 Z1.000000
+T01 
+G00 Z2.00 
+M05
+M02
