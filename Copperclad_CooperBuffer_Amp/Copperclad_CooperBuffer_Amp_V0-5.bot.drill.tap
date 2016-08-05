@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../Copperclad_CooperBuffer_Amp_V0-5.brd)
 (Current profile is .../pcb-gcode-3.6.0.4/profiles/iModela.pp  )
-(This file generated 2016-08-05 2:38 PM)
+(This file generated 2016-08-05 4:14 PM)
 (Settings from pcb-machine.h)
 (  Tool Size)
 (0.20 )
@@ -283,12 +283,12 @@ G00 Z1.00
 M03
 G04 P 1
 G00 Z1.000000
-G00 X-66.04 Y37.61 
+G00 X-66.04 Y34.91 
 G01 Z-1.80 F60.00 
 G01 Z1.000000
 (R1.00  P1.000000)
 (G00 Z1.000000)
-G00 X-66.14 Y1.77 
+G00 X-66.14 Y4.46 
 G01 Z-1.800000
 G01 Z1.000000
 T01 
