@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../Copperclad_CooperBuffer_Amp_V0-6.brd)
 (Current profile is .../pcb-gcode-3.6.0.4/profiles/iModela.pp  )
-(This file generated 2016-08-10 1:20 PM)
+(This file generated 2016-08-10 3:48 PM)
 (Settings from pcb-machine.h)
 (  Tool Size)
 (1.80 )
@@ -21,17 +21,22 @@
 (isolate min = 0.0010)
 (isolate max = 0.2000)
 (isolate step = 0.2000)
-(Generated bottom outlines, bottom drill, )
+(Generated )
 (Unit of measure: mm)
 (Metric Mode)
 G21
 (Absolute Coordinates)
 G90
+G00 X0.00 Y0.00 
 M03
 G04 P 1
-G01 X-63.17 Y0.00 
-G01 X-63.12 Y38.02 
-G01 X0.05 Y38.02 
-G01 X0.00 Y0.00 
+G00 Z1.00 
+G00 X1.63 Y-1.62 
+G01 Z-1.80 F60.00 
+G01 X-64.78 Y-1.62 F80.00 
+G01 X-64.73 Y39.55 
+G01 X1.64 Y39.55 
+G01 X1.63 Y-1.62 
+G00 Z2.00 
 M05
 M02
