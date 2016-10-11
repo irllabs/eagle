@@ -9640,28 +9640,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pad name="P$3" x="2.54" y="5.08" drill="1.1" diameter="1.9"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.9"/>
 </package>
-<package name="AUDIO-JACK-TRRS-SMD">
-<wire x1="0.5" y1="-3.3" x2="10.5" y2="-3.3" width="0.254" layer="21"/>
-<wire x1="12.2" y1="3.3" x2="12.2" y2="-3.3" width="0.254" layer="21"/>
-<wire x1="12.2" y1="3.3" x2="11" y2="3.3" width="0.254" layer="21"/>
-<wire x1="0.5" y1="3.3" x2="0" y2="3.3" width="0.254" layer="51"/>
-<wire x1="0" y1="3.3" x2="0" y2="2.8" width="0.254" layer="51"/>
-<wire x1="0" y1="2.8" x2="0" y2="-2.8" width="0.254" layer="51"/>
-<wire x1="0" y1="-2.8" x2="0" y2="-3.3" width="0.254" layer="51"/>
-<wire x1="0" y1="-3.3" x2="0.5" y2="-3.3" width="0.254" layer="51"/>
-<wire x1="0" y1="2.8" x2="-2" y2="2.8" width="0.254" layer="51"/>
-<wire x1="-2" y1="2.8" x2="-2" y2="-2.8" width="0.254" layer="51"/>
-<wire x1="-2" y1="-2.8" x2="0" y2="-2.8" width="0.254" layer="51"/>
-<smd name="TIP" x="10.2" y="3.25" dx="1.2" dy="2.5" layer="1"/>
-<smd name="EARTH" x="11.3" y="-3.25" dx="1.2" dy="2.5" layer="1"/>
-<smd name="RING1" x="6.2" y="3.25" dx="1.2" dy="2.5" layer="1"/>
-<smd name="RING2" x="3.2" y="3.25" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<hole x="1.6" y="0" drill="1.2"/>
-<hole x="8.6" y="0" drill="1.2"/>
-<wire x1="7" y1="3.3" x2="9.4" y2="3.3" width="0.254" layer="21"/>
-<wire x1="4" y1="3.3" x2="5.4" y2="3.3" width="0.254" layer="21"/>
-<wire x1="0.5" y1="3.3" x2="2.4" y2="3.3" width="0.254" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="M02">
@@ -9675,25 +9653,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="AUDIO-JACK3-TRRS">
-<wire x1="-3.81" y1="-5.08" x2="-2.54" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-3.81" x2="-1.27" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
-<text x="-5.08" y="5.588" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-6.35" y1="-5.08" x2="-5.08" y2="5.08" layer="94"/>
-<pin name="RING1" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
-<pin name="RING2" x="5.08" y="-5.08" visible="off" length="short" rot="R180"/>
-<pin name="EARTH" x="5.08" y="5.08" visible="off" length="short" rot="R180"/>
-<pin name="TIP" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
-<wire x1="-1.27" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.27" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9890,25 +9849,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AUDIO-JACK3">
-<description>Audio jack - 3.5mm TRRS variety - two rings.</description>
-<gates>
-<gate name="G$1" symbol="AUDIO-JACK3-TRRS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="AUDIO-JACK-TRRS-SMD">
-<connects>
-<connect gate="G$1" pin="EARTH" pad="EARTH"/>
-<connect gate="G$1" pin="RING1" pad="RING1"/>
-<connect gate="G$1" pin="RING2" pad="RING2"/>
-<connect gate="G$1" pin="TIP" pad="TIP"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13847,6 +13787,43 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="3" y1="-5.15" x2="5" y2="-5.15" width="0.127" layer="25"/>
 <wire x1="5" y1="-5.15" x2="5" y2="-2.15" width="0.127" layer="25"/>
 </package>
+<package name="TRIM-3386">
+<pad name="2" x="0" y="-2.8575" drill="0.9" diameter="1.778"/>
+<pad name="1" x="-2.54" y="-2.8575" drill="0.9" diameter="1.778"/>
+<pad name="3" x="2.54" y="-2.8575" drill="0.9" diameter="1.778"/>
+<wire x1="-4.7625" y1="-4.7625" x2="4.7625" y2="-4.7625" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="-4.7625" x2="4.7625" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="4.7625" x2="-4.7625" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="-4.7625" y1="4.7625" x2="-4.7625" y2="-4.7625" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3.302" width="0.127" layer="21"/>
+<text x="-5.08" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.35" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<pad name="4" x="-2.54" y="-0.3175" drill="0.9" diameter="1.778"/>
+<pad name="5" x="0" y="-0.3175" drill="0.9" diameter="1.778"/>
+<pad name="6" x="2.54" y="-0.3175" drill="0.9" diameter="1.778"/>
+</package>
+<package name="AUDIO-JACK-TRRS-SMD">
+<wire x1="0.5" y1="-3.3" x2="10.2235" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="12.2" y1="3.3" x2="12.2" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="12.2" y1="3.3" x2="11.176" y2="3.3" width="0.254" layer="21"/>
+<wire x1="0.5" y1="3.3" x2="0" y2="3.3" width="0.254" layer="51"/>
+<wire x1="0" y1="3.3" x2="0" y2="2.8" width="0.254" layer="51"/>
+<wire x1="0" y1="2.8" x2="0" y2="-2.8" width="0.254" layer="51"/>
+<wire x1="0" y1="-2.8" x2="0" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="0" y1="-3.3" x2="0.5" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="0" y1="2.8" x2="-2" y2="2.8" width="0.254" layer="51"/>
+<wire x1="-2" y1="2.8" x2="-2" y2="-2.8" width="0.254" layer="51"/>
+<wire x1="-2" y1="-2.8" x2="0" y2="-2.8" width="0.254" layer="51"/>
+<smd name="TIP" x="10.2" y="3.6195" dx="1.524" dy="3.175" layer="1"/>
+<smd name="EARTH" x="11.2268" y="-3.6195" dx="1.524" dy="3.175" layer="1"/>
+<smd name="RING1" x="6.2" y="3.6195" dx="1.524" dy="3.175" layer="1"/>
+<smd name="RING2" x="3.2" y="3.6195" dx="1.524" dy="3.175" layer="1" rot="R180"/>
+<hole x="1.6" y="0" drill="1.2"/>
+<hole x="8.6" y="0" drill="1.2"/>
+<wire x1="7.1755" y1="3.3" x2="9.2075" y2="3.3" width="0.254" layer="21"/>
+<wire x1="4.191" y1="3.3" x2="5.207" y2="3.3" width="0.254" layer="21"/>
+<wire x1="0.5" y1="3.3" x2="2.19075" y2="3.3" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BATTERY">
@@ -13873,6 +13850,49 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="TRIM">
+<wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
+<wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.016" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="3.81" x2="0" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.032" y1="-4.699" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="2.667" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<text x="-5.08" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="E" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="AUDIO-JACK3-TRRS">
+<wire x1="-3.81" y1="-5.08" x2="-2.54" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-1.27" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
+<text x="-5.08" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-6.35" y1="-5.08" x2="-5.08" y2="5.08" layer="94"/>
+<pin name="RING1" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
+<pin name="RING2" x="5.08" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="EARTH" x="5.08" y="5.08" visible="off" length="short" rot="R180"/>
+<pin name="TIP" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
+<wire x1="-1.27" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -14087,83 +14107,35 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="adafruit">
-<packages>
-<package name="TRIM-3386">
-<pad name="2" x="0" y="-2.8575" drill="0.9" diameter="1.778"/>
-<pad name="1" x="-2.54" y="-2.8575" drill="0.9" diameter="1.778"/>
-<pad name="3" x="2.54" y="-2.8575" drill="0.9" diameter="1.778"/>
-<wire x1="-4.7625" y1="-4.7625" x2="4.7625" y2="-4.7625" width="0.127" layer="21"/>
-<wire x1="4.7625" y1="-4.7625" x2="4.7625" y2="4.7625" width="0.127" layer="21"/>
-<wire x1="4.7625" y1="4.7625" x2="-4.7625" y2="4.7625" width="0.127" layer="21"/>
-<wire x1="-4.7625" y1="4.7625" x2="-4.7625" y2="-4.7625" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3.302" width="0.127" layer="21"/>
-<text x="-5.08" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="6.35" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-<package name="TC33X">
-<wire x1="-1.45" y1="1.75" x2="-1.45" y2="-1.65" width="0.254" layer="51"/>
-<wire x1="-1.45" y1="-1.65" x2="1.45" y2="-1.65" width="0.254" layer="51"/>
-<wire x1="1.45" y1="-1.65" x2="1.45" y2="1.75" width="0.254" layer="51"/>
-<wire x1="1.45" y1="1.75" x2="-1.45" y2="1.75" width="0.254" layer="51"/>
-<wire x1="-1.45" y1="-0.4" x2="-1.45" y2="1.75" width="0.254" layer="21"/>
-<wire x1="-1.45" y1="1.75" x2="-0.85" y2="1.75" width="0.254" layer="21"/>
-<wire x1="1.45" y1="-0.4" x2="1.45" y2="1.75" width="0.254" layer="21"/>
-<wire x1="1.45" y1="1.75" x2="0.85" y2="1.75" width="0.254" layer="21"/>
-<circle x="0" y="0" radius="1.15" width="0.1016" layer="51"/>
-<smd name="2" x="0" y="1.5" dx="1.5" dy="1.6" layer="1"/>
-<smd name="1" x="-1" y="-1.825" dx="1.2" dy="1.2" layer="1"/>
-<smd name="3" x="1" y="-1.825" dx="1.2" dy="1.2" layer="1"/>
-<text x="-1.905" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.175" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.15" y1="-0.15" x2="1.15" y2="0.15" layer="51"/>
-<rectangle x1="-0.15" y1="-1.15" x2="0.15" y2="1.15" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TRIMPOT">
-<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="0" x2="-1.8796" y2="1.7526" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-0.508" x2="-3.048" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.032" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="-2.1597" y1="1.2939" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
-<text x="-5.969" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="A" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="E" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TRIMPOT" prefix="TM" uservalue="yes">
-<description>SMT trimmer potentiometer part number TC33X
-&lt;p&gt;http://www.ladyada.net/library/eagle&lt;/p&gt;</description>
+<deviceset name="TRIM" prefix="TM" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="TRIMPOT" x="0" y="0"/>
+<gate name="G$1" symbol="TRIM" x="-7.62" y="2.54"/>
 </gates>
 <devices>
-<device name="TC33X" package="TC33X">
+<device name="3386" package="TRIM-3386">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="G$1" pin="A" pad="1 4"/>
+<connect gate="G$1" pin="E" pad="3 6"/>
+<connect gate="G$1" pin="S" pad="2 5"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="3386" package="TRIM-3386">
+</devices>
+</deviceset>
+<deviceset name="AUDIO-JACK3">
+<description>Audio jack - 3.5mm TRRS variety - two rings.</description>
+<gates>
+<gate name="G$1" symbol="AUDIO-JACK3-TRRS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LGPADS" package="AUDIO-JACK-TRRS-SMD">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="G$1" pin="EARTH" pad="EARTH"/>
+<connect gate="G$1" pin="RING1" pad="RING1"/>
+<connect gate="G$1" pin="RING2" pad="RING2"/>
+<connect gate="G$1" pin="TIP" pad="TIP"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14201,7 +14173,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="R6" library="resistor" deviceset="R-US_" device="0204/2V" value="100K"/>
 <part name="R7" library="resistor" deviceset="R-US_" device="0204/2V" value="1K"/>
 <part name="R8" library="resistor" deviceset="R-US_" device="0204/2V" value="1K"/>
-<part name="R9" library="adafruit" deviceset="TRIMPOT" device="3386"/>
+<part name="R9" library="Daniel" deviceset="TRIM" device="3386"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="R2" library="resistor" deviceset="R-US_" device="0204/2V" value="1.2K"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="0204/2V" value="10K"/>
@@ -14210,9 +14182,9 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="BAT1" library="Daniel" deviceset="BATTERY" device="A23"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="TO-PHONE" library="SparkFun-Connectors" deviceset="AUDIO-JACK3" device=""/>
+<part name="TO-PHONE" library="Daniel" deviceset="AUDIO-JACK3" device="LGPADS"/>
 <part name="INPUT-SELECT" library="Daniel" deviceset="M03" device="SINGLE-POLE-DOUBLE-THROW"/>
-<part name="TO-HEADSET" library="SparkFun-Connectors" deviceset="AUDIO-JACK3" device=""/>
+<part name="TO-HEADSET" library="Daniel" deviceset="AUDIO-JACK3" device="LGPADS"/>
 <part name="ON/OFF" library="Daniel" deviceset="M03" device="SINGLE-POLE-DOUBLE-THROW" value="labl"/>
 </parts>
 <sheets>
@@ -14391,17 +14363,18 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <net name="N$6" class="0">
 <segment>
 <wire x1="96.52" y1="27.94" x2="91.44" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="12.7" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="17.78" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="17.78" x2="96.52" y2="27.94" width="0.1524" layer="91"/>
 <junction x="96.52" y="27.94"/>
 <pinref part="IC1" gate="B" pin="OUT"/>
 <pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="76.2" y1="12.7" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="S"/>
-<wire x1="76.2" y1="17.78" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="17.78" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="A"/>
+<wire x1="66.04" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="7.62" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
+<junction x="76.2" y="17.78"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -14413,7 +14386,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <pinref part="IC1" gate="B" pin="-IN"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="R9" gate="G$1" pin="E"/>
-<wire x1="71.12" y1="22.86" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
