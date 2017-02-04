@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -10835,12 +10835,12 @@ http://focus.ti.com/lit/ds/symlink/opa2134.pdf</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="CMU-ArtFab" deviceset="R-US_" device="0204/2V" value="47K"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="BAT1" library="Daniel" deviceset="BATTERY" device="A23"/>
+<part name="BAT1" library="Daniel" deviceset="BATTERY" device="A23" value="12V"/>
 <part name="ON/OFF" library="Daniel" deviceset="M03" device="SINGLE-POLE-DOUBLE-THROW" value="labl"/>
 <part name="IC1" library="linear" deviceset="OPA2*" device="PA" technology="134">
 <attribute name="IC_NAME" value="TL072"/>
 </part>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M05" device="LOCK">
+<part name="JP1" library="SparkFun-Connectors" deviceset="M05" device="LOCK" value="Adafruit-SPW2430">
 <attribute name="CON1" value="Vin"/>
 <attribute name="CON2" value="3V"/>
 <attribute name="CON3" value="GND"/>
@@ -10862,8 +10862,8 @@ http://focus.ti.com/lit/ds/symlink/opa2134.pdf</description>
 <part name="R6" library="adafruit" deviceset="TRIMPOT" device="3386" value="10K"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="100u"/>
 <part name="R5" library="CMU-ArtFab" deviceset="R-US_" device="0204/2V" value="47K"/>
-<part name="IC3" library="CMU-ArtFab" deviceset="78*" device=""/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M05" device="LOCK">
+<part name="IC3" library="CMU-ArtFab" deviceset="78*" device="" value="78L05"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M05" device="LOCK" value="Adafruit-SPW2430">
 <attribute name="CON1" value="Vin"/>
 <attribute name="CON2" value="3V"/>
 <attribute name="CON3" value="GND"/>
@@ -10919,12 +10919,14 @@ http://focus.ti.com/lit/ds/symlink/opa2134.pdf</description>
 <instance part="IC1" gate="B" x="40.64" y="5.08" smashed="yes">
 <attribute name="NAME" x="38.1" y="10.795" size="1.778" layer="95"/>
 </instance>
-<instance part="JP1" gate="G$1" x="-20.32" y="48.26">
+<instance part="JP1" gate="G$1" x="-20.32" y="48.26" smashed="yes">
 <attribute name="CON1" x="-12.7" y="43.18" size="1.778" layer="96"/>
 <attribute name="CON2" x="-12.7" y="45.72" size="1.778" layer="96"/>
 <attribute name="CON3" x="-12.7" y="48.26" size="1.778" layer="96"/>
 <attribute name="CON4" x="-12.7" y="50.8" size="1.778" layer="96"/>
 <attribute name="CON5" x="-12.7" y="53.34" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-22.86" y="38.1" size="1.778" layer="96"/>
+<attribute name="NAME" x="-22.86" y="56.642" size="1.778" layer="95"/>
 </instance>
 <instance part="C4" gate="G$1" x="0" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="-0.4826" y="51.943" size="1.778" layer="95" ratio="12" rot="R90"/>
@@ -10954,12 +10956,14 @@ http://focus.ti.com/lit/ds/symlink/opa2134.pdf</description>
 </instance>
 <instance part="R5" gate="G$1" x="17.78" y="86.36" rot="R90"/>
 <instance part="IC3" gate="A1" x="43.18" y="124.46"/>
-<instance part="JP2" gate="G$1" x="-20.32" y="0">
+<instance part="JP2" gate="G$1" x="-20.32" y="0" smashed="yes">
 <attribute name="CON1" x="-12.7" y="-5.08" size="1.778" layer="96"/>
 <attribute name="CON2" x="-12.7" y="-2.54" size="1.778" layer="96"/>
 <attribute name="CON3" x="-12.7" y="0" size="1.778" layer="96"/>
 <attribute name="CON4" x="-12.7" y="2.54" size="1.778" layer="96"/>
 <attribute name="CON5" x="-12.7" y="5.08" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-22.86" y="-10.16" size="1.778" layer="96"/>
+<attribute name="NAME" x="-22.86" y="8.382" size="1.778" layer="95"/>
 </instance>
 <instance part="C5" gate="G$1" x="0" y="2.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="-0.4826" y="3.683" size="1.778" layer="95" ratio="12" rot="R90"/>

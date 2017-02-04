@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -567,7 +567,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BAT1" library="Daniel" package="BATTERY-A23" value="" x="30.48" y="18.415" rot="R180"/>
+<element name="BAT1" library="Daniel" package="BATTERY-A23" value="12V" x="30.48" y="18.415" rot="R180"/>
 <element name="C1" library="rcl" package="E2,5-5" value="10u" x="53.34" y="14.9225" smashed="yes">
 <attribute name="NAME" x="54.102" y="18.0975" size="0.8128" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="53.7845" y="12.2555" size="0.8128" layer="25" ratio="10" rot="R180"/>
@@ -585,7 +585,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.654" y="3.556" size="0.8128" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="28.575" y="2.159" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="JP1" library="SparkFun-Connectors" package="1X05_LOCK" value="" x="59.055" y="12.065" smashed="yes" rot="R90">
+<element name="JP1" library="SparkFun-Connectors" package="1X05_LOCK" value="Adafruit-SPW2430" x="59.055" y="12.065" smashed="yes" rot="R90">
 <attribute name="CON1" value="Vin" x="57.4675" y="11.43" size="0.8128" layer="25" rot="R90"/>
 <attribute name="CON2" value="3V" x="57.4675" y="13.97" size="0.8128" layer="25" rot="R90"/>
 <attribute name="CON3" value="GND" x="57.4675" y="15.875" size="0.8128" layer="25" rot="R90"/>
@@ -623,11 +623,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.608" y="5.715" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="40.767" y="1.143" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="IC3" library="CMU-ArtFab" package="TO92-" value="78" x="36.83" y="8.5725" smashed="yes">
+<element name="IC3" library="CMU-ArtFab" package="TO92-" value="78L05" x="36.83" y="8.5725" smashed="yes">
 <attribute name="NAME" x="38.1" y="10.3505" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="34.29" y="10.3505" size="0.8128" layer="25" ratio="10"/>
 </element>
-<element name="JP2" library="SparkFun-Connectors" package="1X05_LOCK" value="" x="1.905" y="22.225" smashed="yes" rot="R270">
+<element name="JP2" library="SparkFun-Connectors" package="1X05_LOCK" value="Adafruit-SPW2430" x="1.905" y="22.225" smashed="yes" rot="R270">
 <attribute name="CON1" value="Vin" x="3.4925" y="22.86" size="0.8128" layer="25" rot="R270"/>
 <attribute name="CON2" value="3V" x="3.4925" y="20.32" size="0.8128" layer="25" rot="R270"/>
 <attribute name="CON3" value="GND" x="3.4925" y="18.415" size="0.8128" layer="25" rot="R270"/>
