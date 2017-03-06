@@ -506,7 +506,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.6122" y="10.0116" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="13.2542" y="1.5386" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="J19" library="SparkFun-Connectors" package="2X5-SHROUDED_LOCK" value="" x="4.7404" y="10.6658" smashed="yes" rot="R180">
+<element name="J9" library="SparkFun-Connectors" package="2X5-SHROUDED_LOCK" value="" x="4.7404" y="10.6658" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-08671" x="4.7404" y="10.6658" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SF_ID" value="PRT-08506" x="4.7404" y="10.6658" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-0.8136" y="20.6718" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
@@ -549,7 +549,7 @@ design rules under a new name.</description>
 <contactref element="FADER3" pad="3"/>
 <contactref element="FADER2" pad="3"/>
 <contactref element="FADER1" pad="3"/>
-<contactref element="J19" pad="10"/>
+<contactref element="J9" pad="10"/>
 <contactref element="J1" pad="1"/>
 <contactref element="J2" pad="1"/>
 <contactref element="J3" pad="1"/>
@@ -558,12 +558,6 @@ design rules under a new name.</description>
 <contactref element="J6" pad="1"/>
 <contactref element="J7" pad="1"/>
 <contactref element="J8" pad="1"/>
-<polygon width="0.4064" layer="1">
-<vertex x="-0.9" y="-1"/>
-<vertex x="62.26" y="-1"/>
-<vertex x="62.2854" y="22.2858"/>
-<vertex x="-0.8746" y="22.2858"/>
-</polygon>
 <contactref element="FADER8" pad="3"/>
 <contactref element="FADER7" pad="3"/>
 <wire x1="11.0952" y1="2.8086" x2="13.5952" y2="2.8086" width="0.4064" layer="1"/>
@@ -601,7 +595,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="ANALOG2">
 <contactref element="FADER2" pad="2"/>
-<contactref element="J19" pad="2"/>
+<contactref element="J9" pad="2"/>
 <contactref element="J2" pad="3"/>
 <wire x1="27.432" y1="5.2578" x2="32.2326" y2="5.2578" width="0.254" layer="16"/>
 <wire x1="23.0886" y1="9.6012" x2="27.432" y2="5.2578" width="0.254" layer="16"/>
@@ -626,7 +620,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="ANALOG6">
 <contactref element="FADER6" pad="2"/>
-<contactref element="J19" pad="6"/>
+<contactref element="J9" pad="6"/>
 <contactref element="J6" pad="3"/>
 <wire x1="24.2316" y1="16.002" x2="32.2326" y2="16.002" width="0.254" layer="16"/>
 <wire x1="23.0886" y1="17.145" x2="24.2316" y2="16.002" width="0.254" layer="16"/>
@@ -649,7 +643,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="ANALOG5">
 <contactref element="FADER5" pad="2"/>
-<contactref element="J19" pad="5"/>
+<contactref element="J9" pad="5"/>
 <contactref element="J5" pad="3"/>
 <wire x1="30.6324" y1="15.7734" x2="22.6314" y2="15.7734" width="0.254" layer="1"/>
 <wire x1="31.7754" y1="14.6304" x2="30.6324" y2="15.7734" width="0.254" layer="1"/>
@@ -669,7 +663,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="ANALOG4">
 <contactref element="FADER4" pad="2"/>
-<contactref element="J19" pad="4"/>
+<contactref element="J9" pad="4"/>
 <contactref element="J4" pad="3"/>
 <wire x1="46.4058" y1="5.0292" x2="52.1208" y2="5.0292" width="0.254" layer="16"/>
 <wire x1="42.7482" y1="1.3716" x2="46.4058" y2="5.0292" width="0.254" layer="16"/>
@@ -692,7 +686,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="ANALOG3">
 <contactref element="FADER3" pad="2"/>
-<contactref element="J19" pad="3"/>
+<contactref element="J9" pad="3"/>
 <contactref element="J3" pad="3"/>
 <wire x1="36.8046" y1="5.2578" x2="42.291" y2="5.2578" width="0.254" layer="16"/>
 <wire x1="31.5468" y1="10.5156" x2="36.8046" y2="5.2578" width="0.254" layer="16"/>
@@ -710,7 +704,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="ANALOG1">
 <contactref element="FADER1" pad="2"/>
-<contactref element="J19" pad="1"/>
+<contactref element="J9" pad="1"/>
 <contactref element="J1" pad="3"/>
 <wire x1="25.6032" y1="5.2578" x2="22.4771" y2="5.2578" width="0.254" layer="1"/>
 <wire x1="27.2034" y1="6.858" x2="25.6032" y2="5.2578" width="0.254" layer="1"/>
@@ -726,7 +720,7 @@ design rules under a new name.</description>
 <via x="27.2034" y="6.858" extent="1-16" drill="0.6096"/>
 </signal>
 <signal name="VCC">
-<contactref element="J19" pad="9"/>
+<contactref element="J9" pad="9"/>
 <contactref element="FADER1" pad="1"/>
 <contactref element="FADER2" pad="1"/>
 <contactref element="FADER3" pad="1"/>
@@ -741,12 +735,6 @@ design rules under a new name.</description>
 <contactref element="J3" pad="2"/>
 <contactref element="J2" pad="2"/>
 <contactref element="J1" pad="2"/>
-<polygon width="0.4064" layer="16">
-<vertex x="-2.54" y="-2.54"/>
-<vertex x="63.36" y="-2.54"/>
-<vertex x="63.3854" y="23.5458"/>
-<vertex x="-2.5146" y="23.5458"/>
-</polygon>
 <contactref element="FADER7" pad="1"/>
 <contactref element="FADER8" pad="1"/>
 <wire x1="42.2967" y1="18.43" x2="52.1027" y2="18.4254" width="0.4064" layer="1"/>
@@ -771,7 +759,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="ANALOG7">
 <contactref element="FADER7" pad="2"/>
-<contactref element="J19" pad="7"/>
+<contactref element="J9" pad="7"/>
 <contactref element="J7" pad="3"/>
 <wire x1="36.576" y1="16.002" x2="42.291" y2="16.002" width="0.254" layer="16"/>
 <wire x1="32.9184" y1="19.6596" x2="36.576" y2="16.002" width="0.254" layer="16"/>
@@ -795,7 +783,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="ANALOG8">
 <contactref element="FADER8" pad="2"/>
-<contactref element="J19" pad="8"/>
+<contactref element="J9" pad="8"/>
 <contactref element="J8" pad="3"/>
 <wire x1="44.1198" y1="15.7734" x2="51.8922" y2="15.7734" width="0.254" layer="16"/>
 <wire x1="42.9768" y1="14.6304" x2="44.1198" y2="15.7734" width="0.254" layer="16"/>
