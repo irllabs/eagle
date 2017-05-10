@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4956,6 +4956,28 @@ Manufacturer Part Number
 <smd name="P$4-GND" x="0.836" y="0.543" dx="0.725" dy="0.525" layer="1"/>
 <smd name="P$2-GND" x="-0.837" y="0.537" dx="0.725" dy="0.525" layer="1"/>
 </package>
+<package name="AUDIO-JACK-TRRS-SMD">
+<wire x1="0.5" y1="-3.3" x2="10.2235" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="12.2" y1="3.3" x2="12.2" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="12.2" y1="3.3" x2="11.176" y2="3.3" width="0.254" layer="21"/>
+<wire x1="0.5" y1="3.3" x2="0" y2="3.3" width="0.254" layer="51"/>
+<wire x1="0" y1="3.3" x2="0" y2="2.8" width="0.254" layer="51"/>
+<wire x1="0" y1="2.8" x2="0" y2="-2.8" width="0.254" layer="51"/>
+<wire x1="0" y1="-2.8" x2="0" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="0" y1="-3.3" x2="0.5" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="0" y1="2.8" x2="-2" y2="2.8" width="0.254" layer="51"/>
+<wire x1="-2" y1="2.8" x2="-2" y2="-2.8" width="0.254" layer="51"/>
+<wire x1="-2" y1="-2.8" x2="0" y2="-2.8" width="0.254" layer="51"/>
+<smd name="TIP" x="10.2" y="3.6195" dx="1.524" dy="3.175" layer="1"/>
+<smd name="EARTH" x="11.2268" y="-3.6195" dx="1.524" dy="3.175" layer="1"/>
+<smd name="RING1" x="6.2" y="3.6195" dx="1.524" dy="3.175" layer="1"/>
+<smd name="RING2" x="3.2" y="3.6195" dx="1.524" dy="3.175" layer="1" rot="R180"/>
+<hole x="1.6" y="0" drill="1.2"/>
+<hole x="8.6" y="0" drill="1.2"/>
+<wire x1="7.1755" y1="3.3" x2="9.2075" y2="3.3" width="0.254" layer="21"/>
+<wire x1="4.191" y1="3.3" x2="5.207" y2="3.3" width="0.254" layer="21"/>
+<wire x1="0.5" y1="3.3" x2="2.19075" y2="3.3" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SUREELECT_STEP-UP-PCB">
@@ -6201,6 +6223,29 @@ Manufacturer Part Number
 <pin name="VDD" x="-2.54" y="5.08" length="middle"/>
 <text x="3.048" y="7.62" size="1.016" layer="94">&gt;VALUE</text>
 <text x="2.794" y="-8.89" size="1.016" layer="94">&gt;NAME</text>
+</symbol>
+<symbol name="AUDIO-JACK3-TRRS">
+<wire x1="-3.81" y1="-5.08" x2="-2.54" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-1.27" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
+<text x="-5.08" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-6.35" y1="-5.08" x2="-5.08" y2="5.08" layer="94"/>
+<pin name="RING1" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
+<pin name="RING2" x="5.08" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="EARTH" x="5.08" y="5.08" visible="off" length="short" rot="R180"/>
+<pin name="TIP" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
+<wire x1="-1.27" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<text x="7.62" y="5.08" size="1.778" layer="94">sleeve</text>
+<text x="7.62" y="-5.08" size="1.778" layer="94">ring2</text>
+<text x="7.62" y="-2.54" size="1.778" layer="94">tip</text>
+<text x="7.62" y="2.54" size="1.778" layer="94">ring1</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -9531,6 +9576,25 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <connect gate="G$1" pin="GND" pad="P$2-GND P$3-GND P$4-GND"/>
 <connect gate="G$1" pin="OUT" pad="P$1-VOUT"/>
 <connect gate="G$1" pin="VDD" pad="P$5-VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AUDIO-JACK3">
+<description>Audio jack - 3.5mm TRRS variety - two rings.</description>
+<gates>
+<gate name="G$1" symbol="AUDIO-JACK3-TRRS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LGPADS" package="AUDIO-JACK-TRRS-SMD">
+<connects>
+<connect gate="G$1" pin="EARTH" pad="EARTH"/>
+<connect gate="G$1" pin="RING1" pad="RING1"/>
+<connect gate="G$1" pin="RING2" pad="RING2"/>
+<connect gate="G$1" pin="TIP" pad="TIP"/>
 </connects>
 <technologies>
 <technology name=""/>
