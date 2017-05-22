@@ -30,16 +30,16 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
@@ -253,10 +253,10 @@
 <wire x1="4.064" y1="-7.62" x2="4.064" y2="5.207" width="0.127" layer="21"/>
 <wire x1="4.064" y1="5.207" x2="-4.064" y2="5.207" width="0.127" layer="21"/>
 <wire x1="-4.064" y1="5.207" x2="-4.064" y2="-7.62" width="0.127" layer="21"/>
-<text x="-1.905" y="-4.191" size="0.6096" layer="21" rot="R180">OUT</text>
-<text x="1.27" y="-4.191" size="0.6096" layer="21" rot="R180">GND</text>
-<text x="3.175" y="-4.191" size="0.6096" layer="21" rot="R180">IN</text>
-<text x="2.921" y="-2.54" size="0.8128" layer="21" ratio="12" rot="R180">5V/12V REG</text>
+<text x="-1.905" y="-4.572" size="0.6096" layer="21" rot="R180">OUT</text>
+<text x="1.27" y="-4.572" size="0.6096" layer="21" rot="R180">GND</text>
+<text x="3.175" y="-4.572" size="0.6096" layer="21" rot="R180">IN</text>
+<text x="-0.762" y="-3.81" size="0.8128" layer="21" ratio="12" rot="R90">5V/12V REG</text>
 <text x="-4.445" y="-7.62" size="1.016" layer="25" ratio="12" rot="R90">&gt;NAME</text>
 </package>
 <package name="SWITCH_SPDT-TE-CONNECT">
@@ -364,6 +364,18 @@ diameter 4 mm, grid 2.54 mm</description>
 <rectangle x1="0.889" y1="-0.127" x2="1.651" y2="0.635" layer="51"/>
 <rectangle x1="-1.651" y1="-0.127" x2="-0.889" y2="0.635" layer="51"/>
 <rectangle x1="0" y1="1.6002" x2="0.4318" y2="3.4798" layer="21"/>
+</package>
+<package name="C0805K">
+<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0805 reflow solder&lt;/b&gt;&lt;p&gt;
+Metric Code Size 2012</description>
+<wire x1="-0.925" y1="0.6" x2="0.925" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="0.925" y1="-0.6" x2="-0.925" y2="-0.6" width="0.1016" layer="51"/>
+<smd name="1" x="-1" y="0" dx="1.3" dy="1.6" layer="1"/>
+<smd name="2" x="1" y="0" dx="1.3" dy="1.6" layer="1"/>
+<text x="-1" y="0.875" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1" y="-1.9" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1" y1="-0.65" x2="-0.5" y2="0.65" layer="51"/>
+<rectangle x1="0.5" y1="-0.65" x2="1" y2="0.65" layer="51"/>
 </package>
 </packages>
 </library>
@@ -632,7 +644,7 @@ einem neuen Namen ab.</description>
 <elements>
 <element name="R3" library="CMU-ArtFab" package="R0805" value="47K" x="37.465" y="5.334" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.814" y="5.08" size="0.6096" layer="25" rot="R270"/>
-<attribute name="VALUE" x="36.449" y="5.715" size="0.6096" layer="25" rot="R270"/>
+<attribute name="VALUE" x="35.814" y="7.112" size="0.6096" layer="25" rot="R270"/>
 </element>
 <element name="IC1" library="linear" package="SO08" value="TL072" x="23.622" y="8.509" smashed="yes" rot="R90">
 <attribute name="IC_NAME" value="TL072" x="-58.42" y="-19.05" size="1.778" layer="27" rot="R90" display="off"/>
@@ -652,7 +664,7 @@ einem neuen Namen ab.</description>
 <attribute name="VALUE" x="29.845" y="6.731" size="0.6096" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R4" library="CMU-ArtFab" package="R0805" value="47K" x="35.052" y="10.287" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.528" y="9.906" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="33.528" y="10.033" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="34.163" y="10.668" size="0.6096" layer="25" rot="R90"/>
 </element>
 <element name="U$13" library="CMU-ArtFab" package="1/8&quot;-F-STEREO-PCB" value="1/8&quot;-F-STEREO-PCB" x="38.608" y="4.191"/>
@@ -666,9 +678,6 @@ einem neuen Namen ab.</description>
 </element>
 <element name="J_REG_12V" library="CMU-ArtFab" package="POLOLU_5V-12V_STEPUP_U3V12F5-U3V12F12" value="POLOLU_VOLTAGE_REGULATORS_3PIN" x="20.066" y="8.001" smashed="yes"/>
 <element name="POWER" library="CMU-ArtFab" package="SWITCH_SPDT-TE-CONNECT" value="SPDT" x="48.768" y="15.113" rot="R180"/>
-<element name="C6" library="microbuilder" package="0805-NO" value="10uF" x="40.259" y="1.524" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.878" y="3.302" size="0.6096" layer="25" ratio="18" rot="R180"/>
-</element>
 <element name="C5" library="microbuilder" package="0805-NO" value="0.1uF" x="34.798" y="5.334" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.147" y="4.953" size="0.6096" layer="25" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="33.147" y="7.747" size="0.6096" layer="25" ratio="10" rot="R270"/>
@@ -677,9 +686,15 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="18.8468" y="17.3482" size="0.4064" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="19.304" y="12.954" size="1.27" layer="27"/>
 </element>
-<element name="JP1" library="microbuilder" package="1X05_ROUND_76" value="" x="17.399" y="9.906" rot="R90"/>
+<element name="JP1" library="microbuilder" package="1X05_ROUND_76" value="" x="17.399" y="9.906" smashed="yes" rot="R90">
+<attribute name="VALUE" x="20.574" y="3.556" size="0.4064" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="R2" library="CMU-ArtFab" package="TRIMPOT-BOURNS-3306W" value="200k" x="35.941" y="16.383"/>
 <element name="U$1" library="CMU-ArtFab" package="TP4056-LITHIUM-PROTECTED-MODULE-MOVED-PAD" value="TP4056-MODULETP4056" x="37.592" y="8.636" rot="R180"/>
+<element name="C1" library="rcl" package="C0805K" value="10uF" x="40.132" y="1.524" smashed="yes">
+<attribute name="NAME" x="41.164" y="2.399" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="38.116" y="2.418" size="0.6096" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -797,12 +812,10 @@ einem neuen Namen ab.</description>
 </signal>
 <signal name="N$9">
 <contactref element="IC1" pad="1"/>
-<contactref element="C6" pad="2"/>
 <contactref element="R2" pad="P$2"/>
 <wire x1="26.222" y1="6.604" x2="29.80215625" y2="6.604" width="0.4064" layer="1"/>
 <wire x1="29.80215625" y1="6.604" x2="33.07855625" y2="3.3276" width="0.4064" layer="1"/>
 <wire x1="33.07855625" y1="3.3276" x2="37.5054" y2="3.3276" width="0.4064" layer="1"/>
-<wire x1="39.309" y1="1.524" x2="37.5054" y2="3.3276" width="0.4064" layer="1"/>
 <wire x1="37.2046" y1="13.37793125" x2="37.338" y2="13.24453125" width="0.4064" layer="1"/>
 <wire x1="37.338" y1="13.24453125" x2="37.338" y2="9.652" width="0.4064" layer="1"/>
 <wire x1="35.936" y1="16.388" x2="37.2046" y2="15.1194" width="0.4064" layer="1"/>
@@ -812,7 +825,11 @@ einem neuen Namen ab.</description>
 <wire x1="39.12983125" y1="9.652" x2="39.12983125" y2="5.09945625" width="0.4064" layer="16"/>
 <via x="39.12983125" y="5.09945625" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="39.12983125" y1="5.09945625" x2="39.309" y2="5.09945625" width="0.4064" layer="1"/>
-<wire x1="39.309" y1="5.09945625" x2="39.309" y2="1.524" width="0.4064" layer="1"/>
+<contactref element="C1" pad="1"/>
+<wire x1="37.5054" y1="1.524" x2="39.132" y2="1.524" width="0.4064" layer="1"/>
+<wire x1="37.5054" y1="1.524" x2="37.5054" y2="3.3276" width="0.4064" layer="1"/>
+<wire x1="37.5054" y1="3.3276" x2="39.12983125" y2="3.3276" width="0.4064" layer="1"/>
+<wire x1="39.12983125" y1="3.3276" x2="39.12983125" y2="5.09945625" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R5" pad="1"/>
@@ -835,14 +852,14 @@ einem neuen Namen ab.</description>
 <contactref element="U$13" pad="RING"/>
 <contactref element="U$13" pad="TIP1"/>
 <contactref element="U$13" pad="TIP2"/>
-<contactref element="C6" pad="1"/>
-<wire x1="41.209" y1="1.524" x2="40.894" y2="1.524" width="0.4064" layer="1"/>
-<wire x1="40.894" y1="1.524" x2="40.894" y2="4.191" width="0.4064" layer="1"/>
 <wire x1="40.894" y1="4.191" x2="44.069" y2="4.191" width="0.4064" layer="1"/>
 <wire x1="40.894" y1="9.38353125" x2="40.894" y2="11.1252" width="0.4064" layer="16"/>
 <wire x1="42.0512" y1="8.22633125" x2="40.894" y2="9.38353125" width="0.4064" layer="16"/>
 <wire x1="44.069" y1="4.191" x2="42.0512" y2="6.2088" width="0.4064" layer="16"/>
 <wire x1="42.0512" y1="6.2088" x2="42.0512" y2="8.22633125" width="0.4064" layer="16"/>
+<contactref element="C1" pad="2"/>
+<wire x1="41.132" y1="1.524" x2="40.894" y2="1.524" width="0.4064" layer="1"/>
+<wire x1="40.894" y1="1.524" x2="40.894" y2="4.191" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R6" pad="1"/>
