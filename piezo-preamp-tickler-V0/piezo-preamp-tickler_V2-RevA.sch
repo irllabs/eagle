@@ -11026,7 +11026,7 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <part name="R9" library="adafruit" deviceset="TRIMPOT" device="TC33X" value="200K"/>
 <part name="D1" library="diode" deviceset="DIODE-" device="SOD123"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="SOD123"/>
-<part name="MIC-SELECT" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="TE-CONNECT" value="SPDT"/>
+<part name="SW2-SPST" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="TE-CONNECT" value="INPUT-select"/>
 <part name="C2" library="adafruit" deviceset="C-US" device="C0805K" value="0.1uF"/>
 <part name="C1" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="C3" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
@@ -11046,7 +11046,7 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <part name="C7" library="microbuilder" deviceset="CAP_TANTALUM" device="A/3216_REFLOW" value="3.3U">
 <attribute name="DIGIKEY" value="399-8282-1-ND"/>
 </part>
-<part name="SW1" library="microbuilder" deviceset="SWITCH_DPDT" device="">
+<part name="SW1-DPDT" library="microbuilder" deviceset="SWITCH_DPDT" device="" value="OUTPUT-select">
 <attribute name="BOTTOM" value="buffer2-phone"/>
 <attribute name="DIGIKEY" value="401-2002-1-ND"/>
 <attribute name="DIGIKEY2" value="563-1342-1-ND"/>
@@ -11056,6 +11056,9 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<text x="-91.44" y="78.74" size="1.778" layer="91">Buffer-Stage-1</text>
+<text x="40.64" y="81.28" size="1.778" layer="91">OpAmp-Amplifier</text>
+<text x="137.16" y="10.16" size="1.778" layer="91">Buffer-Stage-2</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="147.32" y="40.64"/>
@@ -11101,7 +11104,10 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <instance part="R9" gate="G$1" x="73.66" y="25.4"/>
 <instance part="D1" gate="G$1" x="137.16" y="30.48" rot="R90"/>
 <instance part="D2" gate="G$1" x="137.16" y="22.86" rot="R270"/>
-<instance part="MIC-SELECT" gate="G$1" x="195.58" y="50.8" rot="R180"/>
+<instance part="SW2-SPST" gate="G$1" x="195.58" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="191.262" y="44.958" size="1.778" layer="95"/>
+<attribute name="VALUE" x="191.262" y="40.132" size="1.778" layer="96"/>
+</instance>
 <instance part="C2" gate="G$1" x="78.74" y="60.96"/>
 <instance part="C1" gate="G$1" x="106.68" y="38.1" rot="R90"/>
 <instance part="C3" gate="G$1" x="60.96" y="48.26"/>
@@ -11123,11 +11129,13 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <instance part="C7" gate="G$1" x="-22.86" y="25.4">
 <attribute name="DIGIKEY" x="-22.098" y="24.13" size="0.6096" layer="96" display="both"/>
 </instance>
-<instance part="SW1" gate="G$1" x="152.4" y="78.74" rot="R180">
+<instance part="SW1-DPDT" gate="G$1" x="152.4" y="78.74" smashed="yes" rot="R180">
 <attribute name="BOTTOM" x="151.13" y="82.55" size="0.6096" layer="96" rot="R180" display="both"/>
 <attribute name="TOP" x="151.384" y="87.63" size="0.6096" layer="96" rot="R180" display="both"/>
 <attribute name="DIGIKEY" x="165.1" y="79.502" size="0.6096" layer="96" rot="R180" display="both"/>
 <attribute name="DIGIKEY2" x="165.608" y="78.232" size="0.6096" layer="96" rot="R180" display="both"/>
+<attribute name="VALUE" x="148.082" y="64.77" size="1.27" layer="96"/>
+<attribute name="NAME" x="147.955" y="67.31" size="1.27" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -11325,12 +11333,12 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="SW1" gate="G$1" pin="S2"/>
+<pinref part="SW1-DPDT" gate="G$1" pin="S2"/>
 <wire x1="114.3" y1="38.1" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="86.36" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
 <junction x="114.3" y="38.1"/>
-<pinref part="SW1" gate="G$1" pin="S1"/>
+<pinref part="SW1-DPDT" gate="G$1" pin="S1"/>
 <wire x1="114.3" y1="76.2" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
 <junction x="114.3" y="76.2"/>
@@ -11346,7 +11354,7 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <wire x1="165.1" y1="53.34" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
 <junction x="165.1" y="53.34"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="MIC-SELECT" gate="G$1" pin="3"/>
+<pinref part="SW2-SPST" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -11355,14 +11363,14 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <wire x1="215.9" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="73.66" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="48.26" x2="190.5" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="MIC-SELECT" gate="G$1" pin="1"/>
+<pinref part="SW2-SPST" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="TO-HEADSET" gate="G$1" pin="TIP"/>
 <wire x1="215.9" y1="81.28" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="P2"/>
+<pinref part="SW1-DPDT" gate="G$1" pin="P2"/>
 <wire x1="160.02" y1="81.28" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
 </segment>
@@ -11371,7 +11379,7 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <segment>
 <pinref part="TO-HEADSET" gate="G$1" pin="RING1"/>
 <wire x1="160.02" y1="76.2" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="P1"/>
+<pinref part="SW1-DPDT" gate="G$1" pin="P1"/>
 <wire x1="160.02" y1="76.2" x2="160.02" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="73.66" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -11382,7 +11390,7 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <wire x1="215.9" y1="53.34" x2="208.28" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="53.34" x2="208.28" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="50.8" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="MIC-SELECT" gate="G$1" pin="2"/>
+<pinref part="SW2-SPST" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -11469,7 +11477,7 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <pinref part="TO-PHONE" gate="G$1" pin="RING1"/>
 <wire x1="215.9" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="55.88" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="O1"/>
+<pinref part="SW1-DPDT" gate="G$1" pin="O1"/>
 <wire x1="144.78" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -11478,7 +11486,7 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <pinref part="TO-PHONE" gate="G$1" pin="TIP"/>
 <wire x1="215.9" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="60.96" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="O2"/>
+<pinref part="SW1-DPDT" gate="G$1" pin="O2"/>
 <wire x1="139.7" y1="81.28" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
