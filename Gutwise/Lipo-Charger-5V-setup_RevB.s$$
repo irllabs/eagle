@@ -601,18 +601,13 @@ design rules under a new name.</description>
 </element>
 <element name="USB-LIPO-CHARGER" library="CMU-ArtFab" package="TP4056-LITHIUM-PROTECTED-MODULE" value="TP4056-MODULE" x="22.001" y="18.459" rot="R90"/>
 <element name="AUDIO_OUT" library="CMU-ArtFab" package="1/8&quot;-F-STEREO-PCB" value="1/8&quot;-F-STEREO-PCB" x="34.002" y="36.682" rot="R90"/>
-<element name="U$4" library="CMU-ArtFab" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3LGPADS" x="6.222" y="48.302" rot="R270">
-<attribute name="5V" value="+5V" x="1.228" y="37.972" size="0.6096" layer="27"/>
-<attribute name="AUDIO" value="AUDIO" x="12.32" y="36.788" size="0.6096" layer="27" rot="R90"/>
-<attribute name="AUDIO_" value="AUDIO" x="12.32" y="40.852" size="0.6096" layer="27" rot="R90"/>
-<attribute name="GND" value="GND" x="12.32" y="44.408" size="0.6096" layer="27" rot="R90"/>
+<element name="U$4" library="CMU-ArtFab" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3LGPADS" x="5.714" y="48.302" rot="R270">
+<attribute name="5V" value="+5V" x="5.714" y="43.222" size="0.6096" layer="27" rot="R270"/>
+<attribute name="AUDIO" value="AUDIO" x="11.134" y="38.226" size="0.6096" layer="27"/>
+<attribute name="AUDIO_" value="AUDIO" x="11.134" y="41.782" size="0.6096" layer="27"/>
+<attribute name="GND" value="GND" x="11.134" y="45.084" size="0.6096" layer="27"/>
 </element>
-<element name="U$5" library="CMU-ArtFab" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3LGPADS" x="19.316" y="48.302" rot="R270">
-<attribute name="5V" value="+5V" x="14.182" y="38.112" size="0.6096" layer="27"/>
-<attribute name="AUDIO" value="AUDIO" x="24.65" y="39.412" size="0.6096" layer="27" rot="R270"/>
-<attribute name="AUDIO_" value="AUDIO" x="24.65" y="43.476" size="0.6096" layer="27" rot="R270"/>
-<attribute name="GND" value="GND" x="24.65" y="46.016" size="0.6096" layer="27" rot="R270"/>
-</element>
+<element name="U$5" library="CMU-ArtFab" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3LGPADS" x="18.046" y="48.302" rot="R270"/>
 <element name="DC-5V" library="microbuilder" package="DCJACK_2MM_PTH" value="" x="-3.318" y="19.92" smashed="yes" rot="R270">
 <attribute name="NAME" x="1.762" y="25" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="-3.318" y="14.586" size="0.4064" layer="27" ratio="10"/>
@@ -634,8 +629,8 @@ design rules under a new name.</description>
 <contactref element="AUDIO_OUT" pad="SLEEVE2"/>
 <contactref element="AUDIO_OUT" pad="SLEEVE1"/>
 <wire x1="27.0678" y1="45.318" x2="34.002" y2="45.318" width="0" layer="19" extent="1-1"/>
-<wire x1="22.9355" y1="45.102" x2="27.0678" y2="45.318" width="0" layer="19" extent="1-1"/>
-<wire x1="9.8415" y1="45.102" x2="22.9355" y2="45.102" width="0" layer="19" extent="1-1"/>
+<wire x1="21.6655" y1="45.102" x2="27.0678" y2="45.318" width="0" layer="19" extent="1-1"/>
+<wire x1="9.3335" y1="45.102" x2="21.6655" y2="45.102" width="0" layer="19" extent="1-1"/>
 <wire x1="28.351" y1="29.254" x2="27.0678" y2="45.318" width="0" layer="19" extent="1-1"/>
 <wire x1="22.41" y1="12.986" x2="28.351" y2="29.254" width="0" layer="19" extent="1-1"/>
 <wire x1="10.883" y1="1.069" x2="22.41" y2="12.986" width="0" layer="19" extent="1-1"/>
@@ -659,8 +654,8 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="TIP"/>
 <contactref element="U$5" pad="RING1"/>
 <contactref element="AUDIO_OUT" pad="RING"/>
-<wire x1="22.9355" y1="42.102" x2="34.002" y2="42.143" width="0" layer="19" extent="1-1"/>
-<wire x1="22.9355" y1="38.102" x2="22.9355" y2="42.102" width="0" layer="19" extent="1-1"/>
+<wire x1="21.6655" y1="42.102" x2="34.002" y2="42.143" width="0" layer="19" extent="1-1"/>
+<wire x1="21.6655" y1="38.102" x2="21.6655" y2="42.102" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT2">
 <contactref element="U$4" pad="TIP"/>
@@ -668,8 +663,8 @@ design rules under a new name.</description>
 <contactref element="AUDIO_OUT" pad="TIP2"/>
 <contactref element="AUDIO_OUT" pad="TIP1"/>
 <wire x1="27.0678" y1="38.968" x2="34.002" y2="38.968" width="0" layer="19" extent="1-1"/>
-<wire x1="9.8415" y1="38.102" x2="27.0678" y2="38.968" width="0" layer="19" extent="1-1"/>
-<wire x1="9.8415" y1="42.102" x2="9.8415" y2="38.102" width="0" layer="19" extent="1-1"/>
+<wire x1="9.3335" y1="38.102" x2="27.0678" y2="38.968" width="0" layer="19" extent="1-1"/>
+<wire x1="9.3335" y1="42.102" x2="9.3335" y2="38.102" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U$5" pad="EARTH"/>
@@ -677,8 +672,8 @@ design rules under a new name.</description>
 <contactref element="DC-5V" pad="PWR"/>
 <contactref element="J_REG_5V" pad="VOUT"/>
 <contactref element="R6" pad="2"/>
-<wire x1="2.6025" y1="37.0752" x2="15.6965" y2="37.0752" width="0" layer="19" extent="1-1"/>
-<wire x1="12.084" y1="8.401" x2="15.6965" y2="37.0752" width="0" layer="19" extent="1-1"/>
+<wire x1="2.0945" y1="37.0752" x2="14.4265" y2="37.0752" width="0" layer="19" extent="1-1"/>
+<wire x1="12.084" y1="8.401" x2="14.4265" y2="37.0752" width="0" layer="19" extent="1-1"/>
 <wire x1="10.282" y1="19.92" x2="12.084" y2="8.401" width="0" layer="19" extent="1-1"/>
 <wire x1="19.87" y1="12.986" x2="12.084" y2="8.401" width="0" layer="19" extent="1-1"/>
 </signal>
