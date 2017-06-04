@@ -168,10 +168,10 @@
 <hole x="32.512" y="33.02" drill="3.81"/>
 <hole x="32.766" y="11.176" drill="3.81"/>
 <hole x="2.794" y="11.176" drill="3.81"/>
-<text x="5.588" y="33.782" size="1.016" layer="21">Gutwise: Lipo-Charger-5V-setup_RevB</text>
-<text x="5.842" y="32.258" size="1.016" layer="21">2017 Ali Momeni</text>
-<text x="30.226" y="1.778" size="1.016" layer="21">ON</text>
-<text x="15.748" y="1.524" size="1.016" layer="21">OFF</text>
+<text x="5.588" y="33.782" size="1.016" layer="25">Gutwise: Lipo-Charger-5V-setup_RevB</text>
+<text x="5.842" y="32.258" size="1.016" layer="25">2017 Ali Momeni</text>
+<text x="30.226" y="1.778" size="0.8128" layer="25">ON</text>
+<text x="15.748" y="1.524" size="0.8128" layer="25">OFF</text>
 </plain>
 <libraries>
 <library name="CMU-ArtFab">
@@ -588,16 +588,21 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BATTERY" library="CMU-ArtFab" package="1X02_LOCK" value="" x="2.171" y="4.822" rot="R270"/>
+<element name="BATTERY" library="CMU-ArtFab" package="1X02_LOCK" value="" x="2.171" y="4.822" smashed="yes" rot="R270">
+<attribute name="N" value="(-)" x="3.695" y="2.79" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="5.2698" y="6.1682" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="P" value="(+)" x="3.695" y="5.584" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="-1.004" y="6.092" size="1.27" layer="27" rot="R270"/>
+</element>
 <element name="J_REG_5V" library="CMU-ArtFab" package="POLOLU_5V-12V_STEPUP_U3V12F5-U3V12F12" value="POLOLU_VOLTAGE_REGULATORS_3PIN" x="22.41" y="19.336"/>
 <element name="LED1" library="led" package="LED3MM" value="" x="10.883" y="2.339" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.964" y="5.168" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="8.964" y="5.168" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="9.232" y="0.434" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="POWER" library="CMU-ArtFab" package="SWITCH_SPDT-TE-CONNECT" value="SPDT" x="20.033" y="2.159"/>
 <element name="R6" library="CMU-ArtFab" package="0204/7" value="390" x="8.274" y="8.401" smashed="yes">
-<attribute name="NAME" x="7.258" y="9.6964" size="0.9906" layer="25" ratio="10"/>
-<attribute name="VALUE" x="6.6484" y="7.9184" size="0.9906" layer="27" ratio="10"/>
+<attribute name="NAME" x="7.766" y="9.6964" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="7.4104" y="7.9184" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="USB-LIPO-CHARGER" library="CMU-ArtFab" package="TP4056-LITHIUM-PROTECTED-MODULE" value="TP4056-MODULE" x="22.001" y="18.459" rot="R90"/>
 <element name="AUDIO_OUT" library="CMU-ArtFab" package="1/8&quot;-F-STEREO-PCB" value="1/8&quot;-F-STEREO-PCB" x="34.002" y="36.682" rot="R90"/>
@@ -613,9 +618,9 @@ design rules under a new name.</description>
 <attribute name="AUDIO_" value="AUDIO" x="24.65" y="43.476" size="0.6096" layer="27" rot="R270"/>
 <attribute name="GND" value="GND" x="24.65" y="46.016" size="0.6096" layer="27" rot="R270"/>
 </element>
-<element name="DC-5V" library="microbuilder" package="DCJACK_2MM_PTH" value="" x="-3.318" y="19.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="1.762" y="25" size="0.8128" layer="25" ratio="18"/>
-<attribute name="VALUE" x="-3.318" y="14.586" size="0.4064" layer="27" ratio="10"/>
+<element name="DC-5V" library="microbuilder" package="DCJACK_2MM_PTH" value="" x="-3.318" y="22.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="1.762" y="27.54" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="-3.318" y="17.126" size="0.4064" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
@@ -728,11 +733,11 @@ design rules under a new name.</description>
 <wire x1="12.192" y1="8.636" x2="12.084" y2="8.401" width="0.254" layer="1"/>
 <wire x1="19.812" y1="12.954" x2="19.87" y2="12.986" width="0.254" layer="1"/>
 <wire x1="11.938" y1="18.288" x2="11.938" y2="8.636" width="0.254" layer="1"/>
-<wire x1="10.414" y1="19.812" x2="11.938" y2="18.288" width="0.254" layer="1"/>
+<wire x1="10.16" y1="20.066" x2="11.938" y2="18.288" width="0.254" layer="1"/>
 <wire x1="11.938" y1="8.636" x2="12.084" y2="8.401" width="0.254" layer="1"/>
-<wire x1="10.414" y1="19.812" x2="10.282" y2="19.92" width="0.254" layer="1"/>
+<wire x1="10.16" y1="20.066" x2="10.282" y2="22.46" width="0" layer="19" extent="1-16"/>
 <wire x1="10.16" y1="20.066" x2="10.16" y2="36.83" width="0.254" layer="1"/>
-<wire x1="10.16" y1="20.066" x2="10.282" y2="19.92" width="0.254" layer="1"/>
+<wire x1="10.16" y1="20.066" x2="10.282" y2="22.46" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GNDBREAK">
 <contactref element="DC-5V" pad="GNDBREAK"/>
@@ -750,7 +755,7 @@ design rules under a new name.</description>
 <wire x1="4.064" y1="14.224" x2="4.064" y2="19.812" width="0.254" layer="1"/>
 <wire x1="12.446" y1="5.842" x2="4.064" y2="14.224" width="0.254" layer="1"/>
 <wire x1="12.446" y1="3.556" x2="12.446" y2="5.842" width="0.254" layer="1"/>
-<wire x1="4.064" y1="19.812" x2="4.032" y2="19.92" width="0.254" layer="1"/>
+<wire x1="4.064" y1="19.812" x2="4.032" y2="22.46" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="USB-LIPO-CHARGER" pad="B-"/>
