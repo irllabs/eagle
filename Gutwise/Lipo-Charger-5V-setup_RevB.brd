@@ -164,8 +164,12 @@
 <wire x1="33.52" y1="48.302" x2="2" y2="48.302" width="0.2" layer="20"/>
 <wire x1="2" y1="48.302" x2="0" y2="46.302" width="0.2" layer="20" curve="90"/>
 <wire x1="0" y1="46.302" x2="0" y2="2" width="0.2" layer="20"/>
-<hole x="2.54" y="30.48" drill="3.175"/>
-<hole x="33.02" y="30.48" drill="3.175"/>
+<hole x="2.54" y="33.02" drill="3.175"/>
+<hole x="33.02" y="33.02" drill="3.175"/>
+<hole x="33.02" y="11.43" drill="3.175"/>
+<hole x="2.54" y="11.176" drill="3.175"/>
+<text x="5.334" y="33.782" size="1.016" layer="21">Gutwise: Lipo-Charger-5V-setup_RevB</text>
+<text x="5.334" y="32.258" size="1.016" layer="21">2017 Ali Momeni</text>
 </plain>
 <libraries>
 <library name="CMU-ArtFab">
@@ -583,11 +587,11 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="BATTERY" library="CMU-ArtFab" package="1X02_LOCK" value="" x="2.171" y="5.838" rot="R270"/>
-<element name="J_REG_5V" library="CMU-ArtFab" package="POLOLU_5V-12V_STEPUP_U3V12F5-U3V12F12" value="POLOLU_VOLTAGE_REGULATORS_3PIN" x="26.22" y="14.764"/>
-<element name="LED1" library="led" package="LED3MM" value="" x="10.883" y="4.879" rot="R270"/>
-<element name="POWER" library="CMU-ArtFab" package="SWITCH_SPDT-TE-CONNECT" value="SPDT" x="20.033" y="2.159"/>
-<element name="R6" library="CMU-ArtFab" package="0204/7" value="390" x="18.015" y="13.608" rot="R90"/>
-<element name="USB-LIPO-CHARGER" library="CMU-ArtFab" package="TP4056-LITHIUM-PROTECTED-MODULE" value="TP4056-MODULE" x="24.287" y="12.871" rot="R90"/>
+<element name="J_REG_5V" library="CMU-ArtFab" package="POLOLU_5V-12V_STEPUP_U3V12F5-U3V12F12" value="POLOLU_VOLTAGE_REGULATORS_3PIN" x="23.934" y="19.082"/>
+<element name="LED1" library="led" package="LED3MM" value="" x="8.343" y="4.879" rot="R270"/>
+<element name="POWER" library="CMU-ArtFab" package="SWITCH_SPDT-TE-CONNECT" value="SPDT" x="17.493" y="2.159"/>
+<element name="R6" library="CMU-ArtFab" package="0204/7" value="390" x="15.729" y="16.148" rot="R90"/>
+<element name="USB-LIPO-CHARGER" library="CMU-ArtFab" package="TP4056-LITHIUM-PROTECTED-MODULE" value="TP4056-MODULE" x="22.001" y="18.459" rot="R90"/>
 <element name="AUDIO_OUT" library="CMU-ArtFab" package="1/8&quot;-F-STEREO-PCB" value="1/8&quot;-F-STEREO-PCB" x="33.24" y="36.682" rot="R90"/>
 <element name="U$4" library="CMU-ArtFab" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3LGPADS" x="6.222" y="48.302" rot="R270"/>
 <element name="U$5" library="CMU-ArtFab" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3LGPADS" x="18.046" y="48.302" rot="R270"/>
@@ -608,99 +612,43 @@ design rules under a new name.</description>
 <contactref element="U$4" pad="RING2"/>
 <contactref element="AUDIO_OUT" pad="SLEEVE2"/>
 <contactref element="AUDIO_OUT" pad="SLEEVE1"/>
-<wire x1="21.59" y1="44.958" x2="9.906" y2="44.958" width="0.254" layer="1"/>
-<wire x1="9.906" y1="44.958" x2="9.8415" y2="45.102" width="0.254" layer="1"/>
-<wire x1="21.59" y1="44.958" x2="21.6655" y2="45.102" width="0.254" layer="1"/>
-<wire x1="21.844" y1="45.212" x2="26.162" y2="45.212" width="0.254" layer="1"/>
-<wire x1="26.162" y1="45.212" x2="26.3058" y2="45.318" width="0.254" layer="1"/>
-<wire x1="21.844" y1="45.212" x2="21.6655" y2="45.102" width="0.254" layer="1"/>
-<wire x1="31.496" y1="45.466" x2="33.02" y2="45.466" width="0.254" layer="1"/>
-<wire x1="30.48" y1="46.482" x2="31.496" y2="45.466" width="0.254" layer="1"/>
-<wire x1="27.432" y1="46.482" x2="30.48" y2="46.482" width="0.254" layer="1"/>
-<wire x1="26.416" y1="45.466" x2="27.432" y2="46.482" width="0.254" layer="1"/>
-<wire x1="33.02" y1="45.466" x2="33.24" y2="45.318" width="0.254" layer="1"/>
-<wire x1="26.416" y1="45.466" x2="26.3058" y2="45.318" width="0.254" layer="1"/>
-<wire x1="21.59" y1="3.81" x2="10.922" y2="3.81" width="0.254" layer="1"/>
-<wire x1="26.162" y1="8.382" x2="21.59" y2="3.81" width="0.254" layer="1"/>
-<wire x1="10.922" y1="3.81" x2="10.883" y2="3.609" width="0.254" layer="1"/>
-<wire x1="26.162" y1="8.382" x2="26.22" y2="8.414" width="0.254" layer="1"/>
-<wire x1="30.48" y1="12.7" x2="30.48" y2="23.622" width="0.254" layer="16"/>
-<wire x1="26.416" y1="8.636" x2="30.48" y2="12.7" width="0.254" layer="16"/>
-<wire x1="30.48" y1="23.622" x2="30.637" y2="23.666" width="0.254" layer="16"/>
-<wire x1="26.416" y1="8.636" x2="26.22" y2="8.414" width="0.254" layer="16"/>
-<wire x1="33.02" y1="43.942" x2="33.02" y2="45.212" width="0.254" layer="16"/>
-<wire x1="31.75" y1="42.672" x2="33.02" y2="43.942" width="0.254" layer="16"/>
-<wire x1="31.75" y1="33.274" x2="31.75" y2="42.672" width="0.254" layer="16"/>
-<wire x1="30.226" y1="31.75" x2="31.75" y2="33.274" width="0.254" layer="16"/>
-<wire x1="30.226" y1="24.13" x2="30.226" y2="31.75" width="0.254" layer="16"/>
-<wire x1="30.48" y1="23.876" x2="30.226" y2="24.13" width="0.254" layer="16"/>
-<wire x1="33.02" y1="45.212" x2="33.24" y2="45.318" width="0.254" layer="16"/>
-<wire x1="30.48" y1="23.876" x2="30.637" y2="23.666" width="0.254" layer="16"/>
+<wire x1="26.3058" y1="45.318" x2="33.24" y2="45.318" width="0" layer="19" extent="1-1"/>
+<wire x1="21.6655" y1="45.102" x2="26.3058" y2="45.318" width="0" layer="19" extent="1-1"/>
+<wire x1="9.8415" y1="45.102" x2="21.6655" y2="45.102" width="0" layer="19" extent="1-1"/>
+<wire x1="28.351" y1="29.254" x2="33.24" y2="45.318" width="0" layer="19" extent="1-1"/>
+<wire x1="23.934" y1="12.732" x2="28.351" y2="29.254" width="0" layer="19" extent="1-1"/>
+<wire x1="8.343" y1="3.609" x2="23.934" y2="12.732" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
 <contactref element="USB-LIPO-CHARGER" pad="OUT+"/>
 <contactref element="J_REG_5V" pad="VIN"/>
-<wire x1="17.526" y1="19.812" x2="17.526" y2="23.622" width="0.254" layer="1"/>
-<wire x1="28.702" y1="8.636" x2="17.526" y2="19.812" width="0.254" layer="1"/>
-<wire x1="17.526" y1="23.622" x2="17.302" y2="23.666" width="0.254" layer="1"/>
-<wire x1="28.702" y1="8.636" x2="28.76" y2="8.414" width="0.254" layer="1"/>
+<wire x1="26.474" y1="12.732" x2="15.016" y2="29.254" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="USB-LIPO-CHARGER" pad="B+"/>
 <contactref element="BATTERY" pad="1"/>
-<wire x1="2.286" y1="6.096" x2="19.812" y2="23.622" width="0.254" layer="16"/>
-<wire x1="19.812" y1="23.622" x2="19.842" y2="23.666" width="0.254" layer="16"/>
-<wire x1="2.286" y1="6.096" x2="2.171" y2="6.0158" width="0.254" layer="16"/>
-</signal>
-<signal name="N$19">
-<contactref element="USB-LIPO-CHARGER" pad="B-"/>
-<contactref element="POWER" pad="2"/>
-<wire x1="27.94" y1="14.478" x2="27.94" y2="23.622" width="0.254" layer="16"/>
-<wire x1="22.352" y1="8.89" x2="27.94" y2="14.478" width="0.254" layer="16"/>
-<wire x1="22.352" y1="3.81" x2="22.352" y2="8.89" width="0.254" layer="16"/>
-<wire x1="23.876" y1="2.286" x2="22.352" y2="3.81" width="0.254" layer="16"/>
-<wire x1="27.94" y1="23.622" x2="28.097" y2="23.666" width="0.254" layer="16"/>
-<wire x1="23.876" y1="2.286" x2="24.033" y2="2.159" width="0.254" layer="16"/>
+<wire x1="2.171" y1="6.0158" x2="17.556" y2="29.254" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R6" pad="1"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="14.478" y1="6.35" x2="10.922" y2="6.35" width="0.254" layer="1"/>
-<wire x1="17.78" y1="9.652" x2="14.478" y2="6.35" width="0.254" layer="1"/>
-<wire x1="10.922" y1="6.35" x2="10.883" y2="6.149" width="0.254" layer="1"/>
-<wire x1="17.78" y1="9.652" x2="18.015" y2="9.798" width="0.254" layer="1"/>
+<wire x1="8.343" y1="6.149" x2="15.729" y2="12.338" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U$5" pad="TIP"/>
 <contactref element="U$5" pad="RING1"/>
 <contactref element="AUDIO_OUT" pad="RING"/>
-<wire x1="21.844" y1="41.91" x2="21.844" y2="38.354" width="0.254" layer="1"/>
-<wire x1="21.844" y1="38.354" x2="21.6655" y2="38.102" width="0.254" layer="1"/>
-<wire x1="21.844" y1="41.91" x2="21.6655" y2="42.102" width="0.254" layer="1"/>
-<wire x1="21.844" y1="42.164" x2="33.02" y2="42.164" width="0.254" layer="1"/>
-<wire x1="33.02" y1="42.164" x2="33.24" y2="42.143" width="0.254" layer="1"/>
-<wire x1="21.844" y1="42.164" x2="21.6655" y2="42.102" width="0.254" layer="1"/>
+<wire x1="21.6655" y1="42.102" x2="33.24" y2="42.143" width="0" layer="19" extent="1-1"/>
+<wire x1="21.6655" y1="38.102" x2="21.6655" y2="42.102" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT2">
 <contactref element="U$4" pad="TIP"/>
 <contactref element="U$4" pad="RING1"/>
 <contactref element="AUDIO_OUT" pad="TIP2"/>
 <contactref element="AUDIO_OUT" pad="TIP1"/>
-<wire x1="9.906" y1="41.91" x2="9.906" y2="38.354" width="0.254" layer="1"/>
-<wire x1="9.906" y1="38.354" x2="9.8415" y2="38.102" width="0.254" layer="1"/>
-<wire x1="9.906" y1="41.91" x2="9.8415" y2="42.102" width="0.254" layer="1"/>
-<wire x1="27.178" y1="39.116" x2="26.416" y2="39.116" width="0.254" layer="1"/>
-<wire x1="28.956" y1="40.894" x2="27.178" y2="39.116" width="0.254" layer="1"/>
-<wire x1="31.242" y1="40.894" x2="28.956" y2="40.894" width="0.254" layer="1"/>
-<wire x1="33.02" y1="39.116" x2="31.242" y2="40.894" width="0.254" layer="1"/>
-<wire x1="26.416" y1="39.116" x2="26.3058" y2="38.968" width="0.254" layer="1"/>
-<wire x1="33.02" y1="39.116" x2="33.24" y2="38.968" width="0.254" layer="1"/>
-<wire x1="10.414" y1="38.1" x2="9.906" y2="38.1" width="0.254" layer="1"/>
-<wire x1="12.7" y1="35.814" x2="10.414" y2="38.1" width="0.254" layer="1"/>
-<wire x1="23.114" y1="35.814" x2="12.7" y2="35.814" width="0.254" layer="1"/>
-<wire x1="26.162" y1="38.862" x2="23.114" y2="35.814" width="0.254" layer="1"/>
-<wire x1="9.906" y1="38.1" x2="9.8415" y2="38.102" width="0.254" layer="1"/>
-<wire x1="26.162" y1="38.862" x2="26.3058" y2="38.968" width="0.254" layer="1"/>
+<wire x1="26.3058" y1="38.968" x2="33.24" y2="38.968" width="0" layer="19" extent="1-1"/>
+<wire x1="9.8415" y1="38.102" x2="26.3058" y2="38.968" width="0" layer="19" extent="1-1"/>
+<wire x1="9.8415" y1="42.102" x2="9.8415" y2="38.102" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U$5" pad="EARTH"/>
@@ -708,45 +656,25 @@ design rules under a new name.</description>
 <contactref element="CN1" pad="PWR"/>
 <contactref element="J_REG_5V" pad="VOUT"/>
 <contactref element="R6" pad="2"/>
-<wire x1="12.7" y1="17.526" x2="17.78" y2="17.526" width="0.254" layer="1"/>
-<wire x1="10.414" y1="19.812" x2="12.7" y2="17.526" width="0.254" layer="1"/>
-<wire x1="17.78" y1="17.526" x2="18.015" y2="17.418" width="0.254" layer="1"/>
-<wire x1="10.414" y1="19.812" x2="10.282" y2="19.92" width="0.254" layer="1"/>
-<wire x1="2.794" y1="34.29" x2="2.794" y2="36.83" width="0.254" layer="1"/>
-<wire x1="10.16" y1="26.924" x2="2.794" y2="34.29" width="0.254" layer="1"/>
-<wire x1="10.16" y1="20.066" x2="10.16" y2="26.924" width="0.254" layer="1"/>
-<wire x1="2.794" y1="36.83" x2="2.6025" y2="37.0752" width="0.254" layer="1"/>
-<wire x1="10.16" y1="20.066" x2="10.282" y2="19.92" width="0.254" layer="1"/>
-<wire x1="14.224" y1="40.64" x2="14.224" y2="37.084" width="0.254" layer="1"/>
-<wire x1="11.43" y1="43.434" x2="14.224" y2="40.64" width="0.254" layer="1"/>
-<wire x1="7.366" y1="43.434" x2="11.43" y2="43.434" width="0.254" layer="1"/>
-<wire x1="2.794" y1="38.862" x2="7.366" y2="43.434" width="0.254" layer="1"/>
-<wire x1="2.794" y1="37.084" x2="2.794" y2="38.862" width="0.254" layer="1"/>
-<wire x1="14.224" y1="37.084" x2="14.4265" y2="37.0752" width="0.254" layer="1"/>
-<wire x1="2.794" y1="37.084" x2="2.6025" y2="37.0752" width="0.254" layer="1"/>
-<wire x1="23.622" y1="11.684" x2="23.622" y2="8.636" width="0.254" layer="1"/>
-<wire x1="18.034" y1="17.272" x2="23.622" y2="11.684" width="0.254" layer="1"/>
-<wire x1="23.622" y1="8.636" x2="23.68" y2="8.414" width="0.254" layer="1"/>
-<wire x1="18.034" y1="17.272" x2="18.015" y2="17.418" width="0.254" layer="1"/>
+<wire x1="2.6025" y1="37.0752" x2="14.4265" y2="37.0752" width="0" layer="19" extent="1-1"/>
+<wire x1="10.282" y1="19.92" x2="14.4265" y2="37.0752" width="0" layer="19" extent="1-1"/>
+<wire x1="15.729" y1="19.958" x2="10.282" y2="19.92" width="0" layer="19" extent="1-1"/>
+<wire x1="21.394" y1="12.732" x2="15.729" y2="19.958" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GNDBREAK">
 <contactref element="CN1" pad="GNDBREAK"/>
 </signal>
 <signal name="N$1">
 <contactref element="BATTERY" pad="2"/>
-<contactref element="POWER" pad="1"/>
 <contactref element="CN1" pad="GND"/>
-<wire x1="20.574" y1="3.556" x2="21.844" y2="2.286" width="0.254" layer="16"/>
-<wire x1="12.446" y1="3.556" x2="20.574" y2="3.556" width="0.254" layer="16"/>
-<wire x1="11.43" y1="2.54" x2="12.446" y2="3.556" width="0.254" layer="16"/>
-<wire x1="2.794" y1="2.54" x2="11.43" y2="2.54" width="0.254" layer="16"/>
-<wire x1="2.286" y1="3.048" x2="2.794" y2="2.54" width="0.254" layer="16"/>
-<wire x1="21.844" y1="2.286" x2="22.033" y2="2.159" width="0.254" layer="16"/>
-<wire x1="2.286" y1="3.048" x2="2.171" y2="3.1202" width="0.254" layer="16"/>
-<wire x1="3.81" y1="4.826" x2="3.81" y2="19.812" width="0.254" layer="1"/>
-<wire x1="2.286" y1="3.302" x2="3.81" y2="4.826" width="0.254" layer="1"/>
-<wire x1="3.81" y1="19.812" x2="4.032" y2="19.92" width="0.254" layer="1"/>
-<wire x1="2.286" y1="3.302" x2="2.171" y2="3.1202" width="0.254" layer="1"/>
+<contactref element="POWER" pad="2"/>
+<wire x1="2.171" y1="3.1202" x2="4.032" y2="19.92" width="0" layer="19" extent="1-1"/>
+<wire x1="21.493" y1="2.159" x2="2.171" y2="3.1202" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="USB-LIPO-CHARGER" pad="B-"/>
+<contactref element="POWER" pad="3"/>
+<wire x1="23.493" y1="2.159" x2="25.811" y2="29.254" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
