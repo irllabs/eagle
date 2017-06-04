@@ -1934,12 +1934,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="12.7" y1="8.255" x2="12.7" y2="-8.255" width="0.127" layer="21"/>
 <wire x1="12.7" y1="-8.255" x2="-12.7" y2="-8.255" width="0.127" layer="21"/>
 <wire x1="-12.7" y1="-8.255" x2="-12.7" y2="8.255" width="0.127" layer="21"/>
-<pad name="IN+" x="-11.43" y="6.985" drill="0.9" shape="square"/>
-<pad name="IN-" x="-11.43" y="-6.35" drill="0.9" shape="square"/>
-<pad name="OUT-" x="10.795" y="-6.35" drill="0.9" shape="square"/>
-<pad name="OUT+" x="10.795" y="6.985" drill="0.9" shape="square"/>
-<pad name="B+" x="10.795" y="4.445" drill="0.9" shape="square"/>
-<pad name="B-" x="10.795" y="-3.81" drill="0.9" shape="square"/>
+<pad name="IN+" x="-11.43" y="6.985" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="IN-" x="-11.43" y="-6.35" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="OUT-" x="10.795" y="-6.35" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="OUT+" x="10.795" y="6.985" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="B+" x="10.795" y="4.445" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="B-" x="10.795" y="-3.81" drill="0.9" diameter="1.6764" shape="square"/>
 </package>
 <package name="SWITCH_SPDT_SMALL-SPARKFUN">
 <description>SPDT Slide Switch;
