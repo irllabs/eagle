@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.65" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1084,20 +1084,20 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <wire x1="0.5" y1="-3.3" x2="10.2235" y2="-3.3" width="0.254" layer="21"/>
 <wire x1="12.2" y1="3.3" x2="12.2" y2="-3.3" width="0.254" layer="21"/>
 <wire x1="12.2" y1="3.3" x2="11.176" y2="3.3" width="0.254" layer="21"/>
-<wire x1="-4.55" y1="1.85" x2="-5.05" y2="1.85" width="0.254" layer="51"/>
-<wire x1="-5.05" y1="1.85" x2="-5.05" y2="1.35" width="0.254" layer="51"/>
-<wire x1="-5.05" y1="1.35" x2="-5.05" y2="-4.25" width="0.254" layer="51"/>
-<wire x1="-5.05" y1="-4.25" x2="-5.05" y2="-4.75" width="0.254" layer="51"/>
-<wire x1="-5.05" y1="-4.75" x2="-4.55" y2="-4.75" width="0.254" layer="51"/>
-<wire x1="-5.05" y1="1.35" x2="-7.05" y2="1.35" width="0.254" layer="51"/>
-<wire x1="-7.05" y1="1.35" x2="-7.05" y2="-4.25" width="0.254" layer="51"/>
-<wire x1="-7.05" y1="-4.25" x2="-5.05" y2="-4.25" width="0.254" layer="51"/>
-<smd name="TIP" x="9.948" y="-5.2705" dx="1.524" dy="3.175" layer="1"/>
-<smd name="EARTH" x="-2.1142" y="-5.2705" dx="1.524" dy="3.175" layer="1"/>
-<smd name="RING1" x="0.612" y="2.7585" dx="1.524" dy="3.175" layer="1"/>
-<smd name="RING2" x="0.66" y="-5.2705" dx="1.524" dy="3.175" layer="1" rot="R180"/>
-<hole x="1.6" y="-1.15" drill="1.2"/>
-<hole x="8.6" y="-1.15" drill="1.2"/>
+<wire x1="0.5" y1="3.3" x2="0" y2="3.3" width="0.254" layer="51"/>
+<wire x1="0" y1="3.3" x2="0" y2="2.8" width="0.254" layer="51"/>
+<wire x1="0" y1="2.8" x2="0" y2="-2.8" width="0.254" layer="51"/>
+<wire x1="0" y1="-2.8" x2="0" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="0" y1="-3.3" x2="0.5" y2="-3.3" width="0.254" layer="51"/>
+<wire x1="0" y1="2.8" x2="-2" y2="2.8" width="0.254" layer="51"/>
+<wire x1="-2" y1="2.8" x2="-2" y2="-2.8" width="0.254" layer="51"/>
+<wire x1="-2" y1="-2.8" x2="0" y2="-2.8" width="0.254" layer="51"/>
+<smd name="TIP" x="10.2" y="3.6195" dx="1.524" dy="3.175" layer="1"/>
+<smd name="EARTH" x="11.2268" y="-3.6195" dx="1.524" dy="3.175" layer="1"/>
+<smd name="RING1" x="6.2" y="3.6195" dx="1.524" dy="3.175" layer="1"/>
+<smd name="RING2" x="3.2" y="3.6195" dx="1.524" dy="3.175" layer="1" rot="R180"/>
+<hole x="1.6" y="0" drill="1.2"/>
+<hole x="8.6" y="0" drill="1.2"/>
 <wire x1="7.1755" y1="3.3" x2="9.2075" y2="3.3" width="0.254" layer="21"/>
 <wire x1="4.191" y1="3.3" x2="5.207" y2="3.3" width="0.254" layer="21"/>
 <wire x1="0.5" y1="3.3" x2="2.19075" y2="3.3" width="0.254" layer="21"/>
