@@ -5135,7 +5135,6 @@ grid 2.54 mm</description>
 <smd name="2" x="0.05" y="-2.17" dx="1.4" dy="1.2" layer="1" rot="R90"/>
 </package>
 <package name="TRRS-SJ-43514-SMT-TR">
-<description>Digikey: 	CP-43514SJCT-ND</description>
 <smd name="2" x="6.35" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="4" x="2.54" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="1" x="1.27" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
@@ -5144,12 +5143,6 @@ grid 2.54 mm</description>
 <wire x1="0" y1="0" x2="0" y2="3.81" width="0.127" layer="22"/>
 <wire x1="0" y1="3.81" x2="7.62" y2="3.81" width="0.127" layer="22"/>
 <wire x1="7.62" y1="3.81" x2="7.62" y2="0" width="0.127" layer="22"/>
-<text x="0" y="0" size="1.27" layer="21">
-
-CP-43514SJCT-ND
-</text>
-<text x="0" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -9868,7 +9861,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <technology name=""/>
 </technologies>
 </device>
-<device name="SJ-43512-SMT" package="TRRS-SJ-43514-SMT-TR">
+<device name="" package="TRRS-SJ-43514-SMT-TR">
 <connects>
 <connect gate="G$1" pin="EARTH" pad="1"/>
 <connect gate="G$1" pin="RING1" pad="3"/>
@@ -9968,10 +9961,4 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </devicesets>
 </library>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
