@@ -8238,12 +8238,12 @@ Metric Code Size 5664</description>
 <part name="R17" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="OPA2*" device="UA" technology="134" value="OPA2134UA"/>
 <part name="R18" library="adafruit" deviceset="TRIMPOT" device="TC33X" value="20K"/>
-<part name="C6" library="adafruit" deviceset="C-US" device="C3216" value="150uF"/>
+<part name="C6" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="C7" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="R19" library="adafruit" deviceset="TRIMPOT" device="TC33X" value="20K"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R20" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1K"/>
-<part name="C10" library="adafruit" deviceset="C-US" device="C3216" value="150uF"/>
+<part name="C10" library="adafruit" deviceset="C-US" device="C0805K" value="0.1uF"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="D1" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148">
 <attribute name="DIGIKEY" value="1N4148WTPMSCT-ND"/>
