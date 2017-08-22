@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -4279,11 +4280,6 @@ grid 2.54 mm</description>
 <smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
 <text x="1.778" y="0" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="1.778" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
-<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
-<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
 <package name="SO08">
 <description>&lt;b&gt;Small Outline Package&lt;/b&gt; Fits JEDEC packages (narrow SOIC-8)</description>
@@ -4342,6 +4338,19 @@ grid 2.54 mm</description>
 <smd name="P$6" x="0.325" y="2.55" dx="1.2" dy="0.4064" layer="1" rot="R90"/>
 <smd name="P$7" x="-0.325" y="2.55" dx="1.2" dy="0.4064" layer="1" rot="R90"/>
 <smd name="P$8" x="-0.975" y="2.55" dx="1.2" dy="0.4064" layer="1" rot="R90"/>
+</package>
+<package name="THUMBPOT10MM">
+<pad name="P$1" x="0" y="-7.5" drill="0.6" shape="square"/>
+<pad name="P$2" x="-4" y="-7.5" drill="0.6" shape="square"/>
+<pad name="P$3" x="4" y="-7.5" drill="0.6" shape="square"/>
+<pad name="P$4" x="-5" y="2.5" drill="0.6" shape="square"/>
+<pad name="P$5" x="5" y="2.5" drill="0.6" shape="square"/>
+<circle x="0" y="0" radius="7" width="0.127" layer="21"/>
+<wire x1="5" y1="-7.5" x2="5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="5" y1="2.5" x2="-5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="2.5" x2="-5" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-7.5" x2="5" y2="-7.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="5.385" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -5491,6 +5500,16 @@ grid 2.54 mm</description>
 </technologies>
 </device>
 <device name="HOLE" package="ALPS_POT">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="THUMBPOT14MM" package="THUMBPOT10MM">
+<connects>
+<connect gate="G$1" pin="IN" pad="P$1"/>
+<connect gate="G$1" pin="OUT" pad="P$3"/>
+<connect gate="G$1" pin="WIPER" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12216,7 +12235,7 @@ Manufacturer: Hirose&lt;br&gt;
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123"/>
 <part name="SW2-SPST" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="CL-SB-12B" value="INPUT-select"/>
 <part name="C2" library="adafruit" deviceset="C-US" device="C0805K" value="0.1uF"/>
-<part name="C1" library="adafruit" deviceset="C-US" device="6032" value="47uF"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="" value="47uF"/>
 <part name="C3" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="R14" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1.2K"/>
 <part name="C6" library="adafruit" deviceset="C-US" device="" value="3.3uF"/>
@@ -12241,9 +12260,9 @@ Manufacturer: Hirose&lt;br&gt;
 <part name="R13" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10M"/>
 <part name="U$2" library="CMU-ArtFab" deviceset="SWITCH_DPDT" device=""/>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123"/>
-<part name="U$4" library="CMU-ArtFab" deviceset="POT" device=""/>
+<part name="U$4" library="CMU-ArtFab" deviceset="POT" device="THUMBPOT14MM"/>
 <part name="C7" library="adafruit" deviceset="C-US" device="C0805K" value="3.3pF"/>
-<part name="U$5" library="CMU-ArtFab" deviceset="POT" device=""/>
+<part name="U$5" library="CMU-ArtFab" deviceset="POT" device="THUMBPOT14MM"/>
 <part name="U$6" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="D7" library="SparkFun" deviceset="DIODE" device="SMA" value="10BQ015"/>
 <part name="C13" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
@@ -12252,10 +12271,10 @@ Manufacturer: Hirose&lt;br&gt;
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="U1" library="CMU-ArtFab" deviceset="VREG12_SOT23-5" device=""/>
-<part name="R9" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="866k"/>
-<part name="R18" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="100k"/>
-<part name="C8" library="SparkFun" deviceset="CAP_POL" device="3528" value="2.2pf"/>
-<part name="R19" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="15k"/>
+<part name="R9" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="866k"/>
+<part name="R18" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="C8" library="SparkFun" deviceset="CAP_POL" device="1206" value="2.2pf"/>
+<part name="R19" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="15k"/>
 <part name="C9" library="SparkFun" deviceset="CAP_POL" device="3528" value="56nf"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
@@ -12265,21 +12284,21 @@ Manufacturer: Hirose&lt;br&gt;
 <part name="U$1" library="CMU-ArtFab" deviceset="TP4056-CHIP" device=""/>
 <part name="U$7" library="CMU-ArtFab" deviceset="DW01A" device=""/>
 <part name="U$9" library="CMU-ArtFab" deviceset="F8205A" device=""/>
-<part name="C10" library="SparkFun" deviceset="CAP_POL" device="3528" value="0.1uF"/>
-<part name="R20" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="1.2k"/>
+<part name="R20" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1.2k"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM"/>
 <part name="U$11" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="R21" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="1k"/>
-<part name="R22" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="1k"/>
+<part name="R21" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R22" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="C11" library="SparkFun" deviceset="CAP_POL" device="3528" value="0.1uF"/>
-<part name="R23" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R23" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100"/>
 <part name="U$12" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="R24" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R24" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C12" library="adafruit" deviceset="C-US" device="C0805K" value="0.1uF"/>
+<part name="C10" library="adafruit" deviceset="C-US" device="C0805K" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -12793,7 +12812,6 @@ Manufacturer: Hirose&lt;br&gt;
 <instance part="U$1" gate="G$1" x="91.44" y="162.56"/>
 <instance part="U$7" gate="G$1" x="88.9" y="134.62"/>
 <instance part="U$9" gate="G$1" x="121.92" y="109.22" rot="MR0"/>
-<instance part="C10" gate="G$1" x="58.42" y="157.48" rot="R180"/>
 <instance part="R20" gate="G$1" x="66.04" y="165.1" rot="R180"/>
 <instance part="LED2" gate="G$1" x="121.92" y="175.26"/>
 <instance part="LED3" gate="G$1" x="127" y="165.1"/>
@@ -12802,7 +12820,6 @@ Manufacturer: Hirose&lt;br&gt;
 <instance part="R22" gate="G$1" x="114.3" y="165.1" rot="R180"/>
 <instance part="P+1" gate="1" x="121.92" y="182.88"/>
 <instance part="P+4" gate="1" x="50.8" y="160.02"/>
-<instance part="C11" gate="G$1" x="114.3" y="137.16" rot="R180"/>
 <instance part="R23" gate="G$1" x="124.46" y="134.62" rot="R180"/>
 <instance part="U$12" gate="G$1" x="137.16" y="134.62" rot="R270"/>
 <instance part="R24" gate="G$1" x="60.96" y="129.54" rot="R270"/>
@@ -12812,6 +12829,8 @@ Manufacturer: Hirose&lt;br&gt;
 <instance part="GND8" gate="1" x="91.44" y="104.14" smashed="yes">
 <attribute name="VALUE" x="88.9" y="101.6" size="1.778" layer="96" ratio="12"/>
 </instance>
+<instance part="C12" gate="G$1" x="114.3" y="137.16" rot="R180"/>
+<instance part="C10" gate="G$1" x="58.42" y="157.48" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -13005,9 +13024,9 @@ Manufacturer: Hirose&lt;br&gt;
 <wire x1="60.96" y1="165.1" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="3GND"/>
 <wire x1="60.96" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="-"/>
 <wire x1="58.42" y1="162.56" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
 <junction x="58.42" y="167.64"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -13073,7 +13092,7 @@ Manufacturer: Hirose&lt;br&gt;
 <pinref part="P+4" gate="1" pin="V+"/>
 <wire x1="50.8" y1="157.48" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
 <junction x="50.8" y="154.94"/>
-<pinref part="C10" gate="G$1" pin="+"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <junction x="58.42" y="154.94"/>
 </segment>
 </net>
@@ -13100,18 +13119,18 @@ Manufacturer: Hirose&lt;br&gt;
 <net name="N$41" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="5VCC"/>
-<pinref part="C11" gate="G$1" pin="+"/>
 <wire x1="106.68" y1="134.62" x2="114.3" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="134.62" x2="114.3" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="134.62" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
 <junction x="114.3" y="134.62"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="6GND"/>
-<pinref part="C11" gate="G$1" pin="-"/>
 <wire x1="106.68" y1="142.24" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -13163,7 +13182,7 @@ Manufacturer: Hirose&lt;br&gt;
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
