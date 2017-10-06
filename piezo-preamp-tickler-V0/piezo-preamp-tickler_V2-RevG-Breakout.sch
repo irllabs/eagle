@@ -12791,7 +12791,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U4" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="U5" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="SW3" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="CL-SB-12B" value="SPDT"/>
-<part name="J14" library="SparkFun-Connectors" deviceset="CONN_02" device="LOCK"/>
+<part name="J14" library="SparkFun-Connectors" deviceset="CONN_02" device="LOCK" value="Battery"/>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" value="MMSZ5231B"/>
 <part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" value="MMSZ5231B"/>
 <part name="SW2" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="CL-SB-12B" value="INPUT-select"/>
