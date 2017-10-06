@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6353,6 +6353,18 @@ Source: U6 OnSemi Inductive Load Driver MDC3105-D.PDF</description>
 </package>
 <package name="TRIMPOT14MM">
 </package>
+<package name="THUMBPOT14">
+<pad name="P$1" x="-4" y="-7.5" drill="1" shape="square"/>
+<pad name="P$2" x="0" y="-7.5" drill="1" shape="square"/>
+<pad name="P$3" x="4" y="-7.5" drill="1" shape="square"/>
+<circle x="0" y="0" radius="7" width="0.127" layer="21"/>
+<pad name="P$4" x="-5" y="2.5" drill="1.4" shape="square"/>
+<pad name="P$5" x="5" y="2.5" drill="1.4" shape="square"/>
+<wire x1="-5.25" y1="-7.5" x2="-5.25" y2="0" width="0.127" layer="21"/>
+<wire x1="5.25" y1="0" x2="5.25" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="5.25" y1="-7.5" x2="-5.25" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="-5.25" y1="0" x2="5.25" y2="0" width="0.127" layer="21" curve="-180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SUREELECT_STEP-UP-PCB">
@@ -8254,6 +8266,17 @@ Source: U6 OnSemi Inductive Load Driver MDC3105-D.PDF</description>
 <pin name="V-" x="22.86" y="7.62" length="middle" rot="R180"/>
 <text x="0" y="2.54" size="2.54" layer="94" align="bottom-center">BQ297X</text>
 </symbol>
+<symbol name="SC4503">
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="SW" x="-15.24" y="5.08" length="middle"/>
+<pin name="GND" x="-15.24" y="0" length="middle"/>
+<pin name="FB" x="-15.24" y="-5.08" length="middle"/>
+<pin name="SHDN" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="IN" x="15.24" y="5.08" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SUREELECT_STEP_UP_PCB">
@@ -9290,6 +9313,16 @@ http://www.taydaelectronics.com/datasheets/A-1847.pdf</description>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
 <connect gate="G$1" pin="WIPER" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="THUMBPOT14" package="THUMBPOT14">
+<connects>
+<connect gate="G$1" pin="IN" pad="P$1"/>
+<connect gate="G$1" pin="OUT" pad="P$3"/>
+<connect gate="G$1" pin="WIPER" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12613,6 +12646,25 @@ Source: http://ecb.omron.com.sg/pdf/relay/power/G6D.pdf</description>
 <connect gate="G$1" pin="NC" pad="1"/>
 <connect gate="G$1" pin="V-" pad="6"/>
 <connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SC4503">
+<gates>
+<gate name="G$1" symbol="SC4503" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="5"/>
+<connect gate="G$1" pin="SHDN" pad="4"/>
+<connect gate="G$1" pin="SW" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
