@@ -149,6 +149,7 @@
 <wire x1="100" y1="-0.05" x2="100" y2="39.95" width="0" layer="20"/>
 <wire x1="100" y1="39.95" x2="0" y2="40" width="0" layer="20"/>
 <wire x1="0" y1="40" x2="0" y2="0" width="0" layer="20"/>
+<text x="30" y="2" size="1.27" layer="25" rot="R90">Mixer-Analog-LM3900-Rev-A</text>
 </plain>
 <libraries>
 <library name="SparkFun-Passives">

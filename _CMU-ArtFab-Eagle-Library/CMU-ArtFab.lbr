@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -11847,7 +11848,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </device>
 </devices>
 </deviceset>
-<deviceset name="TRRS-3.5MM">
+<deviceset name="TRRS-3.5MM" prefix="J$1">
 <description>Audio jack - 3.5mm TRRS variety - two rings.</description>
 <gates>
 <gate name="G$1" symbol="AUDIO-JACK3-TRRS" x="0" y="0"/>
