@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -336,99 +336,6 @@ Source: Motorola European Master Guide Pacge 3-59</description>
 <technology name="4"/>
 <technology name="5"/>
 <technology name="6"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="diode" urn="urn:adsk.eagle:library:210">
-<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Motorola : www.onsemi.com
-&lt;li&gt;Fairchild : www.fairchildsemi.com
-&lt;li&gt;Philips : www.semiconductors.com
-&lt;li&gt;Vishay : www.vishay.de
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:43155/1" library_version="2">
-<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.1524" x2="-1.4224" y2="0.6604" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="0.6604" x2="-0.8636" y2="0.6604" width="0.1524" layer="21"/>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.1524" width="0.1524" layer="21"/>
-<wire x1="0.8636" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT23" urn="urn:adsk.eagle:package:43389/2" type="model" library_version="2">
-<description>DIODE</description>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SDD_AKAK" urn="urn:adsk.eagle:symbol:43227/1" library_version="2">
-<wire x1="-3.81" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="1.016" x2="-0.635" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-1.016" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="3.175" y1="-1.016" x2="3.175" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="3.175" y1="-1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.27" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="4.445" y1="1.016" x2="4.445" y2="1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.27" x2="4.445" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="3.81" y2="0" width="0.1524" layer="94"/>
-<circle x="0" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="0.762" y="2.0066" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.318" y="-3.9624" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="C1A2" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BAT54S" urn="urn:adsk.eagle:component:43610/2" prefix="D" library_version="2">
-<description>&lt;b&gt;Schottky Diodes&lt;/b&gt;&lt;p&gt;
-Pin connection corrected 2011-05-04&lt;br&gt;
-Source: Fairchild .. BAT54.pdf</description>
-<gates>
-<gate name="G$1" symbol="SDD_AKAK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23">
-<connects>
-<connect gate="G$1" pin="A1" pad="1"/>
-<connect gate="G$1" pin="C1A2" pad="3"/>
-<connect gate="G$1" pin="C2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43389/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2245,6 +2152,20 @@ http://www.cui.com/product/resource/sj-4351x-smt-series.pdf</description>
 <text x="3.175" y="0.635" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.175" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="SOD123">
+<description>&lt;b&gt;Diode&lt;/b&gt;</description>
+<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="51"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.254" layer="51"/>
+<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.254" layer="51"/>
+<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.254" layer="51"/>
+<smd name="C" x="-1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
+<smd name="A" x="1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
+<text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.95" y1="-0.45" x2="-1.2" y2="0.4" layer="51"/>
+<rectangle x1="1.2" y1="-0.45" x2="1.95" y2="0.4" layer="51"/>
+<rectangle x1="-1.05" y1="-0.65" x2="-0.15" y2="0.7" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R-US">
@@ -2319,6 +2240,18 @@ http://www.cui.com/product/resource/sj-4351x-smt-series.pdf</description>
 <pin name="G" x="-5.08" y="-2.54" visible="off" length="middle" direction="pas"/>
 <pin name="D" x="5.08" y="2.54" visible="off" length="middle" direction="pas" rot="R180"/>
 <pin name="S" x="5.08" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="D-ZENER">
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.397" y1="1.905" x2="1.397" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.397" y1="-1.905" x2="2.032" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.397" y1="1.905" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<text x="-2.9464" y="2.6416" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.4704" y="-4.4958" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3282,6 +3215,22 @@ Source: Motorola European Master Guide Pacge 3-59</description>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZENER-DIOD">
+<gates>
+<gate name="G$1" symbol="D-ZENER" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21780,6 +21729,319 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="microbuilder">
+<description>&lt;h2&gt;&lt;b&gt;microBuilder.eu&lt;/b&gt; Eagle Footprint Library&lt;/h2&gt;
+
+&lt;p&gt;Footprints for common components used in our projects and products.  This is the same library that we use internally, and it is regularly updated.  The newest version can always be found at &lt;b&gt;www.microBuilder.eu&lt;/b&gt;.  If you find this library useful, please feel free to purchase something from our online store. Please also note that all holes are optimised for metric drill bits!&lt;/p&gt;
+
+&lt;h3&gt;Obligatory Warning&lt;/h3&gt;
+&lt;p&gt;While it probably goes without saying, there are no guarantees that the footprints or schematic symbols in this library are flawless, and we make no promises of fitness for production, prototyping or any other purpose. These libraries are provided for information puposes only, and are used at your own discretion.  While we make every effort to produce accurate footprints, and many of the items found in this library have be proven in production, we can't make any promises of suitability for a specific purpose. If you do find any errors, though, please feel free to contact us at www.microbuilder.eu to let us know about it so that we can update the library accordingly!&lt;/p&gt;
+
+&lt;h3&gt;License&lt;/h3&gt;
+&lt;p&gt;This work is placed in the public domain, and may be freely used for commercial and non-commercial work with the following conditions:&lt;/p&gt;
+&lt;p&gt;THIS SOFTWARE IS PROVIDED ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;/p&gt;</description>
+<packages>
+<package name="EIA3216-18/A-R">
+<description>&lt;b&gt;Chip Capacitor Type KEMET A / EIA 3216-18 Reflow solder&lt;/b&gt;&lt;p&gt;
+KEMET S / EIA 3216-12</description>
+<wire x1="-1.45" y1="0.6" x2="1.45" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="0.6" x2="1.45" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="-0.6" x2="-1.45" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.6" x2="-1.45" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="-2.5525" y1="1" x2="-2.5525" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-2.5525" y1="1" x2="2.5525" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.5525" y1="1" x2="2.5525" y2="0.9" width="0.2032" layer="21"/>
+<wire x1="-2.5525" y1="-1" x2="2.5525" y2="-1" width="0.2032" layer="21"/>
+<wire x1="2.5525" y1="-1" x2="2.5525" y2="0.878" width="0.2032" layer="21"/>
+<wire x1="-0.1905" y1="0.4445" x2="-0.1905" y2="-0.4445" width="0.2032" layer="21"/>
+<wire x1="-0.1905" y1="-0.4445" x2="0.1905" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.1905" y1="0" x2="-0.1905" y2="0.4445" width="0.2032" layer="21"/>
+<wire x1="0.1905" y1="0.4445" x2="0.1905" y2="-0.4445" width="0.2032" layer="21"/>
+<smd name="+" x="1.375" y="0" dx="1.95" dy="1.5" layer="1"/>
+<smd name="-" x="-1.375" y="0" dx="1.95" dy="1.5" layer="1"/>
+<text x="2.749" y="-0.016" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="2.749" y="-0.674" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.6" y1="-0.6" x2="-1.475" y2="0.6" layer="51"/>
+<rectangle x1="1.475" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
+<rectangle x1="0.8" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
+</package>
+<package name="EIA3216-18/A-W">
+<description>&lt;b&gt;Chip Capacitor Type KEMET A / EIA 3216-18 Wave solder&lt;/b&gt;&lt;p&gt;
+KEMET S / EIA 3216-12</description>
+<wire x1="-1.45" y1="0.6" x2="1.45" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="0.6" x2="1.45" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="-0.6" x2="-1.45" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.6" x2="-1.45" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="-2.743" y1="1.1" x2="-2.743" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-2.743" y1="1.1" x2="2.743" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="-2.743" y1="-1.1" x2="2.743" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="2.743" y1="-1.1" x2="2.743" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="-0.1905" y1="0.4445" x2="-0.1905" y2="-0.4445" width="0.2032" layer="21"/>
+<wire x1="-0.1905" y1="-0.4445" x2="0.1905" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.1905" y1="0" x2="-0.1905" y2="0.4445" width="0.2032" layer="21"/>
+<wire x1="0.1905" y1="0.4445" x2="0.1905" y2="-0.4445" width="0.2032" layer="21"/>
+<smd name="+" x="1.475" y="0" dx="2.15" dy="1.8" layer="1"/>
+<smd name="-" x="-1.475" y="0" dx="2.15" dy="1.8" layer="1"/>
+<text x="2.876" y="-0.016" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="2.876" y="-0.674" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.6" y1="-0.6" x2="-1.475" y2="0.6" layer="51"/>
+<rectangle x1="1.475" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
+<rectangle x1="0.8" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
+</package>
+<package name="EIA3528-21/B-R">
+<description>&lt;b&gt;Chip Capacitor Type KEMET B / EIA 3528-21 Reflow solder&lt;/b&gt;&lt;p&gt;
+KEMET T / EIA 3528-12</description>
+<wire x1="-1.6" y1="1.2" x2="1.6" y2="1.2" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="1.2" x2="1.6" y2="-1.2" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="-1.2" x2="-1.6" y2="-1.2" width="0.1016" layer="51"/>
+<wire x1="-1.6" y1="-1.2" x2="-1.6" y2="1.2" width="0.1016" layer="51"/>
+<wire x1="-2.716" y1="-1.5" x2="-2.716" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="-2.716" y1="1.5" x2="2.716" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="-2.716" y1="-1.5" x2="2.716" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="2.716" y1="-1.5" x2="2.716" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="-0.1905" y1="0.4445" x2="-0.1905" y2="-0.4445" width="0.2032" layer="21"/>
+<wire x1="-0.1905" y1="-0.4445" x2="0.1905" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.1905" y1="0" x2="-0.1905" y2="0.4445" width="0.2032" layer="21"/>
+<wire x1="0.1905" y1="0.4445" x2="0.1905" y2="-0.4445" width="0.2032" layer="21"/>
+<smd name="+" x="1.525" y="0" dx="1.95" dy="2.5" layer="1"/>
+<smd name="-" x="-1.525" y="0" dx="1.95" dy="2.5" layer="1"/>
+<text x="2.876" y="-0.051" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="2.876" y="-0.639" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.75" y1="-0.6" x2="-1.625" y2="0.6" layer="51"/>
+<rectangle x1="1.625" y1="-0.6" x2="1.75" y2="0.6" layer="51"/>
+<rectangle x1="0.95" y1="-1.225" x2="1.25" y2="1.225" layer="51"/>
+</package>
+<package name="EIA3528-21/B-W">
+<description>&lt;b&gt;Chip Capacitor Type KEMET B / EIA 3528-21 Wave solder&lt;/b&gt;&lt;p&gt;
+KEMET T / EIA 3528-12</description>
+<wire x1="-1.6" y1="1.2" x2="1.6" y2="1.2" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="1.2" x2="1.6" y2="-1.2" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="-1.2" x2="-1.6" y2="-1.2" width="0.1016" layer="51"/>
+<wire x1="-1.6" y1="-1.2" x2="-1.6" y2="1.2" width="0.1016" layer="51"/>
+<wire x1="-2.8795" y1="1.3635" x2="-2.8795" y2="-1.3635" width="0.2032" layer="21"/>
+<wire x1="-2.8795" y1="1.3635" x2="2.8795" y2="1.3635" width="0.2032" layer="21"/>
+<wire x1="-2.8795" y1="-1.3635" x2="2.8795" y2="-1.3635" width="0.2032" layer="21"/>
+<wire x1="2.8795" y1="-1.3635" x2="2.8795" y2="1.3635" width="0.2032" layer="21"/>
+<wire x1="-0.1905" y1="0.4445" x2="-0.1905" y2="-0.4445" width="0.2032" layer="21"/>
+<wire x1="-0.1905" y1="-0.4445" x2="0.1905" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.1905" y1="0" x2="-0.1905" y2="0.4445" width="0.2032" layer="21"/>
+<wire x1="0.1905" y1="0.4445" x2="0.1905" y2="-0.4445" width="0.2032" layer="21"/>
+<smd name="+" x="1.625" y="0" dx="2.15" dy="1.8" layer="1"/>
+<smd name="-" x="-1.625" y="0" dx="2.15" dy="1.8" layer="1"/>
+<text x="3.13" y="-0.051" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="3.13" y="-0.639" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.75" y1="-0.6" x2="-1.625" y2="0.6" layer="51"/>
+<rectangle x1="1.625" y1="-0.6" x2="1.75" y2="0.6" layer="51"/>
+<rectangle x1="0.95" y1="-1.225" x2="1.25" y2="1.225" layer="51"/>
+</package>
+<package name="EIA6032-28/C-R">
+<description>&lt;b&gt;Chip Capacitor Type KEMET C / EIA 6032-28 Reflow solder&lt;/b&gt;&lt;p&gt;
+KEMET U / EIA 6032-15</description>
+<wire x1="-2.8" y1="1.55" x2="2.8" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="1.55" x2="2.8" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="-1.55" x2="-2.8" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="-2.8" y1="-1.55" x2="-2.8" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="-4.016" y1="-1.7" x2="-4.016" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="-4.016" y1="1.7" x2="4.016" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="-4.016" y1="-1.7" x2="4.016" y2="-1.7" width="0.2032" layer="21"/>
+<wire x1="4.016" y1="-1.7" x2="4.016" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="0.4445" y1="0.4445" x2="0.4445" y2="-0.4445" width="0.2032" layer="21"/>
+<wire x1="0.4445" y1="-0.4445" x2="0.8255" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.8255" y1="0" x2="0.4445" y2="0.4445" width="0.2032" layer="21"/>
+<wire x1="0.8255" y1="0.4445" x2="0.8255" y2="-0.4445" width="0.2032" layer="21"/>
+<smd name="+" x="2.525" y="0" dx="2.55" dy="2.5" layer="1"/>
+<smd name="-" x="-2.525" y="0" dx="2.55" dy="2.5" layer="1"/>
+<text x="4.366" y="-0.08" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="4.366" y="-0.637" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3" y1="-1.1" x2="-2.85" y2="1.1" layer="51"/>
+<rectangle x1="2.85" y1="-1.1" x2="3" y2="1.1" layer="51"/>
+<rectangle x1="1.95" y1="-1.575" x2="2.45" y2="1.575" layer="51"/>
+</package>
+<package name="EIA6032-28/C-W">
+<description>&lt;b&gt;Chip Capacitor Type KEMET C / EIA 6032-28 Wave solder&lt;/b&gt;&lt;p&gt;
+KEMET U / EIA 6032-15</description>
+<wire x1="-2.8" y1="1.55" x2="2.8" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="1.55" x2="2.8" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="-1.55" x2="-2.8" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="-2.8" y1="-1.55" x2="-2.8" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="-4.216" y1="-1.7" x2="-4.216" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="-4.216" y1="1.7" x2="4.216" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="4.216" y1="1.7" x2="4.216" y2="-1.7" width="0.2032" layer="21"/>
+<wire x1="4.216" y1="-1.7" x2="-4.216" y2="-1.7" width="0.2032" layer="21"/>
+<wire x1="0.4445" y1="0.4445" x2="0.4445" y2="-0.4445" width="0.2032" layer="21"/>
+<wire x1="0.4445" y1="-0.4445" x2="0.8255" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.8255" y1="0" x2="0.4445" y2="0.4445" width="0.2032" layer="21"/>
+<wire x1="0.8255" y1="0.4445" x2="0.8255" y2="-0.4445" width="0.2032" layer="21"/>
+<smd name="+" x="2.625" y="0" dx="2.75" dy="1.8" layer="1"/>
+<smd name="-" x="-2.625" y="0" dx="2.75" dy="1.8" layer="1"/>
+<text x="4.62" y="-0.08" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="4.62" y="-0.637" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3" y1="-1.1" x2="-2.85" y2="1.1" layer="51"/>
+<rectangle x1="2.85" y1="-1.1" x2="3" y2="1.1" layer="51"/>
+<rectangle x1="1.95" y1="-1.575" x2="2.45" y2="1.575" layer="51"/>
+</package>
+<package name="EIA7343-31/D-R">
+<description>&lt;b&gt;Chip Capacitor Type KEMET D / EIA 7343-21 Reflow solder&lt;/b&gt;&lt;p&gt;
+KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Reflow solder</description>
+<wire x1="-3.45" y1="2.1" x2="3.45" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="2.1" x2="3.45" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="-2.1" x2="-3.45" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="-3.45" y1="-2.1" x2="-3.45" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="-4.6525" y1="-2.2" x2="-4.6525" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="-4.6525" y1="2.2" x2="4.6525" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="4.6525" y1="2.2" x2="4.6525" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="4.6525" y1="-2.2" x2="-4.6525" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="1.0795" y1="0.4445" x2="1.0795" y2="-0.4445" width="0.2032" layer="21"/>
+<wire x1="1.0795" y1="-0.4445" x2="1.4605" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.4605" y1="0" x2="1.0795" y2="0.4445" width="0.2032" layer="21"/>
+<wire x1="1.4605" y1="0.4445" x2="1.4605" y2="-0.4445" width="0.2032" layer="21"/>
+<smd name="+" x="3.175" y="0" dx="2.55" dy="2.7" layer="1"/>
+<smd name="-" x="-3.175" y="0" dx="2.55" dy="2.7" layer="1"/>
+<text x="4.986" y="0.014" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="4.986" y="-0.781" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-1.2" x2="-3.5" y2="1.2" layer="51"/>
+<rectangle x1="3.5" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
+<rectangle x1="2.675" y1="-2.125" x2="3.15" y2="2.125" layer="51"/>
+</package>
+<package name="EIA7343-31/D-W">
+<description>&lt;b&gt;Chip Capacitor Type KEMET D / EIA 7343-21 Wave solder&lt;/b&gt;&lt;p&gt;
+KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
+<wire x1="-3.45" y1="2.1" x2="3.45" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="2.1" x2="3.45" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="-2.1" x2="-3.45" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="-3.45" y1="-2.1" x2="-3.45" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="-5.097" y1="-2.2" x2="-5.097" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="-5.097" y1="2.2" x2="5.097" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="5.097" y1="2.2" x2="5.097" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="5.097" y1="-2.2" x2="-5.097" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="1.0795" y1="0.4445" x2="1.0795" y2="-0.4445" width="0.2032" layer="21"/>
+<wire x1="1.0795" y1="-0.4445" x2="1.4605" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.4605" y1="0" x2="1.0795" y2="0.4445" width="0.2032" layer="21"/>
+<wire x1="1.4605" y1="0.4445" x2="1.4605" y2="-0.4445" width="0.2032" layer="21"/>
+<smd name="+" x="3.375" y="0" dx="2.95" dy="2.7" layer="1"/>
+<smd name="-" x="-3.375" y="0" dx="2.95" dy="2.7" layer="1"/>
+<text x="5.494" y="0.014" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="5.494" y="-0.654" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-1.2" x2="-3.5" y2="1.2" layer="51"/>
+<rectangle x1="3.5" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
+<rectangle x1="2.675" y1="-2.125" x2="3.15" y2="2.125" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CAPACITOR_POL">
+<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.778" x2="-1.27" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.778" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="3.81" x2="-0.635" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="3.429" x2="-0.254" y2="3.429" width="0.254" layer="94"/>
+<text x="2.54" y="2.54" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="0" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-1.397" y1="0" x2="1.397" y2="0.889" layer="94"/>
+<pin name="+" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="-" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CAP_TANTALUM" prefix="C" uservalue="yes">
+<description>&lt;p&gt;&lt;b&gt;Tantalum Capacitors&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Wave&lt;/b&gt; footprints have larger pads and are meant to be used for hand soldering.&lt;br/&gt;
+&lt;b&gt;Reflow&lt;/b&gt; footprints are optimised for solder paste and a reflow oven.&lt;/p&gt;
+&lt;b&gt;EIA3216-18/A-[R/W]&lt;/b&gt; - Size A / 3216-18 / 1206 footprint
+&lt;ul&gt;
+&lt;li&gt;4.7µF 25V 10% Tantalum Capacitor&lt;/li&gt;
+&lt;li&gt;10µF 16V 10% Tantalum Capacitor [Digikey: 495-2236-2-ND]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;EIA3528-21/B-[R/W]&lt;/b&gt; - Size B / 3528-21
+&lt;ul&gt;
+&lt;li&gt;47µF 10V 10% Tantalum Capactior [Digikey: 495-2216-1-ND]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;EIA6032-28/C-[R/W]&lt;/b&gt; - Size C / 6032-28
+&lt;ul&gt;
+&lt;li&gt;10µF 35V 20% Tantalum Capacitor [Digikey: 495-2285-1-ND]&lt;/li&gt;
+&lt;li&gt;100µF 16V 10% Tantalum Capactior [Digikey: 399-5214-1-ND]&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POL" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="A/3216_REFLOW" package="EIA3216-18/A-R">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="A/3216_WAVE" package="EIA3216-18/A-W">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B/3528_REFLOW" package="EIA3528-21/B-R">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B/3528_WAVE" package="EIA3528-21/B-W">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C/6032_REFLOW" package="EIA6032-28/C-R">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C/6032_WAVE" package="EIA6032-28/C-W">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D/7343_REFLOW" package="EIA7343-31/D-R">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D/7343_WAVE" package="EIA7343-31/D-W">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21821,7 +22083,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R4" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="2.2K"/>
 <part name="C1" library="adafruit" deviceset="C-US" device="C1206" value="10uF"/>
-<part name="C3" library="adafruit" deviceset="C-US" device="C1206" value="100uF"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="LOCK" package3d_urn="urn:adsk.eagle:package:38071/1" value="phone/mixer-switch"/>
 <part name="R1A" library="CMU-ArtFab" deviceset="R-US_" device="0204/2V" value="100K"/>
 <part name="R2A" library="CMU-ArtFab" deviceset="R-US_" device="0204/2V" value="10M"/>
@@ -21833,7 +22094,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R7A" library="CMU-ArtFab" deviceset="R-US_" device="0204/2V" value="100K"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF"/>
 <part name="C2A" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2,5-6E" package3d_urn="urn:adsk.eagle:package:23430/1" value="10uF"/>
-<part name="C4A" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2,5-6E" package3d_urn="urn:adsk.eagle:package:23430/1" value="10uF"/>
+<part name="C4A" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2,5-6E" package3d_urn="urn:adsk.eagle:package:23430/1" value="0.1uF"/>
 <part name="R9A" library="CMU-ArtFab" deviceset="R-US_" device="0204/2V" value="220"/>
 <part name="R8A" library="CMU-ArtFab" deviceset="R-US_" device="0204/2V" value="220"/>
 <part name="C3A" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2,5-6E" package3d_urn="urn:adsk.eagle:package:23430/1" value="100uF"/>
@@ -21849,13 +22110,15 @@ Source: AVX .. aphvc.pdf</description>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="LOCK" package3d_urn="urn:adsk.eagle:package:38071/1" value="phone/mixer-switch"/>
 <part name="HEADSET" library="CMU-ArtFab" deviceset="TRRS-3.5MM" device="LGPADS" value="SJ-43514"/>
 <part name="PHONE" library="CMU-ArtFab" deviceset="TRRS-3.5MM" device="LGPADS" value="SJ-43514"/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R14" library="CMU-ArtFab" deviceset="R-US_" device="0204/2V" value="1.2K"/>
+<part name="R14" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1.2K"/>
 <part name="R15" library="CMU-ArtFab" deviceset="POT" device="TRIMPOT-MULTI" value="20K"/>
 <part name="Q2A" library="CMU-ArtFab" deviceset="?548*" device="2N" technology="6"/>
 <part name="Q1A" library="CMU-ArtFab" deviceset="?548*" device="2N" technology="6"/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54S" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
+<part name="D1" library="CMU-ArtFab" deviceset="ZENER-DIOD" device="" value="1N4148W"/>
+<part name="D2" library="CMU-ArtFab" deviceset="ZENER-DIOD" device="" value="1N4148W"/>
+<part name="C3" library="microbuilder" deviceset="CAP_TANTALUM" device="D/7343_REFLOW" value="mnove"/>
 </parts>
 <sheets>
 <sheet>
@@ -21877,7 +22140,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="205.74" y1="-129.54" x2="121.92" y2="-129.54" width="0.1524" layer="98"/>
 <text x="101.6" y="-48.26" size="1.778" layer="91">to mixer</text>
 <text x="101.6" y="-106.68" size="1.778" layer="91">to phone</text>
-<text x="-162.56" y="20.32" size="1.778" layer="91">Power LED</text>
+<text x="259.08" y="-101.6" size="1.778" layer="91">Power LED</text>
 </plain>
 <instances>
 <instance part="GND3" gate="1" x="-45.72" y="-86.36" smashed="yes">
@@ -21924,10 +22187,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R11" gate="G$1" x="147.32" y="-99.06" rot="R90"/>
 <instance part="R10" gate="G$1" x="134.62" y="-88.9" rot="R180"/>
 <instance part="SUPPLY1" gate="GND" x="147.32" y="-114.3"/>
-<instance part="SUPPLY2" gate="GND" x="231.14" y="-114.3"/>
+<instance part="SUPPLY2" gate="GND" x="231.14" y="-93.98"/>
 <instance part="R4" gate="G$1" x="-116.84" y="-55.88" rot="R90"/>
 <instance part="C1" gate="G$1" x="-111.76" y="-96.52"/>
-<instance part="C3" gate="G$1" x="-30.48" y="-96.52" rot="R90"/>
 <instance part="J2" gate="J$1" x="106.68" y="-88.9" smashed="yes" rot="R180">
 <attribute name="VALUE" x="110.236" y="-73.66" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="109.22" y="-94.488" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -21947,10 +22209,10 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R8A" gate="G$1" x="-7.62" y="-106.68"/>
 <instance part="C3A" gate="G$1" x="-30.48" y="-106.68" rot="R90"/>
 <instance part="C6A" gate="G$1" x="78.74" y="-99.06" rot="R90"/>
-<instance part="J1" gate="G$1" x="-167.64" y="0" rot="R180"/>
-<instance part="P+2" gate="1" x="-177.8" y="17.78"/>
-<instance part="GND7" gate="1" x="-177.8" y="-10.16" smashed="yes">
-<attribute name="VALUE" x="-180.34" y="-12.7" size="1.778" layer="96" ratio="12"/>
+<instance part="J1" gate="G$1" x="254" y="-121.92" rot="R180"/>
+<instance part="P+2" gate="1" x="243.84" y="-104.14"/>
+<instance part="GND7" gate="1" x="243.84" y="-132.08" smashed="yes">
+<attribute name="VALUE" x="241.3" y="-134.62" size="1.778" layer="96" ratio="12"/>
 </instance>
 <instance part="R10A" gate="G$1" x="134.62" y="-96.52"/>
 <instance part="R11A" gate="G$1" x="154.94" y="-99.06" rot="R90"/>
@@ -21963,15 +22225,17 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 <instance part="HEADSET" gate="G$1" x="259.08" y="-48.26" rot="R180"/>
 <instance part="PHONE" gate="G$1" x="259.08" y="-68.58" rot="R180"/>
-<instance part="LED2" gate="G$1" x="-154.94" y="-10.16"/>
-<instance part="GND8" gate="1" x="-154.94" y="-20.32" smashed="yes">
-<attribute name="VALUE" x="-157.48" y="-22.86" size="1.778" layer="96" ratio="12"/>
+<instance part="LED1" gate="G$1" x="266.7" y="-132.08"/>
+<instance part="GND8" gate="1" x="266.7" y="-142.24" smashed="yes">
+<attribute name="VALUE" x="264.16" y="-144.78" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="R14" gate="G$1" x="-154.94" y="0" rot="R90"/>
+<instance part="R14" gate="G$1" x="266.7" y="-121.92" rot="R90"/>
 <instance part="R15" gate="G$1" x="17.78" y="-104.14"/>
 <instance part="Q2A" gate="G$1" x="160.02" y="-71.12"/>
 <instance part="Q1A" gate="G$1" x="-132.08" y="-73.66"/>
-<instance part="D1" gate="G$1" x="-142.24" y="-99.06" rot="R90"/>
+<instance part="D1" gate="G$1" x="-142.24" y="-91.44" rot="R90"/>
+<instance part="D2" gate="G$1" x="-142.24" y="-104.14" rot="R270"/>
+<instance part="C3" gate="G$1" x="-27.94" y="-96.52" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -22015,7 +22279,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="CN1" gate="G$1" pin="2"/>
 <wire x1="-180.34" y1="-93.98" x2="-172.72" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="-93.98" x2="-172.72" y2="-111.76" width="0.1524" layer="91"/>
-<wire x1="-142.24" y1="-104.14" x2="-142.24" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="-106.68" x2="-142.24" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="-111.76" x2="-172.72" y2="-111.76" width="0.1524" layer="91"/>
 <junction x="-172.72" y="-111.76"/>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -22045,7 +22309,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-104.14" y1="-106.68" x2="-104.14" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="-111.76" y="-106.68"/>
 <pinref part="C1A" gate="G$1" pin="-"/>
-<pinref part="D1" gate="G$1" pin="A1"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="-104.14" x2="193.04" y2="-109.22" width="0.1524" layer="91"/>
@@ -22072,7 +22336,7 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="231.14" y1="-63.5" x2="231.14" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="-63.5" x2="231.14" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="254" y1="-63.5" x2="231.14" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="-63.5" x2="231.14" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="231.14" y="-63.5"/>
@@ -22083,13 +22347,13 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-175.26" y1="-2.54" x2="-177.8" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-177.8" y1="-2.54" x2="-177.8" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="-124.46" x2="243.84" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="-124.46" x2="243.84" y2="-129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="-154.94" y1="-15.24" x2="-154.94" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="-137.16" x2="266.7" y2="-139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -22110,13 +22374,13 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
-<wire x1="-175.26" y1="0" x2="-177.8" y2="0" width="0.1524" layer="91"/>
-<wire x1="-177.8" y1="0" x2="-177.8" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="-121.92" x2="243.84" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="-121.92" x2="243.84" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="-177.8" y1="10.16" x2="-177.8" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-177.8" y1="10.16" x2="-154.94" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="-154.94" y1="10.16" x2="-154.94" y2="5.08" width="0.1524" layer="91"/>
-<junction x="-177.8" y="10.16"/>
+<wire x1="243.84" y1="-111.76" x2="243.84" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="-111.76" x2="266.7" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="-111.76" x2="266.7" y2="-116.84" width="0.1524" layer="91"/>
+<junction x="243.84" y="-111.76"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -22126,7 +22390,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="IC1" gate="A" pin="-IN"/>
 <pinref part="IC1" gate="A" pin="OUT"/>
 <wire x1="-43.18" y1="-96.52" x2="-38.1" y2="-96.52" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="-38.1" y1="-96.52" x2="-33.02" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="-106.68" x2="-43.18" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="-43.18" y="-96.52"/>
@@ -22134,6 +22397,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-33.02" y1="-106.68" x2="-38.1" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="-106.68" x2="-38.1" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="-38.1" y="-96.52"/>
+<pinref part="C3" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -22309,7 +22573,7 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="-152.4" y="-91.44"/>
 <wire x1="-157.48" y1="-91.44" x2="-152.4" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="-152.4" y1="-86.36" x2="-152.4" y2="-91.44" width="0.1524" layer="91"/>
-<wire x1="-142.24" y1="-93.98" x2="-142.24" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="-88.9" x2="-142.24" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="-86.36" x2="-152.4" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="-142.24" y1="-86.36" x2="-129.54" y2="-86.36" width="0.1524" layer="91"/>
@@ -22324,7 +22588,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-142.24" y1="-86.36" x2="-142.24" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="-76.2" x2="-137.16" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="Q1A" gate="G$1" pin="G"/>
-<pinref part="D1" gate="G$1" pin="C2"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="DRAINE1" class="0">
@@ -22459,7 +22723,6 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="N$52" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="-25.4" y1="-96.52" x2="-22.86" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-96.52" x2="-17.78" y2="-96.52" width="0.1524" layer="91"/>
@@ -22472,6 +22735,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-25.4" y1="-106.68" x2="-22.86" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-106.68" x2="-22.86" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="-22.86" y="-96.52"/>
+<pinref part="C3" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -22492,8 +22756,15 @@ Source: AVX .. aphvc.pdf</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="-154.94" y1="-5.08" x2="-154.94" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="266.7" y1="-127" x2="266.7" y2="-129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<wire x1="-142.24" y1="-101.6" x2="-142.24" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
