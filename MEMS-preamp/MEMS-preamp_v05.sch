@@ -12471,7 +12471,7 @@ Source: www.kingbright.com</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="47K"/>
+<part name="R7" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="150k"/>
 <part name="OPA2134" library="linear" deviceset="OPA2*" device="PA" technology="134" value="OPA2134PA">
 <attribute name="IC_NAME" value="TL072"/>
 </part>
@@ -12482,11 +12482,11 @@ Source: www.kingbright.com</description>
 <attribute name="CON4" value="AC"/>
 <attribute name="CON5" value="DC"/>
 </part>
-<part name="R1" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="220"/>
+<part name="R1" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="10"/>
 <part name="C4" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="100u"/>
-<part name="R8" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="47K"/>
+<part name="R8" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="150k"/>
 <part name="U$1" library="CMU-ArtFab" deviceset="1/8&quot;-F-STEREO-PCB" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
@@ -12505,9 +12505,9 @@ Source: www.kingbright.com</description>
 <part name="POWER" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="TE-CONNECT" value="SPDT"/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
 <part name="BATTERY" library="SparkFun-Connectors" deviceset="CONN_02" device="LOCK"/>
-<part name="R3" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="220"/>
+<part name="R3" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="1k"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="10u"/>
-<part name="POT1" library="CMU-ArtFab" deviceset="POT-DUAL-PTV112" device="-4420"/>
+<part name="POT1" library="CMU-ArtFab" deviceset="POT-DUAL-PTV112" device="-4420" value="50k"/>
 </parts>
 <sheets>
 <sheet>
