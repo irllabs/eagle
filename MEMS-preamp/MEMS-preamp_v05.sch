@@ -107,6 +107,8 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -9629,6 +9631,52 @@ Manufacturer Part Number
 <text x="6.731" y="6.35" size="0.8128" layer="21" ratio="12" rot="R180">5V/12V REG</text>
 <text x="-0.635" y="0" size="1.016" layer="25" ratio="12" rot="R90">&gt;NAME</text>
 </package>
+<package name="PTV112">
+<wire x1="-5.6" y1="6.4" x2="5.6" y2="6.4" width="0.2032" layer="21"/>
+<wire x1="6.15" y1="5.85" x2="6.15" y2="-9.35" width="0.2032" layer="51"/>
+<wire x1="5.6" y1="-9.9" x2="-5.6" y2="-9.9" width="0.2032" layer="21"/>
+<wire x1="-6.15" y1="-9.35" x2="-6.15" y2="5.85" width="0.2032" layer="51"/>
+<wire x1="-6.25" y1="0.9" x2="-7" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-7" y1="0.9" x2="-7" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="-7" y1="-0.9" x2="-6.25" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="6.25" y1="-0.9" x2="7" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="7" y1="-0.9" x2="7" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="7" y1="0.9" x2="6.25" y2="0.9" width="0.2032" layer="51"/>
+<wire x1="-5.6" y1="5.85" x2="-6.15" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="-5.6" y1="6.4" x2="-5.6" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="-5.6" y1="-9.35" x2="-5.6" y2="-9.9" width="0.2032" layer="21"/>
+<wire x1="-6.15" y1="-9.35" x2="-5.6" y2="-9.35" width="0.2032" layer="21"/>
+<wire x1="5.6" y1="-9.35" x2="6.15" y2="-9.35" width="0.2032" layer="21"/>
+<wire x1="5.6" y1="-9.9" x2="5.6" y2="-9.35" width="0.2032" layer="21"/>
+<wire x1="5.6" y1="5.85" x2="5.6" y2="6.4" width="0.2032" layer="21"/>
+<wire x1="6.15" y1="5.85" x2="5.6" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="-6.15" y1="2.65" x2="-6.15" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="-6.15" y1="-9.35" x2="-6.15" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="6.15" y1="5.85" x2="6.15" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="6.15" y1="-2.15" x2="6.15" y2="-9.35" width="0.2032" layer="21"/>
+<circle x="-4.5" y="-5.3" radius="0.65" width="0.1016" layer="21"/>
+<circle x="4.5" y="-5.3" radius="0.65" width="0.1016" layer="21"/>
+<circle x="-4.5" y="5.3" radius="0.65" width="0.1016" layer="21"/>
+<circle x="4.5" y="5.3" radius="0.65" width="0.1016" layer="21"/>
+<circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.3501" width="0.2032" layer="21"/>
+<text x="-3.0074" y="7.01728125" size="1.27313125" layer="25">&gt;NAME</text>
+<text x="-4.510309375" y="-13.5309" size="1.272909375" layer="27">&gt;VALUE</text>
+<rectangle x1="-5.43138125" y1="-11.3383" x2="-4.575" y2="-10" layer="51"/>
+<rectangle x1="-3.42751875" y1="-11.3333" x2="-2.575" y2="-10" layer="51"/>
+<rectangle x1="-1.4283" y1="-11.3512" x2="-0.575" y2="-10" layer="51"/>
+<rectangle x1="0.575490625" y1="-11.3347" x2="1.425" y2="-10" layer="51"/>
+<rectangle x1="2.57761875" y1="-11.3365" x2="3.425" y2="-10" layer="51"/>
+<rectangle x1="4.585" y1="-11.3498" x2="5.425" y2="-10" layer="51"/>
+<pad name="1.2" x="-5" y="-11" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="1.1" x="-3" y="-11" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="2.1" x="-1" y="-11" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="2.2" x="1" y="-11" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="2.3" x="3" y="-11" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="1.3" x="5" y="-11" drill="1.1" diameter="1.6764" rot="R270"/>
+<pad name="M2" x="6.8" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
+<pad name="M1" x="-6.8" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R-US">
@@ -9690,6 +9738,30 @@ Manufacturer Part Number
 <pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="1" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="POT-1">
+<wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
+<wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.016" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="3.81" x2="0" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.032" y1="-4.699" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="2.667" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<text x="-5.094559375" y="-2.54728125" size="1.783090625" layer="95" rot="R90">&gt;NAME</text>
+<text x="-2.544840625" y="-2.544840625" size="1.781390625" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="E" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10588,6 +10660,35 @@ Manufacturer Part Number
 </device>
 </devices>
 </deviceset>
+<deviceset name="POT-DUAL-PTV112" prefix="POT">
+<description>Bourns 11mm dual potentiometer</description>
+<gates>
+<gate name="/1" symbol="POT-1" x="-7.62" y="0"/>
+<gate name="/2" symbol="POT-1" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="-4420" package="PTV112">
+<connects>
+<connect gate="/1" pin="A" pad="1.1"/>
+<connect gate="/1" pin="E" pad="1.3"/>
+<connect gate="/1" pin="S" pad="1.2"/>
+<connect gate="/2" pin="A" pad="2.1"/>
+<connect gate="/2" pin="E" pad="2.3"/>
+<connect gate="/2" pin="S" pad="2.2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Alt# Tce-10111410 "/>
+<attribute name="MF" value="STMicroelectronics"/>
+<attribute name="MP" value="PTV112"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="linear">
@@ -10841,90 +10942,6 @@ http://focus.ti.com/lit/ds/symlink/opa2134.pdf</description>
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="adafruit">
-<packages>
-<package name="TC33X">
-<wire x1="-1.45" y1="1.75" x2="-1.45" y2="-1.65" width="0.254" layer="51"/>
-<wire x1="-1.45" y1="-1.65" x2="1.45" y2="-1.65" width="0.254" layer="51"/>
-<wire x1="1.45" y1="-1.65" x2="1.45" y2="1.75" width="0.254" layer="51"/>
-<wire x1="1.45" y1="1.75" x2="-1.45" y2="1.75" width="0.254" layer="51"/>
-<wire x1="-1.45" y1="-0.4" x2="-1.45" y2="1.75" width="0.254" layer="21"/>
-<wire x1="-1.45" y1="1.75" x2="-0.85" y2="1.75" width="0.254" layer="21"/>
-<wire x1="1.45" y1="-0.4" x2="1.45" y2="1.75" width="0.254" layer="21"/>
-<wire x1="1.45" y1="1.75" x2="0.85" y2="1.75" width="0.254" layer="21"/>
-<circle x="0" y="0" radius="1.15" width="0.1016" layer="51"/>
-<smd name="2" x="0" y="1.5" dx="1.5" dy="1.6" layer="1"/>
-<smd name="1" x="-1" y="-1.825" dx="1.2" dy="1.2" layer="1"/>
-<smd name="3" x="1" y="-1.825" dx="1.2" dy="1.2" layer="1"/>
-<text x="-1.905" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.175" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.15" y1="-0.15" x2="1.15" y2="0.15" layer="51"/>
-<rectangle x1="-0.15" y1="-1.15" x2="0.15" y2="1.15" layer="51"/>
-</package>
-<package name="TRIM-3386">
-<pad name="2" x="0" y="-2.8575" drill="0.9" diameter="1.778"/>
-<pad name="1" x="-2.54" y="-2.8575" drill="0.9" diameter="1.778"/>
-<pad name="3" x="2.54" y="-2.8575" drill="0.9" diameter="1.778"/>
-<wire x1="-4.7625" y1="-4.7625" x2="4.7625" y2="-4.7625" width="0.127" layer="21"/>
-<wire x1="4.7625" y1="-4.7625" x2="4.7625" y2="4.7625" width="0.127" layer="21"/>
-<wire x1="4.7625" y1="4.7625" x2="-4.7625" y2="4.7625" width="0.127" layer="21"/>
-<wire x1="-4.7625" y1="4.7625" x2="-4.7625" y2="-4.7625" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3.302" width="0.127" layer="21"/>
-<text x="-5.08" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="6.35" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="TRIMPOT">
-<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="0" x2="-1.8796" y2="1.7526" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-0.508" x2="-3.048" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.032" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="-2.1597" y1="1.2939" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
-<text x="-5.969" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="A" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="E" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TRIMPOT" prefix="TM" uservalue="yes">
-<description>SMT trimmer potentiometer part number TC33X
-&lt;p&gt;http://www.ladyada.net/library/eagle&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="TRIMPOT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="TC33X" package="TC33X">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3386" package="TRIM-3386">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12465,7 +12482,7 @@ Source: www.kingbright.com</description>
 <attribute name="CON4" value="AC"/>
 <attribute name="CON5" value="DC"/>
 </part>
-<part name="R1" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="1K"/>
+<part name="R1" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="220"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="10"/>
 <part name="C4" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="100u"/>
@@ -12475,7 +12492,6 @@ Source: www.kingbright.com</description>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="390"/>
-<part name="R2" library="adafruit" deviceset="TRIMPOT" device="3386" value="200K"/>
 <part name="J_REG_12V" library="CMU-ArtFab" deviceset="POLOLU_VOLTAGE_REGULATORS_3PIN" device="" value="POLOLU_VOLTAGE_REGULATORS_3PIN"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="microbuilder" deviceset="VBAT" device=""/>
@@ -12489,9 +12505,9 @@ Source: www.kingbright.com</description>
 <part name="POWER" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="TE-CONNECT" value="SPDT"/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
 <part name="BATTERY" library="SparkFun-Connectors" deviceset="CONN_02" device="LOCK"/>
-<part name="R3" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="1K"/>
-<part name="R4" library="adafruit" deviceset="TRIMPOT" device="3386" value="200K"/>
+<part name="R3" library="CMU-ArtFab" deviceset="R-US_" device="0204/5" value="220"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="10u"/>
+<part name="POT1" library="CMU-ArtFab" deviceset="POT-DUAL-PTV112" device="-4420"/>
 </parts>
 <sheets>
 <sheet>
@@ -12557,7 +12573,6 @@ Source: www.kingbright.com</description>
 <attribute name="VALUE" x="139.7" y="139.7" size="1.778" layer="96" ratio="12"/>
 </instance>
 <instance part="R10" gate="G$1" x="142.24" y="162.56" rot="R90"/>
-<instance part="R2" gate="G$1" x="78.74" y="50.8" rot="R270"/>
 <instance part="J_REG_12V" gate="J_REG_5V" x="76.2" y="165.1"/>
 <instance part="GND12" gate="1" x="76.2" y="144.78" smashed="yes">
 <attribute name="VALUE" x="73.66" y="142.24" size="1.778" layer="96" ratio="12"/>
@@ -12576,11 +12591,12 @@ Source: www.kingbright.com</description>
 <instance part="P+2" gate="1" x="22.86" y="81.28"/>
 <instance part="BATTERY" gate="G$1" x="30.48" y="162.56" rot="R180"/>
 <instance part="R3" gate="G$1" x="119.38" y="71.12"/>
-<instance part="R4" gate="G$1" x="144.78" y="50.8" rot="R270"/>
 <instance part="C2" gate="G$1" x="165.1" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="163.703" y="74.1426" size="1.778" layer="95" ratio="12"/>
 <attribute name="VALUE" x="163.703" y="66.5226" size="1.778" layer="96" ratio="12"/>
 </instance>
+<instance part="POT1" gate="/1" x="81.28" y="50.8" rot="R90"/>
+<instance part="POT1" gate="/2" x="147.32" y="53.34" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -12672,7 +12688,7 @@ Source: www.kingbright.com</description>
 <wire x1="53.34" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="50.8" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
 <junction x="53.34" y="68.58"/>
-<pinref part="R2" gate="G$1" pin="A"/>
+<pinref part="POT1" gate="/1" pin="E"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -12699,11 +12715,9 @@ Source: www.kingbright.com</description>
 <pinref part="OPA2134" gate="A" pin="OUT"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="76.2" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="S"/>
+<pinref part="POT1" gate="/1" pin="A"/>
 <wire x1="88.9" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="45.72" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="40.64" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="50.8" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
 <junction x="88.9" y="71.12"/>
 </segment>
 </net>
@@ -12793,13 +12807,11 @@ Source: www.kingbright.com</description>
 <net name="N$10" class="0">
 <segment>
 <pinref part="OPA2134" gate="B" pin="OUT"/>
-<wire x1="152.4" y1="71.12" x2="154.94" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="71.12" x2="154.94" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="S"/>
-<wire x1="144.78" y1="40.64" x2="144.78" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="162.56" y1="71.12" x2="154.94" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="POT1" gate="/2" pin="A"/>
+<wire x1="154.94" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="53.34" x2="154.94" y2="71.12" width="0.1524" layer="91"/>
 <junction x="154.94" y="71.12"/>
 </segment>
 </net>
@@ -12810,12 +12822,11 @@ Source: www.kingbright.com</description>
 <wire x1="129.54" y1="71.12" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="OPA2134" gate="B" pin="-IN"/>
 <wire x1="129.54" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="A"/>
 <wire x1="134.62" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="50.8" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="53.34" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
 <junction x="134.62" y="68.58"/>
+<pinref part="POT1" gate="/2" pin="E"/>
 </segment>
 </net>
 </nets>
