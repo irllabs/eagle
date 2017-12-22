@@ -17500,14 +17500,8 @@ Source: Fairchild .. BAT54.pdf</description>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF"/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="LOCK"/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="HEADSET" library="CMU-ArtFab" deviceset="TRRS-3.5MM" device="LGPADS" value="SJ-43514"/>
 <part name="PHONE" library="CMU-ArtFab" deviceset="TRRS-3.5MM" device="LGPADS" value="SJ-43514"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM"/>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R14" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1.2K"/>
 <part name="R15" library="CMU-ArtFab" deviceset="POT" device="TRIMPOT-MULTI" value="20K"/>
 <part name="C3" library="microbuilder" deviceset="CAP_TANTALUM" device="D/7343_REFLOW" value="100uF"/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3225P" package3d_urn="urn:adsk.eagle:package:23479/1" value="100uH"/>
@@ -17569,6 +17563,12 @@ Source: Fairchild .. BAT54.pdf</description>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="L3" library="SparkFun-Coils" deviceset="INDUCTOR" device="-CR54-3.3UH" value="2.7 uH"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54S" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="LOCK"/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM"/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R3" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1.2K"/>
 </parts>
 <sheets>
 <sheet>
@@ -17658,18 +17658,8 @@ FET-buffer, for mobile phone input</text>
 <instance part="SUPPLY1" gate="GND" x="137.16" y="-101.6"/>
 <instance part="SUPPLY2" gate="GND" x="220.98" y="-109.22"/>
 <instance part="C2" gate="G$1" x="-27.94" y="-78.74"/>
-<instance part="J1" gate="G$1" x="144.78" y="-149.86" rot="R180"/>
-<instance part="P+2" gate="1" x="134.62" y="-132.08"/>
-<instance part="GND7" gate="1" x="134.62" y="-160.02" smashed="yes">
-<attribute name="VALUE" x="132.08" y="-162.56" size="1.778" layer="96" ratio="12"/>
-</instance>
 <instance part="HEADSET" gate="G$1" x="264.16" y="-35.56" rot="R180"/>
 <instance part="PHONE" gate="G$1" x="264.16" y="-55.88" rot="R180"/>
-<instance part="LED1" gate="G$1" x="157.48" y="-160.02"/>
-<instance part="GND8" gate="1" x="157.48" y="-170.18" smashed="yes">
-<attribute name="VALUE" x="154.94" y="-172.72" size="1.778" layer="96" ratio="12"/>
-</instance>
-<instance part="R14" gate="G$1" x="157.48" y="-149.86" rot="R90"/>
 <instance part="R15" gate="G$1" x="7.62" y="-104.14"/>
 <instance part="C3" gate="G$1" x="-20.32" y="-96.52" rot="R90"/>
 <instance part="L1" gate="G$1" x="30.48" y="-53.34"/>
@@ -17741,34 +17731,12 @@ FET-buffer, for mobile phone input</text>
 <wire x1="259.08" y1="-96.52" x2="220.98" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="220.98" y="-96.52"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="137.16" y1="-152.4" x2="134.62" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="-152.4" x2="134.62" y2="-157.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="157.48" y1="-165.1" x2="157.48" y2="-167.64" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <wire x1="30.48" y1="-43.18" x2="30.48" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<pinref part="P+2" gate="1" pin="+12V"/>
-<wire x1="137.16" y1="-149.86" x2="134.62" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="-149.86" x2="134.62" y2="-139.7" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="-139.7" x2="134.62" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="-139.7" x2="157.48" y2="-139.7" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="-139.7" x2="157.48" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="134.62" y="-139.7"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -17944,13 +17912,6 @@ FET-buffer, for mobile phone input</text>
 <wire x1="106.68" y1="-73.66" x2="106.68" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="157.48" y1="-154.94" x2="157.48" y2="-157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -18084,6 +18045,16 @@ FET-buffer, for mobile phone input</text>
 <instance part="J7" gate="G$1" x="86.36" y="180.34" rot="R90"/>
 <instance part="SUPPLY9" gate="GND" x="86.36" y="193.04" rot="R180"/>
 <instance part="SUPPLY10" gate="GND" x="73.66" y="193.04" rot="R180"/>
+<instance part="J2" gate="G$1" x="152.4" y="193.04" rot="R180"/>
+<instance part="P+3" gate="1" x="142.24" y="210.82"/>
+<instance part="GND6" gate="1" x="142.24" y="182.88" smashed="yes">
+<attribute name="VALUE" x="139.7" y="180.34" size="1.778" layer="96" ratio="12"/>
+</instance>
+<instance part="LED2" gate="G$1" x="165.1" y="182.88"/>
+<instance part="GND9" gate="1" x="165.1" y="172.72" smashed="yes">
+<attribute name="VALUE" x="162.56" y="170.18" size="1.778" layer="96" ratio="12"/>
+</instance>
+<instance part="R3" gate="G$1" x="165.1" y="193.04" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -18150,6 +18121,17 @@ FET-buffer, for mobile phone input</text>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="190.5" x2="73.66" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="144.78" y1="190.5" x2="142.24" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="190.5" x2="142.24" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="165.1" y1="177.8" x2="165.1" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -18229,6 +18211,17 @@ FET-buffer, for mobile phone input</text>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="25.4" y1="203.2" x2="25.4" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="195.58" x2="30.48" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="P+3" gate="1" pin="+12V"/>
+<wire x1="144.78" y1="193.04" x2="142.24" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="193.04" x2="142.24" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="203.2" x2="142.24" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="203.2" x2="165.1" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="203.2" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
+<junction x="142.24" y="203.2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -18435,6 +18428,13 @@ FET-buffer, for mobile phone input</text>
 <junction x="55.88" y="195.58"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="195.58" x2="55.88" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="165.1" y1="187.96" x2="165.1" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
