@@ -2132,7 +2132,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="95.488" y="4.148" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="92.188" y="4.148" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" package="SO08" value="OPA2134UA" x="44.45" y="7.62" smashed="yes" rot="R270">
+<element name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" package="SO08" value="OPA1642" x="44.45" y="7.62" smashed="yes" rot="R270">
 <attribute name="NAME" x="42.545" y="10.287" size="0.8128" layer="25"/>
 </element>
 <element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="LED3MM" value="" x="91.44" y="2.794" smashed="yes" rot="R270">

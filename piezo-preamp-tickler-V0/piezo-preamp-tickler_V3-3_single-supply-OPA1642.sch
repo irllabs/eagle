@@ -15861,7 +15861,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="TO-PHONE" library="Daniel" deviceset="AUDIO-JACK3" device="LGPADS"/>
 <part name="TO-HEADSET" library="Daniel" deviceset="AUDIO-JACK3" device="LGPADS"/>
-<part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="OPA2*" device="UA" technology="134" value="OPA2134UA"/>
+<part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="OPA2*" device="UA" technology="134" value="OPA1642"/>
 <part name="PIEZO" library="adafruit" deviceset="JST_2PIN" device="-THM"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
