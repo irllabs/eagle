@@ -12512,9 +12512,9 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
-<text x="66.04" y="182.88" size="1.778" layer="91">Voltage Regulation</text>
-<text x="-5.08" y="182.88" size="1.778" layer="91">Battery Charging</text>
-<text x="134.62" y="182.88" size="1.778" layer="91">Power LED</text>
+<text x="109.22" y="38.1" size="1.778" layer="91">Voltage Regulation</text>
+<text x="38.1" y="38.1" size="1.778" layer="91">Battery Charging</text>
+<text x="177.8" y="38.1" size="1.778" layer="91">Power LED</text>
 </plain>
 <instances>
 <instance part="C3" gate="G$1" x="45.72" y="88.9" smashed="yes">
@@ -12568,28 +12568,28 @@ Source: www.kingbright.com</description>
 <instance part="GND10" gate="1" x="185.42" y="60.96" smashed="yes">
 <attribute name="VALUE" x="182.88" y="58.42" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="LED1" gate="G$1" x="142.24" y="152.4"/>
-<instance part="GND1" gate="1" x="142.24" y="142.24" smashed="yes">
-<attribute name="VALUE" x="139.7" y="139.7" size="1.778" layer="96" ratio="12"/>
+<instance part="LED1" gate="G$1" x="185.42" y="7.62"/>
+<instance part="GND1" gate="1" x="185.42" y="-2.54" smashed="yes">
+<attribute name="VALUE" x="182.88" y="-5.08" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="R10" gate="G$1" x="142.24" y="162.56" rot="R90"/>
-<instance part="J_REG_12V" gate="J_REG_5V" x="76.2" y="165.1"/>
-<instance part="GND12" gate="1" x="76.2" y="144.78" smashed="yes">
-<attribute name="VALUE" x="73.66" y="142.24" size="1.778" layer="96" ratio="12"/>
+<instance part="R10" gate="G$1" x="185.42" y="17.78" rot="R90"/>
+<instance part="J_REG_12V" gate="J_REG_5V" x="119.38" y="20.32"/>
+<instance part="GND12" gate="1" x="119.38" y="0" smashed="yes">
+<attribute name="VALUE" x="116.84" y="-2.54" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="U$2" gate="G$1" x="53.34" y="170.18"/>
-<instance part="P+1" gate="1" x="101.6" y="172.72"/>
-<instance part="U$3" gate="G$1" x="142.24" y="175.26"/>
+<instance part="U$2" gate="G$1" x="96.52" y="25.4"/>
+<instance part="P+1" gate="1" x="144.78" y="27.94"/>
+<instance part="U$3" gate="G$1" x="185.42" y="30.48"/>
 <instance part="P+5" gate="1" x="109.22" y="119.38"/>
-<instance part="USB-LIPO-CHARGER" gate="G$1" x="-10.16" y="160.02"/>
-<instance part="U$8" gate="G$1" x="5.08" y="172.72"/>
-<instance part="GND13" gate="1" x="5.08" y="149.86" smashed="yes">
-<attribute name="VALUE" x="2.54" y="147.32" size="1.778" layer="96" ratio="12"/>
+<instance part="USB-LIPO-CHARGER" gate="G$1" x="33.02" y="15.24"/>
+<instance part="U$8" gate="G$1" x="48.26" y="27.94"/>
+<instance part="GND13" gate="1" x="48.26" y="5.08" smashed="yes">
+<attribute name="VALUE" x="45.72" y="2.54" size="1.778" layer="96" ratio="12"/>
 </instance>
 <instance part="P+6" gate="1" x="38.1" y="114.3"/>
-<instance part="POWER" gate="G$1" x="12.7" y="157.48"/>
+<instance part="POWER" gate="G$1" x="55.88" y="12.7"/>
 <instance part="P+2" gate="1" x="22.86" y="81.28"/>
-<instance part="BATTERY" gate="G$1" x="30.48" y="162.56" rot="R180"/>
+<instance part="BATTERY" gate="G$1" x="73.66" y="17.78" rot="R180"/>
 <instance part="R3" gate="G$1" x="119.38" y="71.12"/>
 <instance part="C2" gate="G$1" x="165.1" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="163.703" y="74.1426" size="1.778" layer="95" ratio="12"/>
@@ -12635,18 +12635,18 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="142.24" y1="147.32" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="2.54" x2="185.42" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J_REG_12V" gate="J_REG_5V" pin="GND"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="76.2" y1="152.4" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="7.62" x2="119.38" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="USB-LIPO-CHARGER" gate="G$1" pin="OUT-"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="2.54" y1="154.94" x2="5.08" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="154.94" x2="5.08" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="10.16" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -12695,19 +12695,19 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VBAT"/>
 <pinref part="J_REG_12V" gate="J_REG_5V" pin="VIN"/>
-<wire x1="53.34" y1="167.64" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="165.1" x2="60.96" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="22.86" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="20.32" x2="104.14" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="U$3" gate="G$1" pin="VBAT"/>
-<wire x1="142.24" y1="167.64" x2="142.24" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="22.86" x2="185.42" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="USB-LIPO-CHARGER" gate="G$1" pin="OUT+"/>
 <pinref part="U$8" gate="G$1" pin="VBAT"/>
-<wire x1="2.54" y1="165.1" x2="5.08" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="165.1" x2="5.08" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="20.32" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="20.32" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -12749,14 +12749,14 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="142.24" y1="157.48" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="12.7" x2="185.42" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="J_REG_12V" gate="J_REG_5V" pin="VOUT"/>
-<wire x1="91.44" y1="165.1" x2="101.6" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="165.1" x2="101.6" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="20.32" x2="144.78" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="20.32" x2="144.78" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
 </segment>
 <segment>
@@ -12779,21 +12779,21 @@ Source: www.kingbright.com</description>
 <net name="N$18" class="0">
 <segment>
 <pinref part="USB-LIPO-CHARGER" gate="G$1" pin="B+"/>
-<wire x1="2.54" y1="162.56" x2="22.86" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="BATTERY" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="USB-LIPO-CHARGER" gate="G$1" pin="B-"/>
-<wire x1="7.62" y1="157.48" x2="2.54" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="12.7" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="POWER" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="POWER" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="160.02" x2="22.86" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="BATTERY" gate="G$1" pin="2"/>
 </segment>
 </net>
