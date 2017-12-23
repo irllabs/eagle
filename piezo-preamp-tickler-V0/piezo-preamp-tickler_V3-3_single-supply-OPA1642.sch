@@ -15957,11 +15957,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <wire x1="218.44" y1="-10.16" x2="157.48" y2="-10.16" width="0.1524" layer="98"/>
 <text x="-88.9" y="76.2" size="1.778" layer="91">"A Discrete FET Guitar Preamp" by J. Donald Tillman</text>
 <text x="160.02" y="53.34" size="1.778" layer="91">"Simple JFET Preamp for an iDevice Guitar Interface"</text>
-<wire x1="7.62" y1="162.56" x2="-53.34" y2="162.56" width="0.1524" layer="98"/>
-<wire x1="-53.34" y1="162.56" x2="-53.34" y2="127" width="0.1524" layer="98"/>
-<wire x1="-53.34" y1="127" x2="7.62" y2="127" width="0.1524" layer="98"/>
-<wire x1="7.62" y1="127" x2="7.62" y2="162.56" width="0.1524" layer="98"/>
-<text x="-15.24" y="154.94" size="5.08" layer="91">Power</text>
 <text x="299.72" y="45.72" size="1.778" layer="91">T - Left
 R1 - Right
 R2 - Ground
@@ -16013,22 +16008,22 @@ the buffer stage are no longer connected </text>
 <attribute name="NAME" x="264.922" y="37.338" size="1.778" layer="95"/>
 <attribute name="VALUE" x="264.922" y="32.512" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="-17.78" y="142.24"/>
+<instance part="C2" gate="G$1" x="81.28" y="66.04"/>
 <instance part="C1" gate="G$1" x="99.06" y="30.48" rot="R90"/>
 <instance part="C3" gate="G$1" x="43.18" y="48.26"/>
 <instance part="R14" gate="G$1" x="-60.96" y="38.1"/>
-<instance part="P+3" gate="1" x="-48.26" y="157.48"/>
+<instance part="P+3" gate="1" x="101.6" y="81.28"/>
 <instance part="Q2" gate="G$1" x="193.04" y="33.02"/>
 <instance part="SUPPLY3" gate="GND" x="20.32" y="7.62"/>
 <instance part="SUPPLY4" gate="GND" x="-71.12" y="12.7"/>
-<instance part="SUPPLY5" gate="GND" x="-17.78" y="132.08"/>
+<instance part="SUPPLY5" gate="GND" x="81.28" y="53.34"/>
 <instance part="R13" gate="G$1" x="-45.72" y="45.72" rot="R270"/>
 <instance part="U$2" gate="G$1" x="132.08" y="38.1"/>
 <instance part="U$4" gate="G$1" x="71.12" y="22.86" rot="MR180"/>
 <instance part="D4" gate="G$1" x="-38.1" y="38.1" rot="R90"/>
 <instance part="C4" gate="G$1" x="53.34" y="48.26"/>
 <instance part="C6" gate="G$1" x="45.72" y="27.94" rot="R90"/>
-<instance part="L1" gate="G$1" x="-30.48" y="147.32" rot="R90"/>
+<instance part="L1" gate="G$1" x="93.98" y="73.66" rot="R270"/>
 <instance part="U$1" gate="G$1" x="279.4" y="0" rot="R180"/>
 </instances>
 <busses>
@@ -16100,7 +16095,7 @@ the buffer stage are no longer connected </text>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="-17.78" y1="137.16" x2="-17.78" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="60.96" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -16259,30 +16254,28 @@ the buffer stage are no longer connected </text>
 <net name="+12V" class="0">
 <segment>
 <pinref part="P+3" gate="1" pin="+12V"/>
-<wire x1="-48.26" y1="154.94" x2="-48.26" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="78.74" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="-48.26" y1="147.32" x2="-38.1" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="147.32" x2="-17.78" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="73.66" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="35.56" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="A" pin="V+"/>
-<wire x1="20.32" y1="68.58" x2="-7.62" y2="68.58" width="0.1524" layer="91"/>
 <junction x="20.32" y="68.58"/>
-<wire x1="-17.78" y1="147.32" x2="-7.62" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="147.32" x2="-7.62" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="73.66" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="C2"/>
 <wire x1="-38.1" y1="43.18" x2="-38.1" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="68.58" x2="-7.62" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-7.62" y="68.58"/>
+<wire x1="-38.1" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
+<junction x="20.32" y="68.58"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="147.32" x2="-22.86" y2="147.32" width="0.1524" layer="91"/>
-<junction x="-17.78" y="147.32"/>
+<wire x1="81.28" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
+<junction x="81.28" y="73.66"/>
 </segment>
 </net>
 <net name="N$2" class="0">
