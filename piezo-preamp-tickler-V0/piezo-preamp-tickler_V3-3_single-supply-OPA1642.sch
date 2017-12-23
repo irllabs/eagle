@@ -15924,7 +15924,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54S" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="C4" library="adafruit" deviceset="C-US" device="C0805K" value="0.1uF"/>
 <part name="C6" library="microbuilder" deviceset="CAP_TANTALUM" device="A/3216_REFLOW" value="100uF"/>
-<part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3225P" package3d_urn="urn:adsk.eagle:package:23479/1"/>
+<part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3225P" package3d_urn="urn:adsk.eagle:package:23479/1" value="100uH"/>
 <part name="U$1" library="CMU-ArtFab" deviceset="TRS-1/8&quot;-3.5MM" device=""/>
 <part name="U$5" library="CMU-ArtFab" deviceset="TPS7A49" device=""/>
 <part name="C5" library="adafruit" deviceset="C-US" device="C0603" value="10nF"/>

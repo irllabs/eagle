@@ -2223,7 +2223,7 @@ design rules under a new name.</description>
 <element name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAT54S" x="0.762" y="-10.922"/>
 <element name="C4" library="adafruit" package="C0805K" value="0.1uF" x="0.254" y="-17.018"/>
 <element name="C6" library="microbuilder" package="EIA3216-18/A-R" value="100uF" x="3.048" y="-20.828"/>
-<element name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3225P" package3d_urn="urn:adsk.eagle:package:23479/1" value="" x="0.762" y="-25.908">
+<element name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3225P" package3d_urn="urn:adsk.eagle:package:23479/1" value="100uH" x="0.762" y="-25.908">
 <attribute name="SPICEPREFIX" value="L" x="0.762" y="-25.908" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$1" library="CMU-ArtFab" package="TRS_SJ-3524-SMT" value="TRS-1/8&quot;-3.5MM" x="-11.176" y="-19.558"/>
