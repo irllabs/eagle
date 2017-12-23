@@ -16348,9 +16348,9 @@ the buffer stage are no longer connected </text>
 <sheet>
 <plain>
 <text x="30.48" y="86.36" size="1.778" layer="91">Voltage Regulation: Step-Up to V+ = ~13V</text>
-<text x="55.88" y="203.2" size="1.778" layer="91">Battery Charging</text>
+<text x="25.4" y="142.24" size="1.778" layer="91">Battery Charging</text>
 <text x="223.52" y="86.36" size="1.778" layer="91">Power LED</text>
-<text x="81.28" y="154.94" size="1.778" layer="91">Battery Protection</text>
+<text x="127" y="152.4" size="1.778" layer="91">Battery Protection</text>
 <text x="119.38" y="86.36" size="1.778" layer="91">Voltage Regulation: LDO step-down to 12V</text>
 </plain>
 <instances>
@@ -16360,9 +16360,9 @@ the buffer stage are no longer connected </text>
 </instance>
 <instance part="R12" gate="G$1" x="231.14" y="66.04" rot="R90"/>
 <instance part="U$3" gate="G$1" x="231.14" y="78.74"/>
-<instance part="U$8" gate="G$1" x="180.34" y="172.72"/>
-<instance part="POWER" gate="G$1" x="187.96" y="157.48"/>
-<instance part="BATTERY1" gate="G$1" x="205.74" y="162.56" rot="R180"/>
+<instance part="U$8" gate="G$1" x="226.06" y="170.18"/>
+<instance part="POWER" gate="G$1" x="233.68" y="154.94"/>
+<instance part="BATTERY1" gate="G$1" x="251.46" y="160.02" rot="R180"/>
 <instance part="U$6" gate="G$1" x="-5.08" y="76.2"/>
 <instance part="D7" gate="G$1" x="55.88" y="71.12" smashed="yes">
 <attribute name="NAME" x="50.8" y="71.6026" size="1.778" layer="95"/>
@@ -16386,29 +16386,29 @@ the buffer stage are no longer connected </text>
 <instance part="GND4" gate="1" x="12.7" y="40.64"/>
 <instance part="GND6" gate="1" x="48.26" y="45.72"/>
 <instance part="P+2" gate="1" x="132.08" y="78.74"/>
-<instance part="J1" gate="G$1" x="33.02" y="182.88" rot="R180"/>
-<instance part="TP4056" gate="G$1" x="83.82" y="182.88"/>
-<instance part="DW01A" gate="G$1" x="88.9" y="134.62"/>
-<instance part="F8205A" gate="G$1" x="121.92" y="109.22" rot="MR0"/>
-<instance part="R20" gate="G$1" x="58.42" y="185.42" rot="R180"/>
-<instance part="LED2" gate="G$1" x="114.3" y="195.58"/>
-<instance part="LED3" gate="G$1" x="119.38" y="185.42"/>
-<instance part="U$11" gate="G$1" x="104.14" y="175.26" rot="R270"/>
-<instance part="R21" gate="G$1" x="111.76" y="180.34" rot="R180"/>
-<instance part="R22" gate="G$1" x="106.68" y="185.42" rot="R180"/>
-<instance part="P+1" gate="1" x="114.3" y="203.2"/>
-<instance part="P+4" gate="1" x="43.18" y="180.34"/>
-<instance part="R23" gate="G$1" x="124.46" y="134.62" rot="R180"/>
-<instance part="U$12" gate="G$1" x="137.16" y="134.62" rot="R270"/>
-<instance part="R24" gate="G$1" x="60.96" y="129.54" rot="R270"/>
-<instance part="GND7" gate="1" x="60.96" y="116.84" smashed="yes">
-<attribute name="VALUE" x="58.42" y="114.3" size="1.778" layer="96" ratio="12"/>
+<instance part="J1" gate="G$1" x="2.54" y="121.92" rot="R180"/>
+<instance part="TP4056" gate="G$1" x="53.34" y="121.92"/>
+<instance part="DW01A" gate="G$1" x="134.62" y="132.08"/>
+<instance part="F8205A" gate="G$1" x="167.64" y="106.68" rot="MR0"/>
+<instance part="R20" gate="G$1" x="27.94" y="124.46" rot="R180"/>
+<instance part="LED2" gate="G$1" x="83.82" y="134.62"/>
+<instance part="LED3" gate="G$1" x="88.9" y="124.46"/>
+<instance part="U$11" gate="G$1" x="73.66" y="114.3" rot="R270"/>
+<instance part="R21" gate="G$1" x="81.28" y="119.38" rot="R180"/>
+<instance part="R22" gate="G$1" x="76.2" y="124.46" rot="R180"/>
+<instance part="P+1" gate="1" x="83.82" y="142.24"/>
+<instance part="P+4" gate="1" x="12.7" y="119.38"/>
+<instance part="R23" gate="G$1" x="170.18" y="132.08" rot="R180"/>
+<instance part="U$12" gate="G$1" x="182.88" y="132.08" rot="R270"/>
+<instance part="R24" gate="G$1" x="106.68" y="127" rot="R270"/>
+<instance part="GND7" gate="1" x="106.68" y="114.3" smashed="yes">
+<attribute name="VALUE" x="104.14" y="111.76" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="GND8" gate="1" x="91.44" y="104.14" smashed="yes">
-<attribute name="VALUE" x="88.9" y="101.6" size="1.778" layer="96" ratio="12"/>
+<instance part="GND8" gate="1" x="137.16" y="101.6" smashed="yes">
+<attribute name="VALUE" x="134.62" y="99.06" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="C12" gate="G$1" x="114.3" y="137.16" rot="R180"/>
-<instance part="C10" gate="G$1" x="50.8" y="177.8" rot="R180"/>
+<instance part="C12" gate="G$1" x="160.02" y="134.62" rot="R180"/>
+<instance part="C10" gate="G$1" x="20.32" y="116.84" rot="R180"/>
 <instance part="U$5" gate="G$1" x="144.78" y="60.96"/>
 <instance part="C5" gate="G$1" x="124.46" y="66.04"/>
 <instance part="C7" gate="G$1" x="106.68" y="66.04"/>
@@ -16458,18 +16458,18 @@ the buffer stage are no longer connected </text>
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="60.96" y1="124.46" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="121.92" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="F8205A" gate="G$1" pin="7S2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="104.14" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="111.76" x2="91.44" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="111.76" x2="91.44" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="109.22" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="F8205A" gate="G$1" pin="6S2"/>
-<wire x1="104.14" y1="106.68" x2="99.06" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="106.68" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-<junction x="99.06" y="111.76"/>
+<wire x1="149.86" y1="104.14" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="104.14" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
+<junction x="144.78" y="109.22"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -16503,8 +16503,8 @@ the buffer stage are no longer connected </text>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="VBAT"/>
-<wire x1="180.34" y1="162.56" x2="180.34" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="162.56" x2="198.12" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="160.02" x2="226.06" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="BATTERY1" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -16527,12 +16527,12 @@ the buffer stage are no longer connected </text>
 <segment>
 <pinref part="U$11" gate="G$1" pin="VBAT"/>
 <pinref part="TP4056" gate="G$1" pin="5BAT"/>
-<wire x1="101.6" y1="175.26" x2="99.06" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="VBAT"/>
 <pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -16544,22 +16544,22 @@ the buffer stage are no longer connected </text>
 </net>
 <net name="N$20" class="0">
 <segment>
-<wire x1="182.88" y1="157.48" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="154.94" x2="200.66" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="POWER" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="157.48" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="154.94" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="F8205A" gate="G$1" pin="3S1"/>
-<wire x1="139.7" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="106.68" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="104.14" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="F8205A" gate="G$1" pin="2S1"/>
-<wire x1="142.24" y1="111.76" x2="139.7" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
-<junction x="142.24" y="111.76"/>
+<wire x1="187.96" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="109.22" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
+<junction x="187.96" y="109.22"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="POWER" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="160.02" x2="198.12" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="157.48" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="BATTERY1" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -16602,20 +16602,20 @@ the buffer stage are no longer connected </text>
 <net name="N$33" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
-<wire x1="38.1" y1="187.96" x2="50.8" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="187.96" x2="53.34" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="187.96" x2="53.34" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="127" x2="20.32" y2="127" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="127" x2="22.86" y2="127" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="127" x2="22.86" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="185.42" x2="53.34" y2="187.96" width="0.1524" layer="91"/>
-<junction x="53.34" y="187.96"/>
+<wire x1="22.86" y1="124.46" x2="22.86" y2="127" width="0.1524" layer="91"/>
+<junction x="22.86" y="127"/>
 <pinref part="TP4056" gate="G$1" pin="1TEMP"/>
-<wire x1="53.34" y1="190.5" x2="68.58" y2="190.5" width="0.1524" layer="91"/>
-<junction x="53.34" y="185.42"/>
-<wire x1="53.34" y1="185.42" x2="53.34" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<junction x="22.86" y="124.46"/>
+<wire x1="22.86" y1="124.46" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="TP4056" gate="G$1" pin="3GND"/>
-<wire x1="53.34" y1="180.34" x2="68.58" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="182.88" x2="50.8" y2="187.96" width="0.1524" layer="91"/>
-<junction x="50.8" y="187.96"/>
+<wire x1="22.86" y1="119.38" x2="38.1" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="121.92" x2="20.32" y2="127" width="0.1524" layer="91"/>
+<junction x="20.32" y="127"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -16623,67 +16623,67 @@ the buffer stage are no longer connected </text>
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="TP4056" gate="G$1" pin="2PROG"/>
-<wire x1="63.5" y1="185.42" x2="68.58" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="TP4056" gate="G$1" pin="7CHRG"/>
 <pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="185.42" x2="101.6" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="124.46" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="TP4056" gate="G$1" pin="6SDBY"/>
 <pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="180.34" x2="106.68" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="116.84" y1="180.34" x2="119.38" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="119.38" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="114.3" y1="190.5" x2="114.3" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="129.54" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="185.42" x2="111.76" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V+" class="0">
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="114.3" y1="200.66" x2="114.3" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="200.66" x2="119.38" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="139.7" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="139.7" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="119.38" y1="200.66" x2="119.38" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="139.7" x2="88.9" y2="127" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="V+"/>
-<junction x="114.3" y="200.66"/>
+<junction x="83.82" y="139.7"/>
 </segment>
 <segment>
 <pinref part="TP4056" gate="G$1" pin="4VCC"/>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
-<wire x1="68.58" y1="175.26" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="175.26" x2="45.72" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="175.26" x2="43.18" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="175.26" x2="38.1" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="175.26" x2="45.72" y2="198.12" width="0.1524" layer="91"/>
-<junction x="45.72" y="175.26"/>
-<wire x1="45.72" y1="198.12" x2="101.6" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="198.12" x2="101.6" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="114.3" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="114.3" x2="15.24" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="114.3" x2="12.7" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="114.3" x2="7.62" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="114.3" x2="7.62" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="114.3" x2="15.24" y2="137.16" width="0.1524" layer="91"/>
+<junction x="15.24" y="114.3"/>
+<wire x1="15.24" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="137.16" x2="71.12" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="TP4056" gate="G$1" pin="8CE"/>
-<wire x1="101.6" y1="190.5" x2="99.06" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="129.54" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="V+"/>
-<wire x1="43.18" y1="177.8" x2="43.18" y2="175.26" width="0.1524" layer="91"/>
-<junction x="43.18" y="175.26"/>
+<wire x1="12.7" y1="116.84" x2="12.7" y2="114.3" width="0.1524" layer="91"/>
+<junction x="12.7" y="114.3"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<junction x="50.8" y="175.26"/>
+<junction x="20.32" y="114.3"/>
 </segment>
 <segment>
 <wire x1="58.42" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
@@ -16721,37 +16721,37 @@ the buffer stage are no longer connected </text>
 <net name="N$34" class="0">
 <segment>
 <pinref part="DW01A" gate="G$1" pin="1OD"/>
-<wire x1="71.12" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="142.24" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="149.86" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="139.7" x2="114.3" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="139.7" x2="114.3" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="147.32" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="F8205A" gate="G$1" pin="4G1"/>
-<wire x1="149.86" y1="101.6" x2="139.7" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="99.06" x2="185.42" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="DW01A" gate="G$1" pin="3OC"/>
-<wire x1="71.12" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="127" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="124.46" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="124.46" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="F8205A" gate="G$1" pin="5G2"/>
-<wire x1="68.58" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="99.06" x2="149.86" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
 <pinref part="DW01A" gate="G$1" pin="5VCC"/>
-<wire x1="106.68" y1="134.62" x2="114.3" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="132.08" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="134.62" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
-<junction x="114.3" y="134.62"/>
+<wire x1="160.02" y1="132.08" x2="165.1" y2="132.08" width="0.1524" layer="91"/>
+<junction x="160.02" y="132.08"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="DW01A" gate="G$1" pin="6GND"/>
-<wire x1="106.68" y1="142.24" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="139.7" x2="160.02" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -16759,18 +16759,18 @@ the buffer stage are no longer connected </text>
 <segment>
 <pinref part="DW01A" gate="G$1" pin="2CS"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="134.62" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="132.08" x2="106.68" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$44" class="0">
 <segment>
 <pinref part="F8205A" gate="G$1" pin="1D1"/>
-<wire x1="139.7" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="116.84" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="121.92" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="114.3" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="119.38" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="F8205A" gate="G$1" pin="8D2"/>
-<wire x1="101.6" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
