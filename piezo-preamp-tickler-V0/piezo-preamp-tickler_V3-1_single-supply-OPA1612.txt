@@ -1,0 +1,65 @@
+Partlist
+
+Exported from piezo-preamp-tickler_V3-1_single-supply-OPA1612.sch at 12/3/17 3:35 PM
+
+EAGLE Version 8.4.3 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value              Device           Package              Library             Sheet
+
+C1       10uF               C-USC1206        C1206                adafruit            1
+C1A      10uF               CPOL-USE2,5-6E   E2,5-6E              rcl                 1
+C2       10uF               C-USC1206        C1206                rcl                 1
+C2A      10uF               CPOL-USE2,5-6E   E2,5-6E              rcl                 1
+C3       100uF              C-USC1206        C1206                adafruit            1
+C3A      100uF              CPOL-USE2,5-6E   E2,5-6E              rcl                 1
+C4       0.1uF              C-USC0805K       C0805K               adafruit            1
+C4A      0.1uF              CPOL-USE2,5-6E   E2,5-6E              rcl                 1
+C5       0.1uF              C-USC0805K       C0805K               adafruit            1
+C5A      0.1uF              CPOL-USE2,5-6E   E2,5-6E              rcl                 1
+C6       10uF               C-USC1206        C1206                adafruit            1
+C6A      10uF               CPOL-USE2,5-6E   E2,5-6E              rcl                 1
+CN1                         JST_2PIN-THM     JST-PH-2-THM         adafruit            1
+D1       1N4148W            ZENER-DIOD       SOD123               CMU-ArtFab          1
+D2       1N4148W            ZENER-DIOD       SOD123               CMU-ArtFab          1
+HEADSET  SJ-43514           TRRS-3.5MMLGPADS TRRS_SJ-43514-SMT-TR CMU-ArtFab          1
+IC1      OPA1612            OPA2134UA        SO08                 linear              1
+J1                          CONN_02LOCK      1X02_LOCK            SparkFun-Connectors 1
+J2       phone/mixer-switch CONN_03LOCK      1X03_LOCK            SparkFun-Connectors 1
+J3       phone/mixer-switch CONN_03LOCK      1X03_LOCK            SparkFun-Connectors 1
+L1       100uH              LBC-SE           LBC-SE               inductors           1
+LED1                        LED3MM           LED3MM               led                 1
+PHONE    SJ-43514           TRRS-3.5MMLGPADS TRRS_SJ-43514-SMT-TR CMU-ArtFab          1
+Q1       J201               SST5484          SOT23                transistor-fet      1
+Q1A      2N5486             2N5486           TO92-                CMU-ArtFab          1
+Q2       MMBFJ201           SST5484          SOT23                transistor-fet      1
+Q2A      2N5486             2N5486           TO92-                CMU-ArtFab          1
+R1       100K               R-US_R0603       R0603                CMU-ArtFab          1
+R1A      100K               R-US_0204/2V     0204V                CMU-ArtFab          1
+R2       10M                R-US_R0603       R0603                CMU-ArtFab          1
+R2A      10M                R-US_0204/2V     0204V                CMU-ArtFab          1
+R3       1.2K               R-US_R0603       R0603                CMU-ArtFab          1
+R3A      1.2K               R-US_0204/2V     0204V                CMU-ArtFab          1
+R4       2.2K               R-US_R0603       R0603                CMU-ArtFab          1
+R4A      2.2K               R-US_0204/2V     0204V                CMU-ArtFab          1
+R5       2.2K               R-US_R0603       R0603                CMU-ArtFab          1
+R5A      2.2K               R-US_0204/2V     0204V                CMU-ArtFab          1
+R6       100K               R-US_R0603       R0603                CMU-ArtFab          1
+R6A      100K               R-US_0204/2V     0204V                CMU-ArtFab          1
+R7       100K               R-US_R0603       R0603                CMU-ArtFab          1
+R7A      100K               R-US_0204/2V     0204V                CMU-ArtFab          1
+R8       220                R-US_R0603       R0603                CMU-ArtFab          1
+R8A      220                R-US_0204/2V     0204V                CMU-ArtFab          1
+R9       220                R-US_R0603       R0603                CMU-ArtFab          1
+R9A      220                R-US_0204/2V     0204V                CMU-ArtFab          1
+R10      1K                 R-US_R0603       R0603                CMU-ArtFab          1
+R10A     1K                 R-US_0204/2V     0204V                CMU-ArtFab          1
+R11      1M                 R-US_R0603       R0603                CMU-ArtFab          1
+R11A     1M                 R-US_0204/2V     0204V                CMU-ArtFab          1
+R12      1.2K               R-US_R0603       R0603                CMU-ArtFab          1
+R12A     1.2K               R-US_0204/2V     0204V                CMU-ArtFab          1
+R13      2.2K               R-US_R0603       R0603                CMU-ArtFab          1
+R13A     2.2K               R-US_0204/2V     0204V                CMU-ArtFab          1
+R14      1.2K               R-US_0204/2V     0204V                CMU-ArtFab          1
+R15      20K                POTTRIMPOT-MULTI TRIMPOT-MULTI        CMU-ArtFab          1
