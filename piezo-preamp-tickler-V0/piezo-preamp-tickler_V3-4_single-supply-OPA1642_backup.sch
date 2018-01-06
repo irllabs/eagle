@@ -3783,8 +3783,8 @@ http://www.taydaelectronics.com/datasheets/A-1847.pdf</description>
 <device name="POT-THUMB-ALPHA" package="POT-THUMB-14MM_ALPHA-RV100F-30-4K1B-B10K-B301">
 <connects>
 <connect gate="G$1" pin="IN" pad="P$1"/>
-<connect gate="G$1" pin="OUT" pad="P$3"/>
-<connect gate="G$1" pin="WIPER" pad="P$2"/>
+<connect gate="G$1" pin="OUT" pad="P$2"/>
+<connect gate="G$1" pin="WIPER" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3874,7 +3874,7 @@ http://www.taydaelectronics.com/datasheets/A-1847.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SC4503" prefix="IC">
+<deviceset name="SC4503" prefix="Q">
 <gates>
 <gate name="G$1" symbol="SC4503" x="0" y="0"/>
 </gates>
@@ -16298,10 +16298,10 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="OPA2*" device="UA" technology="134" value="OPA1642"/>
 <part name="CN1" library="adafruit" deviceset="JST_2PIN" device="-THM"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" value="Power"/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R12" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="390"/>
-<part name="U1" library="microbuilder" deviceset="VBAT" device=""/>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM"/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R21" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="390"/>
+<part name="U5" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="SW2" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="CL-SB-12B" value="INPUT-select"/>
 <part name="C4" library="adafruit" deviceset="C-US" device="C0805K" value="0.1uF"/>
 <part name="C5" library="adafruit" deviceset="C-US" device="C0805" value="10uF"/>
@@ -16315,56 +16315,56 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="R2" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10M"/>
 <part name="SW1" library="CMU-ArtFab" deviceset="SWITCH_DPDT" device=""/>
 <part name="R6" library="CMU-ArtFab" deviceset="POT" device="POT-THUMB-ALPHA" value="50K"/>
-<part name="U5" library="microbuilder" deviceset="VBAT" device=""/>
+<part name="U4" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="D2" library="SparkFun" deviceset="DIODE" device="SMA" value="10BQ015"/>
 <part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="68uF"/>
-<part name="GND6" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND10" library="SparkFun" deviceset="GND" device=""/>
-<part name="R18" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="R19" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="C10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="2.2pf"/>
-<part name="R17" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="15k"/>
-<part name="C9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="56nf"/>
+<part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND7" library="SparkFun" deviceset="GND" device=""/>
+<part name="R17" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R18" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="C10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="2.2pf"/>
+<part name="R16" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="15k"/>
+<part name="C9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="56nf"/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND6" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54S" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="C3" library="adafruit" deviceset="C-US" device="C0805K" value="0.1uF"/>
 <part name="C2" library="microbuilder" deviceset="CAP_TANTALUM" device="A/3216_REFLOW" value="100uF"/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3225P" package3d_urn="urn:adsk.eagle:package:23479/1" value="100uH"/>
-<part name="IC6" library="CMU-ArtFab" deviceset="TPS7A49" device=""/>
+<part name="IC5" library="CMU-ArtFab" deviceset="TPS7A49" device=""/>
 <part name="C13" library="adafruit" deviceset="C-US" device="C0603" value="10nF"/>
 <part name="C12" library="adafruit" deviceset="C-US" device="C0603" value="10uF"/>
-<part name="R20" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="91.2k"/>
-<part name="R21" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="GND11" library="SparkFun" deviceset="GND" device=""/>
+<part name="R19" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="91.2k"/>
+<part name="R20" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="GND10" library="SparkFun" deviceset="GND" device=""/>
 <part name="C14" library="adafruit" deviceset="C-US" device="C0603" value="10nF"/>
 <part name="C15" library="adafruit" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="U4" library="microbuilder" deviceset="VBAT" device=""/>
+<part name="U3" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="SW3" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="CL-SB-12B" value="SPDT"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_02" device="LOCK" value="Battery"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="USB_MICRO-B" device="REDUCED_PASTE"/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" value="Charge"/>
-<part name="U2" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="R14" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="1k"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM"/>
+<part name="U1" library="microbuilder" deviceset="VBAT" device=""/>
+<part name="R13" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="1k"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="IC3" library="CMU-ArtFab" deviceset="BQ21040-LIPO-CHARGER" device="" value="BQ21040"/>
-<part name="R15" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R13" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R14" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R12" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="C6" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="IC4" library="CMU-ArtFab" deviceset="BQ297X-BATTERY-MANAGER" device="" value="BQ297X"/>
-<part name="U3" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R16" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="330"/>
+<part name="U2" library="microbuilder" deviceset="VBAT" device=""/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R15" library="CMU-ArtFab" deviceset="R-US_" device="R0805" value="330"/>
 <part name="C7" library="adafruit" deviceset="C-US" device="C0805K" value="0.1uF"/>
 <part name="IC2" library="CMU-ArtFab" deviceset="DUAL-NFET-DMN2400" device="" value="DMN2400"/>
-<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC5" library="CMU-ArtFab" deviceset="SC4503" device=""/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="Q2" library="CMU-ArtFab" deviceset="SC4503" device=""/>
 <part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="CR54" value="2.7uH"/>
 <part name="J3" library="CMU-ArtFab" deviceset="TRS-1/8&quot;-3.5MM" device="" value="Mixer"/>
 <part name="J1" library="CMU-ArtFab" deviceset="TRRS-1/8&quot;-3.5MM" device="LGPADS" value="HEADPHONES"/>
@@ -16769,70 +16769,70 @@ the buffer stage are no longer connected </text>
 <sheet>
 <plain>
 <text x="281.94" y="190.5" size="1.778" layer="91">Voltage Regulation: Step-Up to V+ = ~13V</text>
-<text x="0" y="187.96" size="1.778" layer="91">Power LED</text>
+<text x="474.98" y="190.5" size="1.778" layer="91">Power LED</text>
 <text x="370.84" y="190.5" size="1.778" layer="91">Voltage Regulation: LDO step-down to 12V</text>
 <text x="121.92" y="210.82" size="1.778" layer="91">Battery Charging</text>
 </plain>
 <instances>
-<instance part="LED1" gate="G$1" x="7.62" y="157.48"/>
-<instance part="GND3" gate="1" x="7.62" y="147.32" smashed="yes">
-<attribute name="VALUE" x="5.08" y="144.78" size="1.778" layer="96" ratio="12"/>
+<instance part="LED2" gate="G$1" x="482.6" y="160.02"/>
+<instance part="GND11" gate="1" x="482.6" y="149.86" smashed="yes">
+<attribute name="VALUE" x="480.06" y="147.32" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="R12" gate="G$1" x="7.62" y="167.64" rot="R90"/>
-<instance part="U1" gate="G$1" x="7.62" y="180.34"/>
-<instance part="U5" gate="G$1" x="226.06" y="180.34"/>
+<instance part="R21" gate="G$1" x="482.6" y="170.18" rot="R90"/>
+<instance part="U5" gate="G$1" x="482.6" y="182.88"/>
+<instance part="U4" gate="G$1" x="226.06" y="180.34"/>
 <instance part="D2" gate="G$1" x="307.34" y="175.26" smashed="yes">
 <attribute name="NAME" x="302.26" y="175.7426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="309.88" y="175.4886" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="226.06" y="170.18"/>
 <instance part="C11" gate="G$1" x="330.2" y="170.18"/>
-<instance part="GND6" gate="1" x="226.06" y="160.02"/>
-<instance part="GND10" gate="1" x="330.2" y="160.02"/>
-<instance part="R18" gate="G$1" x="322.58" y="167.64" rot="R90"/>
-<instance part="R19" gate="G$1" x="322.58" y="154.94" rot="R90"/>
+<instance part="GND5" gate="1" x="226.06" y="160.02"/>
+<instance part="GND9" gate="1" x="330.2" y="160.02"/>
+<instance part="R17" gate="G$1" x="322.58" y="167.64" rot="R90"/>
+<instance part="R18" gate="G$1" x="322.58" y="154.94" rot="R90"/>
 <instance part="C10" gate="G$1" x="312.42" y="167.64"/>
-<instance part="R17" gate="G$1" x="243.84" y="167.64" rot="R90"/>
+<instance part="R16" gate="G$1" x="243.84" y="167.64" rot="R90"/>
 <instance part="C9" gate="G$1" x="243.84" y="154.94"/>
-<instance part="GND9" gate="1" x="322.58" y="144.78"/>
-<instance part="GND7" gate="1" x="243.84" y="144.78"/>
-<instance part="GND8" gate="1" x="299.72" y="149.86"/>
+<instance part="GND8" gate="1" x="322.58" y="144.78"/>
+<instance part="GND6" gate="1" x="243.84" y="144.78"/>
+<instance part="GND7" gate="1" x="299.72" y="149.86"/>
 <instance part="P+5" gate="1" x="383.54" y="182.88"/>
-<instance part="IC6" gate="G$1" x="396.24" y="165.1"/>
+<instance part="IC5" gate="G$1" x="396.24" y="165.1"/>
 <instance part="C13" gate="G$1" x="375.92" y="170.18"/>
 <instance part="C12" gate="G$1" x="358.14" y="170.18"/>
-<instance part="R20" gate="G$1" x="368.3" y="167.64" rot="R270"/>
-<instance part="R21" gate="G$1" x="368.3" y="154.94" rot="R270"/>
-<instance part="GND11" gate="1" x="358.14" y="142.24"/>
+<instance part="R19" gate="G$1" x="368.3" y="167.64" rot="R270"/>
+<instance part="R20" gate="G$1" x="368.3" y="154.94" rot="R270"/>
+<instance part="GND10" gate="1" x="358.14" y="142.24"/>
 <instance part="C14" gate="G$1" x="419.1" y="157.48"/>
 <instance part="C15" gate="G$1" x="434.34" y="165.1"/>
 <instance part="P+4" gate="1" x="345.44" y="185.42"/>
 <instance part="P+6" gate="1" x="424.18" y="185.42"/>
-<instance part="U4" gate="G$1" x="177.8" y="198.12"/>
+<instance part="U3" gate="G$1" x="177.8" y="198.12"/>
 <instance part="SW3" gate="G$1" x="185.42" y="182.88"/>
 <instance part="J5" gate="G$1" x="203.2" y="187.96" rot="R180"/>
 <instance part="J4" gate="G$1" x="35.56" y="190.5" rot="MR0"/>
-<instance part="LED2" gate="G$1" x="116.84" y="185.42"/>
-<instance part="U2" gate="G$1" x="101.6" y="185.42" rot="R270"/>
-<instance part="R14" gate="G$1" x="109.22" y="175.26" rot="R180"/>
+<instance part="LED1" gate="G$1" x="116.84" y="185.42"/>
+<instance part="U1" gate="G$1" x="101.6" y="185.42" rot="R270"/>
+<instance part="R13" gate="G$1" x="109.22" y="175.26" rot="R180"/>
 <instance part="P+3" gate="1" x="116.84" y="193.04"/>
 <instance part="P+2" gate="1" x="45.72" y="200.66"/>
 <instance part="IC3" gate="G$1" x="73.66" y="185.42" rot="MR0"/>
-<instance part="R15" gate="G$1" x="129.54" y="195.58" rot="R180"/>
-<instance part="R13" gate="G$1" x="48.26" y="180.34" rot="R270"/>
+<instance part="R14" gate="G$1" x="129.54" y="195.58" rot="R180"/>
+<instance part="R12" gate="G$1" x="48.26" y="180.34" rot="R270"/>
 <instance part="C6" gate="G$1" x="48.26" y="193.04"/>
 <instance part="IC4" gate="G$1" x="119.38" y="142.24" rot="MR180"/>
-<instance part="U3" gate="G$1" x="172.72" y="124.46" rot="R180"/>
-<instance part="GND5" gate="1" x="157.48" y="127" smashed="yes">
+<instance part="U2" gate="G$1" x="172.72" y="124.46" rot="R180"/>
+<instance part="GND4" gate="1" x="157.48" y="127" smashed="yes">
 <attribute name="VALUE" x="154.94" y="124.46" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="R16" gate="G$1" x="172.72" y="134.62" rot="R90"/>
+<instance part="R15" gate="G$1" x="172.72" y="134.62" rot="R90"/>
 <instance part="C7" gate="G$1" x="172.72" y="147.32" rot="R180"/>
 <instance part="IC2" gate="G$1" x="63.5" y="142.24" rot="R180"/>
-<instance part="GND4" gate="1" x="83.82" y="127" smashed="yes">
+<instance part="GND3" gate="1" x="83.82" y="127" smashed="yes">
 <attribute name="VALUE" x="81.28" y="124.46" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="IC5" gate="G$1" x="276.86" y="160.02" rot="MR0"/>
+<instance part="Q2" gate="G$1" x="276.86" y="160.02" rot="MR0"/>
 <instance part="L2" gate="G$1" x="287.02" y="175.26" rot="R90"/>
 </instances>
 <busses>
@@ -16840,46 +16840,46 @@ the buffer stage are no longer connected </text>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="7.62" y1="152.4" x2="7.62" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="482.6" y1="154.94" x2="482.6" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="330.2" y1="165.1" x2="330.2" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="165.1" x2="226.06" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="292.1" y1="160.02" x2="299.72" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="160.02" x2="299.72" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="GND"/>
+<pinref part="Q2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
-<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="243.84" y1="149.86" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="322.58" y1="149.86" x2="322.58" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
-<pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="358.14" y1="165.1" x2="358.14" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="358.14" y1="147.32" x2="358.14" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="149.86" x2="368.3" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="147.32" x2="358.14" y2="147.32" width="0.1524" layer="91"/>
 <junction x="358.14" y="147.32"/>
-<pinref part="IC6" gate="G$1" pin="GND"/>
+<pinref part="IC5" gate="G$1" pin="GND"/>
 <wire x1="386.08" y1="162.56" x2="383.54" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="162.56" x2="383.54" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="147.32" x2="368.3" y2="147.32" width="0.1524" layer="91"/>
@@ -16896,21 +16896,21 @@ the buffer stage are no longer connected </text>
 <segment>
 <pinref part="IC4" gate="G$1" pin="V-"/>
 <wire x1="142.24" y1="134.62" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="157.48" y1="134.62" x2="157.48" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="S2"/>
-<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="78.74" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="134.62" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="U1" gate="G$1" pin="VBAT"/>
-<wire x1="7.62" y1="172.72" x2="7.62" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="U5" gate="G$1" pin="VBAT"/>
+<wire x1="482.6" y1="175.26" x2="482.6" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="279.4" y1="175.26" x2="261.62" y2="175.26" width="0.1524" layer="91"/>
@@ -16918,39 +16918,39 @@ the buffer stage are no longer connected </text>
 <wire x1="243.84" y1="175.26" x2="226.06" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="175.26" x2="226.06" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<pinref part="U5" gate="G$1" pin="VBAT"/>
+<pinref part="U4" gate="G$1" pin="VBAT"/>
 <wire x1="226.06" y1="175.26" x2="226.06" y2="177.8" width="0.1524" layer="91"/>
 <junction x="226.06" y="175.26"/>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="175.26" x2="243.84" y2="172.72" width="0.1524" layer="91"/>
 <junction x="243.84" y="175.26"/>
-<pinref part="IC5" gate="G$1" pin="IN"/>
+<pinref part="Q2" gate="G$1" pin="IN"/>
 <wire x1="261.62" y1="165.1" x2="261.62" y2="175.26" width="0.1524" layer="91"/>
 <junction x="261.62" y="175.26"/>
 <pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="VBAT"/>
+<pinref part="U3" gate="G$1" pin="VBAT"/>
 <wire x1="177.8" y1="187.96" x2="177.8" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="187.96" x2="195.58" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="J5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VBAT"/>
+<pinref part="U1" gate="G$1" pin="VBAT"/>
 <pinref part="IC3" gate="G$1" pin="OUT"/>
 <wire x1="99.06" y1="185.42" x2="93.98" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="U3" gate="G$1" pin="VBAT"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="VBAT"/>
 <wire x1="172.72" y1="129.54" x2="172.72" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="7.62" y1="162.56" x2="7.62" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="482.6" y1="165.1" x2="482.6" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -16960,21 +16960,21 @@ the buffer stage are no longer connected </text>
 <wire x1="297.18" y1="175.26" x2="304.8" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="175.26" x2="297.18" y2="165.1" width="0.1524" layer="91"/>
 <junction x="297.18" y="175.26"/>
-<pinref part="IC5" gate="G$1" pin="SW"/>
+<pinref part="Q2" gate="G$1" pin="SW"/>
 <wire x1="297.18" y1="165.1" x2="292.1" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="162.56" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="160.02" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
 <junction x="243.84" y="160.02"/>
 <wire x1="256.54" y1="160.02" x2="256.54" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="SHDN"/>
+<pinref part="Q2" gate="G$1" pin="SHDN"/>
 <wire x1="256.54" y1="154.94" x2="261.62" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -16982,14 +16982,14 @@ the buffer stage are no longer connected </text>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="160.02" x2="312.42" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="160.02" x2="322.58" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="322.58" y1="162.56" x2="322.58" y2="160.02" width="0.1524" layer="91"/>
 <junction x="322.58" y="160.02"/>
 <wire x1="312.42" y1="160.02" x2="312.42" y2="154.94" width="0.1524" layer="91"/>
 <junction x="312.42" y="160.02"/>
-<pinref part="IC5" gate="G$1" pin="FB"/>
+<pinref part="Q2" gate="G$1" pin="FB"/>
 <wire x1="312.42" y1="154.94" x2="292.1" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -17004,7 +17004,7 @@ the buffer stage are no longer connected </text>
 <label x="332.74" y="175.26" size="1.778" layer="95"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="322.58" y1="172.72" x2="322.58" y2="175.26" width="0.1524" layer="91"/>
 <junction x="322.58" y="175.26"/>
 <pinref part="C10" gate="G$1" pin="1"/>
@@ -17014,12 +17014,12 @@ the buffer stage are no longer connected </text>
 <wire x1="345.44" y1="175.26" x2="345.44" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="IN"/>
+<pinref part="IC5" gate="G$1" pin="IN"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="414.02" y1="170.18" x2="424.18" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="424.18" y1="170.18" x2="434.34" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="434.34" y1="170.18" x2="434.34" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="EN"/>
+<pinref part="IC5" gate="G$1" pin="EN"/>
 <wire x1="414.02" y1="162.56" x2="424.18" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="424.18" y1="162.56" x2="424.18" y2="170.18" width="0.1524" layer="91"/>
 <junction x="424.18" y="170.18"/>
@@ -17027,7 +17027,7 @@ the buffer stage are no longer connected </text>
 <wire x1="424.18" y1="182.88" x2="424.18" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="P+3" gate="1" pin="V+"/>
 <wire x1="116.84" y1="190.5" x2="116.84" y2="187.96" width="0.1524" layer="91"/>
 </segment>
@@ -17046,23 +17046,23 @@ the buffer stage are no longer connected </text>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="FB"/>
+<pinref part="IC5" gate="G$1" pin="FB"/>
 <wire x1="386.08" y1="167.64" x2="381" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="381" y1="167.64" x2="381" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="381" y1="165.1" x2="375.92" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="165.1" x2="375.92" y2="160.02" width="0.1524" layer="91"/>
 <junction x="375.92" y="165.1"/>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="375.92" y1="160.02" x2="368.3" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="368.3" y1="160.02" x2="368.3" y2="162.56" width="0.1524" layer="91"/>
 <junction x="368.3" y="160.02"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="NR/SS"/>
+<pinref part="IC5" gate="G$1" pin="NR/SS"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="414.02" y1="165.1" x2="419.1" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="165.1" x2="419.1" y2="160.02" width="0.1524" layer="91"/>
@@ -17070,11 +17070,11 @@ the buffer stage are no longer connected </text>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUT"/>
+<pinref part="IC5" gate="G$1" pin="OUT"/>
 <wire x1="386.08" y1="170.18" x2="386.08" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="386.08" y1="172.72" x2="383.54" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="383.54" y1="172.72" x2="375.92" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="172.72" x2="368.3" y2="172.72" width="0.1524" layer="91"/>
 <junction x="375.92" y="172.72"/>
@@ -17095,30 +17095,30 @@ the buffer stage are no longer connected </text>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="116.84" y1="180.34" x2="116.84" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="175.26" x2="114.3" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="CHG"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="175.26" x2="104.14" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="TS"/>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="195.58" x2="124.46" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="CURRENT-SET"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="175.26" x2="48.26" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -17129,13 +17129,13 @@ the buffer stage are no longer connected </text>
 <pinref part="IC3" gate="G$1" pin="GND"/>
 <pinref part="J4" gate="G$1" pin="GND"/>
 <wire x1="53.34" y1="185.42" x2="48.26" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="185.42" x2="43.18" y2="185.42" width="0.1524" layer="91"/>
 <junction x="48.26" y="185.42"/>
 <wire x1="43.18" y1="185.42" x2="40.64" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="185.42" x2="43.18" y2="165.1" width="0.1524" layer="91"/>
 <junction x="43.18" y="185.42"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="195.58" x2="152.4" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="195.58" x2="152.4" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="182.88" x2="152.4" y2="182.88" width="0.1524" layer="91"/>
@@ -17168,7 +17168,7 @@ the buffer stage are no longer connected </text>
 <segment>
 <pinref part="IC4" gate="G$1" pin="BAT"/>
 <wire x1="142.24" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="142.24" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="142.24" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
