@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /home/jakezimmer/Documents/CMU/Ali/eagle/MEMS-preamp/MEMS-preamp_v06_Labels.brd
+Job           : /Users/ali/Documents/Development/eagle/MEMS-preamp/MEMS-preamp_v06_Labels.brd
 
-Start at      : 01:58:08 (1/5/18)
-End at        : 01:58:58 (1/5/18)
-Elapsed time  : 00:00:47
+Start at      : 14:49:51 (1/6/18)
+End at        : 14:49:56 (1/6/18)
+Elapsed time  : 00:00:01
 
-Signals       :    29   RoutingGrid: 6 mil  Layers: 2
-Connections   :    89   predefined:  18 ( 0 Vias )
+Signals       :    29   RoutingGrid: 9.84252 mil  Layers: 2
+Connections   :    89   predefined:  0 ( 0 Vias )
 
-Router memory :   489220
+Router memory :   169812
 
-Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
+Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:31  00:00:02  00:00:01  00:00:01  00:00:01  00:00:01  00:00:01  00:00:02  00:00:01  00:00:01  00:00:01  00:00:01  00:00:01  00:00:02
-Number of Ripups  :         0         1         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         1         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0         3         0         0         0         0         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00
+Number of Ripups  :         0         4         0         0         0         0
+max. Level        :         0         2         0         0         0         0
+max. Total        :         0        18         0         0         0         0
 
-Routed            :         0        71        71        71        71        71        71        71        71        71        71        71        71        71
-Vias              :         0        18        18        18        18        18        18        18        16        16        16        16        16        16
-Resolution        :    20.2 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         6        89        89        89        89        89
+Vias              :         0        87        40        30        27        26
+Resolution        :     6.7 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 94.4% finished. Polygons may have fallen apart.
+Final             : 100.0% finished
