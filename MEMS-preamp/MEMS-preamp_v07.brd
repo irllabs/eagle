@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1960,10 +1960,11 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2208,7 +2209,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="7" y="11.19" size="0.6604" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="4.46" y="16.27" size="0.8128" layer="28" ratio="10" rot="MR180"/>
 </element>
-<element name="L1" library="SparkFun-Passives" package="CR54-KIT" value="2.7mH" x="10" y="21" smashed="yes">
+<element name="L1" library="SparkFun-Passives" package="CR54-KIT" value="2.7uH" x="10" y="21" smashed="yes">
 <attribute name="NAME" x="9.37" y="25.04" size="0.6604" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="8.73" y="16.32" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
