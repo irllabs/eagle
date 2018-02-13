@@ -14330,8 +14330,8 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <part name="C2" library="microbuilder" deviceset="CAP_TANTALUM" device="D/7343_REFLOW" value="100uF"/>
 <part name="L1" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0603-33NH" package3d_urn="urn:adsk.eagle:package:37574/1" value="100uH/±5%/500mA"/>
 <part name="IC6" library="CMU-ArtFab" deviceset="TPS7A49" device=""/>
-<part name="R20" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="91.2k"/>
-<part name="R21" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R20" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R21" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="11k"/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
@@ -14689,9 +14689,7 @@ the buffer stage are no longer connected </text>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="SW1" gate="G$1" pin="P$3"/>
-<wire x1="139.7" y1="35.56" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="35.56" x2="147.32" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="25.4" x2="147.32" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="-20.32" x2="269.24" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="-20.32" x2="269.24" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="-2.54" x2="294.64" y2="-2.54" width="0.1524" layer="91"/>
@@ -14700,6 +14698,8 @@ the buffer stage are no longer connected </text>
 <junction x="269.24" y="-2.54"/>
 <pinref part="J3" gate="G$1" pin="RING1"/>
 <pinref part="J3" gate="G$1" pin="TIP"/>
+<pinref part="SW1" gate="G$1" pin="P$6"/>
+<wire x1="139.7" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
