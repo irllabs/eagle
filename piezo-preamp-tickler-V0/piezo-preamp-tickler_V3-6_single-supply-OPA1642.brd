@@ -582,6 +582,22 @@ http://www.cui.com/product/resource/sj-4351x-smt-series.pdf</description>
 <text x="-8.763" y="-2.921" size="0.6096" layer="21" ratio="18">3-Ring</text>
 <text x="-1.905" y="10.922" size="0.6096" layer="21" ratio="18">4-Tip Test</text>
 </package>
+<package name="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT">
+<pad name="4" x="5" y="3" drill="1" diameter="1.27" shape="square"/>
+<pad name="5" x="-5" y="3" drill="1" diameter="1.27" shape="square"/>
+<pad name="2" x="0" y="-8" drill="0.7" diameter="1.016" shape="square"/>
+<pad name="3" x="4" y="-8" drill="0.7" diameter="1.016" shape="square"/>
+<pad name="1" x="-4" y="-8" drill="0.7" diameter="1.016" shape="square"/>
+<polygon width="0.127" layer="51" pour="hatch">
+<vertex x="-5" y="3"/>
+<vertex x="5" y="3"/>
+<vertex x="5" y="-8"/>
+<vertex x="-4" y="-8"/>
+<vertex x="-5" y="-8"/>
+</polygon>
+<circle x="0" y="0" radius="5.83095" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="7.61051875" width="0.127" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="led" urn="urn:adsk.eagle:library:259">
@@ -1943,26 +1959,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 </library>
-<library name="custom_packages">
-<packages>
-<package name="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT">
-<pad name="4" x="5" y="3" drill="1" diameter="1.27" shape="square"/>
-<pad name="5" x="-5" y="3" drill="1" diameter="1.27" shape="square"/>
-<pad name="2" x="0" y="-8" drill="0.7" diameter="1.016" shape="square"/>
-<pad name="3" x="4" y="-8" drill="0.7" diameter="1.016" shape="square"/>
-<pad name="1" x="-4" y="-8" drill="0.7" diameter="1.016" shape="square"/>
-<polygon width="0.127" layer="51" pour="hatch">
-<vertex x="-5" y="3"/>
-<vertex x="5" y="3"/>
-<vertex x="5" y="-8"/>
-<vertex x="-4" y="-8"/>
-<vertex x="-5" y="-8"/>
-</polygon>
-<circle x="0" y="0" radius="5.83095" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="7.61051875" width="0.127" layer="51"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2387,7 +2383,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="68" y="18" size="0.6604" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="69.175" y="17.175" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="U$1" library="custom_packages" package="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT" value="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT" x="50" y="16.1"/>
+<element name="U$1" library="CMU-ArtFab" package="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT" value="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT" x="50" y="16.1"/>
 </elements>
 <signals>
 <signal name="GND">

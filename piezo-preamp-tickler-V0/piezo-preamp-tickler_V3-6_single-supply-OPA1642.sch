@@ -2363,6 +2363,22 @@ http://www.cui.com/product/resource/sj-4351x-smt-series.pdf</description>
 <text x="1.27" y="10.16" size="1.27" layer="21">&gt;NAME</text>
 <text x="1.27" y="-3.81" size="1.27" layer="21">&gt;VALUE</text>
 </package>
+<package name="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT">
+<pad name="4" x="5" y="3" drill="1" diameter="1.27" shape="square"/>
+<pad name="5" x="-5" y="3" drill="1" diameter="1.27" shape="square"/>
+<pad name="2" x="0" y="-8" drill="0.7" diameter="1.016" shape="square"/>
+<pad name="3" x="4" y="-8" drill="0.7" diameter="1.016" shape="square"/>
+<pad name="1" x="-4" y="-8" drill="0.7" diameter="1.016" shape="square"/>
+<polygon width="0.127" layer="51" pour="hatch">
+<vertex x="-5" y="3"/>
+<vertex x="5" y="3"/>
+<vertex x="5" y="-8"/>
+<vertex x="-4" y="-8"/>
+<vertex x="-5" y="-8"/>
+</polygon>
+<circle x="0" y="0" radius="5.83095" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="7.61051875" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R-US">
@@ -2535,6 +2551,18 @@ http://www.cui.com/product/resource/sj-4351x-smt-series.pdf</description>
 <text x="-4.318" y="5.334" size="0.8128" layer="94">sleeve</text>
 <text x="-3.302" y="-4.826" size="0.8128" layer="94">tip</text>
 <text x="-3.81" y="0.254" size="0.8128" layer="94">ring1</text>
+</symbol>
+<symbol name="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT">
+<pin name="1" x="0" y="10.16" length="middle" rot="R270"/>
+<pin name="3" x="0" y="-10.16" length="middle" rot="R90"/>
+<pin name="2" x="10.16" y="0" length="middle" rot="R180"/>
+<wire x1="0" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3621,6 +3649,23 @@ http://www.cui.com/product/resource/sj-4351x-smt-series.pdf</description>
 <connect gate="G$1" pin="RING2" pad="RING2"/>
 <connect gate="G$1" pin="SLEEVE" pad="EARTH"/>
 <connect gate="G$1" pin="TIP" pad="TIP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT">
+<gates>
+<gate name="G$1" symbol="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14229,59 +14274,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 </deviceset>
 </devicesets>
 </library>
-<library name="custom_packages">
-<packages>
-<package name="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT">
-<pad name="4" x="5" y="3" drill="1" diameter="1.27" shape="square"/>
-<pad name="5" x="-5" y="3" drill="1" diameter="1.27" shape="square"/>
-<pad name="2" x="0" y="-8" drill="0.7" diameter="1.016" shape="square"/>
-<pad name="3" x="4" y="-8" drill="0.7" diameter="1.016" shape="square"/>
-<pad name="1" x="-4" y="-8" drill="0.7" diameter="1.016" shape="square"/>
-<polygon width="0.127" layer="51" pour="hatch">
-<vertex x="-5" y="3"/>
-<vertex x="5" y="3"/>
-<vertex x="5" y="-8"/>
-<vertex x="-4" y="-8"/>
-<vertex x="-5" y="-8"/>
-</polygon>
-<circle x="0" y="0" radius="5.83095" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="7.61051875" width="0.127" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT">
-<pin name="1" x="0" y="10.16" length="middle" rot="R270"/>
-<pin name="3" x="0" y="-10.16" length="middle" rot="R90"/>
-<pin name="2" x="10.16" y="0" length="middle" rot="R180"/>
-<wire x1="0" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT">
-<gates>
-<gate name="G$1" symbol="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14376,7 +14368,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" value="10nF"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" value="10nF"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" value="10uF"/>
-<part name="U$1" library="custom_packages" deviceset="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT" device=""/>
+<part name="U$1" library="CMU-ArtFab" deviceset="PIEZO-PREAMP-TICKLER_V3-5_SINGLE-SUPPLY-OPA1642_50K_DIAL_POT" device=""/>
 </parts>
 <sheets>
 <sheet>
