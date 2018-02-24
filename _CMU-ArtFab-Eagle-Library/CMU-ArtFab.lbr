@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7034,6 +7034,36 @@ Manufacturer: Hirose&lt;br&gt;
 <hole x="2.76641875" y="-1.49608125" drill="0.7"/>
 <hole x="2.76641875" y="-1.66408125" drill="0.7"/>
 </package>
+<package name="WSON-6-LONG">
+<description>&lt;h3&gt;WSON-12&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 12&lt;/li&gt;
+&lt;li&gt;Area:2mmx3mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://www.ti.com/lit/ds/symlink/drv8835.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;DRV883X&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<circle x="-1.141875" y="-0.5" radius="0.1" width="0" layer="21"/>
+<wire x1="-0.8125" y1="-0.5" x2="0.8125" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="0.8125" y1="-0.5" x2="0.8125" y2="0.5" width="0.127" layer="51"/>
+<wire x1="0.8125" y1="0.5" x2="-0.8125" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-0.8125" y1="0.5" x2="-0.8125" y2="-0.5" width="0.127" layer="51"/>
+<rectangle x1="-0.625" y1="-0.5" x2="-0.375" y2="-0.1875" layer="51" rot="R180"/>
+<rectangle x1="-0.125" y1="-0.5" x2="0.125" y2="-0.1875" layer="51" rot="R180"/>
+<rectangle x1="0.375" y1="-0.5" x2="0.625" y2="-0.1875" layer="51" rot="R180"/>
+<rectangle x1="0.375" y1="0.1875" x2="0.625" y2="0.5" layer="51"/>
+<rectangle x1="-0.125" y1="0.1875" x2="0.125" y2="0.5" layer="51"/>
+<rectangle x1="-0.625" y1="0.1875" x2="-0.375" y2="0.5" layer="51"/>
+<smd name="1" x="-0.5" y="-0.6858" dx="0.954" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="2" x="0" y="-0.6858" dx="0.954" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="3" x="0.5" y="-0.6858" dx="0.954" dy="0.3" layer="1" rot="R270" cream="no"/>
+<smd name="4" x="0.5" y="0.6858" dx="0.954" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="5" x="0" y="0.6858" dx="0.954" dy="0.3" layer="1" rot="R90" cream="no"/>
+<smd name="6" x="-0.5" y="0.6858" dx="0.954" dy="0.3" layer="1" rot="R90" cream="no"/>
+<text x="-1.16" y="1.1" size="0.6096" layer="25" font="vector" ratio="20" distance="15">&gt;Name</text>
+<text x="-0.76" y="-1.278" size="0.6096" layer="27" font="vector" ratio="20" distance="15" align="top-left">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SUREELECT_STEP-UP-PCB">
@@ -13507,6 +13537,19 @@ Source: http://ecb.omron.com.sg/pdf/relay/power/G6D.pdf</description>
 </gates>
 <devices>
 <device name="" package="WSON-6">
+<connects>
+<connect gate="G$1" pin="BAT" pad="5"/>
+<connect gate="G$1" pin="CHG-FET" pad="2"/>
+<connect gate="G$1" pin="DRAIN-FET" pad="3"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="V-" pad="6"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LONG" package="WSON-6-LONG">
 <connects>
 <connect gate="G$1" pin="BAT" pad="5"/>
 <connect gate="G$1" pin="CHG-FET" pad="2"/>
