@@ -4760,7 +4760,7 @@ http://focus.ti.com/lit/ds/symlink/opa2134.pdf</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="V+" library_version="1">
+<symbol name="V+" urn="urn:adsk.eagle:symbol:26939/1" library_version="1">
 <wire x1="0.889" y1="-1.27" x2="0" y2="0.127" width="0.254" layer="94"/>
 <wire x1="0" y1="0.127" x2="-0.889" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-0.889" y1="-1.27" x2="0.889" y2="-1.27" width="0.254" layer="94"/>
@@ -4795,7 +4795,7 @@ http://focus.ti.com/lit/ds/symlink/opa2134.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="V+" prefix="P+" library_version="1">
+<deviceset name="V+" urn="urn:adsk.eagle:component:26966/1" prefix="P+" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="V+" x="0" y="0"/>
@@ -16063,7 +16063,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R11" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="150k"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
-<part name="P+7" library="supply1" deviceset="+12V" device=""/>
 <part name="R15" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="POT1" library="CMU-ArtFab" deviceset="POT-DUAL-PTV112" device="-4420" value="20K"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM"/>
@@ -16098,7 +16097,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U2" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="R3" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="IC2" library="CMU-ArtFab" deviceset="BQ21040-LIPO-CHARGER" device="" value="BQ21040"/>
 <part name="R4" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R2" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10k"/>
@@ -16110,7 +16108,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC4" library="CMU-ArtFab" deviceset="SC4503" device=""/>
 <part name="J3" library="CMU-ArtFab" deviceset="TRS-1/8&quot;-3.5MM" device="" value=""/>
-<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="2.7uH"/>
+<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="CR54" value="2.7uH"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" value="68uF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" value="56nF"/>
@@ -16123,6 +16121,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="C13" library="microbuilder" deviceset="CAP_TANTALUM" device="D/7343_REFLOW" value="100uF"/>
 <part name="P+6" library="supply1" deviceset="+12V" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="VUSB"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -16172,7 +16172,6 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="617.22" y="246.38" size="1.778" layer="96" ratio="12"/>
 </instance>
 <instance part="P+8" gate="1" x="543.56" y="307.34"/>
-<instance part="P+7" gate="1" x="472.44" y="302.26"/>
 <instance part="R15" gate="G$1" x="553.72" y="259.08"/>
 <instance part="POT1" gate="/1" x="515.62" y="238.76" rot="R90"/>
 <instance part="POT1" gate="/2" x="591.82" y="241.3" rot="R90"/>
@@ -16213,7 +16212,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="U2" gate="G$1" x="78.74" y="289.56" rot="R270"/>
 <instance part="R3" gate="G$1" x="86.36" y="279.4" rot="R180"/>
 <instance part="P+2" gate="1" x="93.98" y="297.18"/>
-<instance part="P+1" gate="1" x="22.86" y="304.8"/>
 <instance part="IC2" gate="G$1" x="50.8" y="289.56" rot="MR0"/>
 <instance part="R4" gate="G$1" x="106.68" y="299.72" rot="R180"/>
 <instance part="R2" gate="G$1" x="25.4" y="284.48" rot="R270"/>
@@ -16242,6 +16240,8 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C10" gate="G$1" x="381" y="266.7"/>
 <instance part="C13" gate="G$1" x="543.56" y="276.86"/>
 <instance part="P+6" gate="1" x="457.2" y="276.86"/>
+<instance part="P+1" gate="1" x="22.86" y="304.8"/>
+<instance part="C15" gate="G$1" x="462.28" y="256.54" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -16366,13 +16366,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C11" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="4"/>
-<wire x1="449.58" y1="256.54" x2="472.44" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <wire x1="487.68" y1="238.76" x2="508" y2="238.76" width="0.1524" layer="91"/>
@@ -16396,18 +16389,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="543.56" y1="289.56" x2="543.56" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="V+"/>
-<wire x1="543.56" y1="284.48" x2="543.56" y2="281.94" width="0.1524" layer="91"/>
-<wire x1="543.56" y1="284.48" x2="502.92" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="502.92" y1="284.48" x2="502.92" y2="266.7" width="0.1524" layer="91"/>
-<junction x="543.56" y="284.48"/>
-<pinref part="C13" gate="G$1" pin="+"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <wire x1="614.68" y1="259.08" x2="614.68" y2="256.54" width="0.1524" layer="91"/>
@@ -16426,11 +16407,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="543.56" y1="304.8" x2="543.56" y2="299.72" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+12V"/>
-</segment>
-<segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="472.44" y1="299.72" x2="472.44" y2="297.18" width="0.1524" layer="91"/>
-<pinref part="P+7" gate="1" pin="+12V"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="OUT"/>
@@ -16471,20 +16447,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="591.82" y1="246.38" x2="591.82" y2="259.08" width="0.1524" layer="91"/>
 <junction x="591.82" y="259.08"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="GROU[" class="0">
-<segment>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="558.8" y1="259.08" x2="563.88" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="563.88" y1="259.08" x2="563.88" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="B" pin="-IN"/>
-<wire x1="563.88" y1="256.54" x2="568.96" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="568.96" y1="256.54" x2="571.5" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="584.2" y1="241.3" x2="568.96" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="568.96" y1="241.3" x2="568.96" y2="256.54" width="0.1524" layer="91"/>
-<junction x="568.96" y="256.54"/>
-<pinref part="POT1" gate="/2" pin="E"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -16610,18 +16572,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <pinref part="P+2" gate="1" pin="V+"/>
 <wire x1="93.98" y1="294.64" x2="93.98" y2="292.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P+1" gate="1" pin="V+"/>
-<wire x1="22.86" y1="302.26" x2="22.86" y2="299.72" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="VBUS"/>
-<wire x1="22.86" y1="299.72" x2="17.78" y2="299.72" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VIN"/>
-<wire x1="30.48" y1="299.72" x2="25.4" y2="299.72" width="0.1524" layer="91"/>
-<junction x="22.86" y="299.72"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="299.72" x2="22.86" y2="299.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="299.72"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -16765,6 +16715,64 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="63.5" y1="246.38" x2="55.88" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="VUSB" class="0">
+<segment>
+<wire x1="22.86" y1="302.26" x2="22.86" y2="299.72" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="VBUS"/>
+<wire x1="22.86" y1="299.72" x2="17.78" y2="299.72" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="VIN"/>
+<wire x1="30.48" y1="299.72" x2="25.4" y2="299.72" width="0.1524" layer="91"/>
+<junction x="22.86" y="299.72"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="299.72" x2="22.86" y2="299.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="299.72"/>
+<pinref part="P+1" gate="1" pin="V+"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="558.8" y1="259.08" x2="568.96" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="259.08" x2="568.96" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="B" pin="-IN"/>
+<wire x1="568.96" y1="256.54" x2="571.5" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="POT1" gate="/2" pin="E"/>
+<wire x1="568.96" y1="256.54" x2="568.96" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="241.3" x2="584.2" y2="241.3" width="0.1524" layer="91"/>
+<junction x="568.96" y="256.54"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="4"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="449.58" y1="256.54" x2="459.74" y2="256.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="467.36" y1="256.54" x2="472.44" y2="256.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="472.44" y1="299.72" x2="472.44" y2="297.18" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="543.56" y1="289.56" x2="543.56" y2="284.48" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="V+"/>
+<wire x1="543.56" y1="284.48" x2="543.56" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="284.48" x2="502.92" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="284.48" x2="502.92" y2="266.7" width="0.1524" layer="91"/>
+<junction x="543.56" y="284.48"/>
+<pinref part="C13" gate="G$1" pin="+"/>
+<wire x1="472.44" y1="299.72" x2="502.92" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="299.72" x2="502.92" y2="284.48" width="0.1524" layer="91"/>
+<junction x="502.92" y="284.48"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -16775,6 +16783,11 @@ Source: AVX .. aphvc.pdf</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
