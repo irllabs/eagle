@@ -322,6 +322,12 @@ Source: Fairchild .. BAT54.pdf</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="V+" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="+5V" urn="urn:adsk.eagle:symbol:26929/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
@@ -354,6 +360,19 @@ Source: Fairchild .. BAT54.pdf</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="V+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+5V" urn="urn:adsk.eagle:component:26963/1" prefix="P+" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -17496,7 +17515,6 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="J4" library="CMU-ArtFab" deviceset="USB_MICRO-B" device="REDUCED_PASTE"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="Charge"/>
 <part name="R14" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="470"/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="R13" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="5k"/>
 <part name="IC4" library="CMU-ArtFab" deviceset="BQ297X-BATTERY-MANAGER" device="LONG" value="BQ297X"/>
 <part name="U3" library="microbuilder" deviceset="VBAT" device=""/>
@@ -17504,7 +17522,7 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="R16" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="330"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC5" library="CMU-ArtFab" deviceset="SC4503" device=""/>
-<part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="30OHM,1.8A" value="2.7uH"/>
+<part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="CR54" value="2.7uH"/>
 <part name="J3" library="CMU-ArtFab" deviceset="TRS-1/8&quot;-3.5MM" device="" value="Mixer"/>
 <part name="J1" library="CMU-ArtFab" deviceset="TRRS-1/8&quot;-3.5MM" device="LGPADS" value="HEADPHONES"/>
 <part name="J2" library="CMU-ArtFab" deviceset="TRRS-1/8&quot;-3.5MM" device="LGPADS" value="PHONE"/>
@@ -17526,7 +17544,8 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="R22" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10M"/>
 <part name="R23" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10M"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="VUSB"/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="VUSB"/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="VUSB"/>
 </parts>
 <sheets>
 <sheet>
@@ -17976,7 +17995,6 @@ battery is not turning off</text>
 <instance part="J4" gate="G$1" x="35.56" y="190.5" rot="MR0"/>
 <instance part="LED2" gate="G$1" x="129.54" y="182.88" rot="R270"/>
 <instance part="R14" gate="G$1" x="114.3" y="182.88" rot="R180"/>
-<instance part="P+3" gate="1" x="142.24" y="185.42"/>
 <instance part="R13" gate="G$1" x="50.8" y="182.88"/>
 <instance part="IC4" gate="G$1" x="119.38" y="142.24" rot="MR180"/>
 <instance part="U3" gate="G$1" x="172.72" y="124.46" rot="R180"/>
@@ -18007,6 +18025,7 @@ battery is not turning off</text>
 <instance part="R23" gate="G$1" x="86.36" y="129.54" rot="R90"/>
 <instance part="C16" gate="G$1" x="111.76" y="195.58"/>
 <instance part="P+2" gate="1" x="45.72" y="200.66"/>
+<instance part="P+3" gate="1" x="142.24" y="185.42"/>
 </instances>
 <busses>
 </busses>
@@ -18179,7 +18198,7 @@ battery is not turning off</text>
 <pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="V+" class="0">
+<net name="VUSB" class="0">
 <segment>
 <wire x1="309.88" y1="175.26" x2="312.42" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="175.26" x2="322.58" y2="175.26" width="0.1524" layer="91"/>
@@ -18211,11 +18230,6 @@ battery is not turning off</text>
 <pinref part="P+6" gate="1" pin="V+"/>
 <wire x1="424.18" y1="182.88" x2="424.18" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<pinref part="P+3" gate="1" pin="V+"/>
-<wire x1="142.24" y1="182.88" x2="132.08" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -18390,19 +18404,24 @@ battery is not turning off</text>
 <junction x="193.04" y="185.42"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="+5V" class="0">
 <segment>
-<wire x1="45.72" y1="198.12" x2="45.72" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="VBUS"/>
+<wire x1="45.72" y1="198.12" x2="45.72" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="195.58" x2="40.64" y2="195.58" width="0.1524" layer="91"/>
 <junction x="45.72" y="195.58"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="195.58" x2="45.72" y2="195.58" width="0.1524" layer="91"/>
+<junction x="48.26" y="195.58"/>
+<wire x1="48.26" y1="198.12" x2="48.26" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="4VDD"/>
 <wire x1="58.42" y1="198.12" x2="48.26" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="198.12" x2="48.26" y2="195.58" width="0.1524" layer="91"/>
-<junction x="48.26" y="195.58"/>
-<pinref part="P+2" gate="1" pin="V+"/>
+<pinref part="P+2" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="132.08" y1="182.88" x2="142.24" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
 </net>
 </nets>
