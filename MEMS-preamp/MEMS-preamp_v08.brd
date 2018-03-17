@@ -2254,7 +2254,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="40.435" y="29.605" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="IC1" library="CMU-ArtFab" package="WSON-6-LONG" value="BQ297X" x="39" y="23.5" smashed="yes">
-<attribute name="NAME" x="37.84" y="24.6" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="37.14" y="24.3" size="0.6604" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="38.24" y="22.222" size="0.6604" layer="27" font="vector" ratio="15" align="top-left"/>
 </element>
 <element name="R16" library="CMU-ArtFab" package="R0603" value="330" x="39.4" y="6.7" smashed="yes">
@@ -2271,13 +2271,13 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="66.6" y="38.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="43.635" y="29.605" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="U$1" library="CMU-ArtFab" package="SOT-23-5" value="MCP73831" x="34.7" y="26.4" smashed="yes">
+<element name="IC3" library="CMU-ArtFab" package="SOT-23-5" value="MCP73831" x="34.7" y="26.4" smashed="yes">
 <attribute name="NAME" x="32.795" y="25.13" size="0.6604" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="37.24" y="25.13" size="0.6604" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="U$2" library="CMU-ArtFab" package="SOT457R_PHILIPS" value="QS6K1" x="42.8" y="23.1" smashed="yes">
-<attribute name="NAME" x="41.6" y="24.9" size="0.6604" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="41.6" y="20" size="0.6604" layer="27" font="vector" ratio="15"/>
+<element name="IC6" library="CMU-ArtFab" package="SOT457R_PHILIPS" value="QS6K1" x="42.8" y="23.1" smashed="yes">
+<attribute name="NAME" x="40.6" y="24.8" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="41.5" y="20.6" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R4" library="CMU-ArtFab" package="R0603" value="2.2k" x="43.4" y="10.3" smashed="yes">
 <attribute name="NAME" x="42.765" y="10.935" size="0.6604" layer="25" font="vector" ratio="15"/>
@@ -2327,7 +2327,7 @@ design rules under a new name.</description>
 <contactref element="C10" pad="2"/>
 <contactref element="C7" pad="2"/>
 <contactref element="IC4" pad="2"/>
-<contactref element="U$2" pad="2"/>
+<contactref element="IC6" pad="2"/>
 <contactref element="R22" pad="1"/>
 <contactref element="R23" pad="1"/>
 <contactref element="R4" pad="1"/>
@@ -2652,7 +2652,7 @@ design rules under a new name.</description>
 <contactref element="C3" pad="1"/>
 <contactref element="J5" pad="1"/>
 <contactref element="R16" pad="1"/>
-<contactref element="U$1" pad="3"/>
+<contactref element="IC3" pad="3"/>
 <contactref element="C16" pad="1"/>
 <wire x1="7.3152" y1="1.6764" x2="19.05" y2="1.6764" width="0.1524" layer="1"/>
 <wire x1="5.7912" y1="3.2004" x2="7.3152" y2="1.6764" width="0.1524" layer="1"/>
@@ -2941,7 +2941,7 @@ design rules under a new name.</description>
 <contactref element="SW3" pad="P$2"/>
 <contactref element="IC1" pad="4"/>
 <contactref element="C2" pad="1"/>
-<contactref element="U$2" pad="6"/>
+<contactref element="IC6" pad="6"/>
 <wire x1="39.624" y1="24.2316" x2="41.7576" y2="24.2316" width="0.1524" layer="1"/>
 <wire x1="41.7576" y1="24.2316" x2="41.85" y2="24.3" width="0.1524" layer="1"/>
 <wire x1="39.624" y1="24.2316" x2="39.5" y2="24.1858" width="0.1524" layer="1"/>
@@ -2984,7 +2984,7 @@ design rules under a new name.</description>
 <via x="41.3004" y="27.1272" extent="1-16" drill="0.1524"/>
 </signal>
 <signal name="N$6">
-<contactref element="U$1" pad="5"/>
+<contactref element="IC3" pad="5"/>
 <contactref element="R3" pad="2"/>
 <wire x1="36.4236" y1="28.3464" x2="38.1" y2="28.3464" width="0.1524" layer="1"/>
 <wire x1="36.1188" y1="28.6512" x2="36.4236" y2="28.3464" width="0.1524" layer="1"/>
@@ -2995,21 +2995,21 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$25">
 <contactref element="R2" pad="2"/>
-<contactref element="U$1" pad="1"/>
+<contactref element="IC3" pad="1"/>
 <wire x1="31.6992" y1="23.0124" x2="31.6992" y2="17.8308" width="0.1524" layer="1"/>
 <wire x1="33.6804" y1="24.9936" x2="31.6992" y2="23.0124" width="0.1524" layer="1"/>
 <wire x1="31.6992" y1="17.8308" x2="31.65" y2="17.8" width="0.1524" layer="1"/>
 <wire x1="33.6804" y1="24.9936" x2="33.75" y2="25.0999" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$11">
-<contactref element="U$2" pad="5"/>
-<contactref element="U$2" pad="4"/>
+<contactref element="IC6" pad="5"/>
+<contactref element="IC6" pad="4"/>
 <wire x1="43.7388" y1="24.384" x2="42.8244" y2="24.384" width="0.1524" layer="1"/>
 <wire x1="42.8244" y1="24.384" x2="42.8" y2="24.3" width="0.1524" layer="1"/>
 <wire x1="43.7388" y1="24.384" x2="43.75" y2="24.3" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$27">
-<contactref element="U$2" pad="1"/>
+<contactref element="IC6" pad="1"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="R23" pad="2"/>
 <wire x1="40.386" y1="21.9456" x2="41.7576" y2="21.9456" width="0.1524" layer="1"/>
@@ -3021,7 +3021,7 @@ design rules under a new name.</description>
 <wire x1="41.7576" y1="21.7932" x2="41.85" y2="21.9" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$31">
-<contactref element="U$2" pad="3"/>
+<contactref element="IC6" pad="3"/>
 <contactref element="IC1" pad="2"/>
 <contactref element="R22" pad="2"/>
 <wire x1="44.5008" y1="21.1836" x2="43.8912" y2="21.7932" width="0.1524" layer="1"/>
@@ -3060,7 +3060,7 @@ design rules under a new name.</description>
 <contactref element="J4" pad="GND"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C16" pad="2"/>
-<contactref element="U$1" pad="2"/>
+<contactref element="IC3" pad="2"/>
 <contactref element="SW3" pad="P$1"/>
 <contactref element="J5" pad="2"/>
 <wire x1="11.7348" y1="29.2608" x2="12.4968" y2="29.2608" width="0.1524" layer="16"/>
@@ -3114,7 +3114,7 @@ design rules under a new name.</description>
 <signal name="+5V">
 <contactref element="J4" pad="VBUS"/>
 <contactref element="C1" pad="1"/>
-<contactref element="U$1" pad="4"/>
+<contactref element="IC3" pad="4"/>
 <contactref element="LED2" pad="A"/>
 <wire x1="35.052" y1="27.5844" x2="35.5092" y2="27.5844" width="0.1524" layer="1"/>
 <wire x1="34.1376" y1="26.67" x2="35.052" y2="27.5844" width="0.1524" layer="1"/>
