@@ -17421,9 +17421,9 @@ NS Package M08A</description>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="R6" library="CMU-ArtFab" deviceset="POT" device="THUMBPOT14" value="50K"/>
-<part name="U$1" library="CMU-ArtFab" deviceset="MCP73831" device=""/>
+<part name="IC2" library="CMU-ArtFab" deviceset="MCP73831" device=""/>
 <part name="U2" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="U$2" library="CMU-ArtFab" deviceset="QS6K1" device=""/>
+<part name="IC3" library="CMU-ArtFab" deviceset="QS6K1" device=""/>
 <part name="R15" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="2.2k"/>
 <part name="R22" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10M"/>
 <part name="R23" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10M"/>
@@ -17897,9 +17897,9 @@ battery is not turning off</text>
 <instance part="C13" gate="G$1" x="375.92" y="170.18"/>
 <instance part="C14" gate="G$1" x="419.1" y="157.48"/>
 <instance part="C15" gate="G$1" x="434.34" y="165.1"/>
-<instance part="U$1" gate="G$1" x="81.28" y="190.5" rot="R180"/>
+<instance part="IC2" gate="G$1" x="81.28" y="190.5" rot="R180"/>
 <instance part="U2" gate="G$1" x="106.68" y="205.74"/>
-<instance part="U$2" gate="G$1" x="63.5" y="144.78" rot="MR0"/>
+<instance part="IC3" gate="G$1" x="63.5" y="144.78" rot="MR0"/>
 <instance part="R15" gate="G$1" x="157.48" y="127" rot="R90"/>
 <instance part="R22" gate="G$1" x="93.98" y="129.54" rot="R90"/>
 <instance part="R23" gate="G$1" x="86.36" y="129.54" rot="R90"/>
@@ -17966,7 +17966,7 @@ battery is not turning off</text>
 <pinref part="C15" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="2S2"/>
+<pinref part="IC3" gate="G$1" pin="2S2"/>
 <wire x1="83.82" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="144.78" x2="91.44" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -18022,7 +18022,7 @@ battery is not turning off</text>
 <wire x1="172.72" y1="129.54" x2="172.72" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="3VBAT"/>
+<pinref part="IC2" gate="G$1" pin="3VBAT"/>
 <pinref part="U2" gate="G$1" pin="VBAT"/>
 <wire x1="104.14" y1="198.12" x2="106.68" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="198.12" x2="106.68" y2="203.2" width="0.1524" layer="91"/>
@@ -18181,7 +18181,7 @@ battery is not turning off</text>
 <junction x="147.32" y="165.1"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="165.1" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="6D1"/>
+<pinref part="IC3" gate="G$1" pin="6D1"/>
 <wire x1="38.1" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -18198,7 +18198,7 @@ battery is not turning off</text>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="5PROG"/>
+<pinref part="IC2" gate="G$1" pin="5PROG"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="182.88" x2="58.42" y2="182.88" width="0.1524" layer="91"/>
 </segment>
@@ -18206,20 +18206,20 @@ battery is not turning off</text>
 <net name="N$25" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="1STAT"/>
+<pinref part="IC2" gate="G$1" pin="1STAT"/>
 <wire x1="109.22" y1="182.88" x2="104.14" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="5S1"/>
-<pinref part="U$2" gate="G$1" pin="4D2"/>
+<pinref part="IC3" gate="G$1" pin="5S1"/>
+<pinref part="IC3" gate="G$1" pin="4D2"/>
 <wire x1="43.18" y1="144.78" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="1G1"/>
+<pinref part="IC3" gate="G$1" pin="1G1"/>
 <wire x1="83.82" y1="152.4" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="152.4" x2="91.44" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="152.4" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
@@ -18232,7 +18232,7 @@ battery is not turning off</text>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="3G2"/>
+<pinref part="IC3" gate="G$1" pin="3G2"/>
 <wire x1="83.82" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="CHG-FET"/>
 <wire x1="93.98" y1="137.16" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
@@ -18267,7 +18267,7 @@ battery is not turning off</text>
 <wire x1="111.76" y1="190.5" x2="147.32" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <junction x="111.76" y="190.5"/>
-<pinref part="U$1" gate="G$1" pin="2VSS"/>
+<pinref part="IC2" gate="G$1" pin="2VSS"/>
 <wire x1="147.32" y1="190.5" x2="152.4" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="190.5" x2="111.76" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="175.26" x2="147.32" y2="190.5" width="0.1524" layer="91"/>
@@ -18294,7 +18294,7 @@ battery is not turning off</text>
 <wire x1="48.26" y1="195.58" x2="45.72" y2="195.58" width="0.1524" layer="91"/>
 <junction x="48.26" y="195.58"/>
 <wire x1="48.26" y1="198.12" x2="48.26" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="4VDD"/>
+<pinref part="IC2" gate="G$1" pin="4VDD"/>
 <wire x1="58.42" y1="198.12" x2="48.26" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
