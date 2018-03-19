@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2320,10 +2320,10 @@ http://www.cui.com/product/resource/sj-4351x-smt-series.pdf</description>
 <text x="-3.81" y="0" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
 <hole x="0" y="-3.5" drill="1.7"/>
 <hole x="0" y="3.5" drill="1.7"/>
-<text x="5.588" y="-4.826" size="0.6096" layer="21" ratio="18">1-Sleeve</text>
-<text x="5.715" y="4.445" size="0.6096" layer="21" ratio="18">2-Tip</text>
-<text x="-8.763" y="-2.921" size="0.6096" layer="21" ratio="18">3-Ring</text>
-<text x="-1.905" y="10.922" size="0.6096" layer="21" ratio="18">4-Tip Test</text>
+<text x="5.588" y="-4.826" size="0.6096" layer="104" ratio="18">1-Sleeve</text>
+<text x="5.715" y="4.445" size="0.6096" layer="104" ratio="18">2-Tip</text>
+<text x="-8.763" y="-2.921" size="0.6096" layer="104" ratio="18">3-Ring</text>
+<text x="-1.905" y="10.922" size="0.6096" layer="104" ratio="18">4-Tip Test</text>
 </package>
 <package name="1/8&quot;-F-STEREO-PCB">
 <wire x1="0" y1="0" x2="11.684" y2="0" width="0.127" layer="21"/>

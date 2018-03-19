@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -172,7 +172,7 @@
 <plain>
 <wire x1="0" y1="19" x2="0" y2="1" width="0.1524" layer="20"/>
 <wire x1="1.016" y1="0" x2="100.3" y2="0" width="0.1524" layer="20"/>
-<text x="1.716" y="17.687" size="0.6604" layer="1" font="vector" ratio="15">piezo-rev-3-7</text>
+<text x="1.516" y="18.487" size="0.6604" layer="1" font="vector" ratio="15">piezo-rev-3-7</text>
 <wire x1="0" y1="1" x2="1.016" y2="1" width="0.1524" layer="20"/>
 <wire x1="1.016" y1="1" x2="1.016" y2="0" width="0.1524" layer="20"/>
 <wire x1="1" y1="20.066" x2="1" y2="19" width="0.1524" layer="20"/>
@@ -181,12 +181,10 @@
 <wire x1="100.3" y1="20.066" x2="100.3" y2="0" width="0.1524" layer="20"/>
 <hole x="74" y="10" drill="2.5"/>
 <hole x="26" y="10" drill="2.5"/>
-<text x="74.6" y="19.1" size="0.6604" layer="22" font="vector" ratio="15" rot="MR0">ON</text>
-<text x="85.3" y="19.1" size="0.6604" layer="22" font="vector" ratio="15" rot="MR0">OFF</text>
-<text x="4.5" y="19" size="0.6604" layer="22" font="vector" ratio="15" rot="MR0">PIEZO</text>
-<text x="16" y="19.1" size="0.6604" layer="22" font="vector" ratio="15" rot="MR0">HEADSET</text>
-<text x="17.7" y="11.3" size="0.6604" layer="22" font="vector" ratio="15" rot="MR90">MIXER</text>
-<text x="24.1" y="11" size="0.6604" layer="22" font="vector" ratio="15" rot="MR90">PHONE</text>
+<text x="3.5" y="18.4" size="0.6604" layer="22" font="vector" ratio="15" rot="SMR270">PIEZO</text>
+<text x="12.6" y="15.3" size="0.6604" layer="22" font="vector" ratio="15" rot="MR90">HEADSET</text>
+<text x="16.4" y="18.3" size="0.6604" layer="22" font="vector" ratio="15" rot="SMR270">MIXER</text>
+<text x="25.5" y="15.8" size="0.6604" layer="22" font="vector" ratio="15" rot="MR90">PHONE</text>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -509,10 +507,10 @@ http://www.cui.com/product/resource/sj-4351x-smt-series.pdf</description>
 <text x="-3.81" y="0" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
 <hole x="0" y="-3.5" drill="1.7"/>
 <hole x="0" y="3.5" drill="1.7"/>
-<text x="5.588" y="-4.826" size="0.6096" layer="21" ratio="18">1-Sleeve</text>
-<text x="5.715" y="4.445" size="0.6096" layer="21" ratio="18">2-Tip</text>
-<text x="-8.763" y="-2.921" size="0.6096" layer="21" ratio="18">3-Ring</text>
-<text x="-1.905" y="10.922" size="0.6096" layer="21" ratio="18">4-Tip Test</text>
+<text x="5.588" y="-4.826" size="0.6096" layer="104" ratio="18">1-Sleeve</text>
+<text x="5.715" y="4.445" size="0.6096" layer="104" ratio="18">2-Tip</text>
+<text x="-8.763" y="-2.921" size="0.6096" layer="104" ratio="18">3-Ring</text>
+<text x="-1.905" y="10.922" size="0.6096" layer="104" ratio="18">4-Tip Test</text>
 </package>
 <package name="THUMBPOT14MM">
 <pad name="P$1" x="-4" y="-7.5" drill="1" shape="square"/>
@@ -2161,7 +2159,9 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="81.311" y="5.663" size="0.6604" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="CN1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="JST-PH-2-THM" value="" x="39.108" y="16.721" smashed="yes" rot="MR0">
-<attribute name="NAME" x="40.009" y="15.36" size="0.6604" layer="26" font="vector" ratio="15" rot="MR180"/>
+<attribute name="G" value="(-)" x="38.608" y="13.121" size="0.8128" layer="28" rot="MR0"/>
+<attribute name="NAME" x="40.109" y="14.96" size="0.6604" layer="26" font="vector" ratio="15" rot="MR180"/>
+<attribute name="P" value="(+)" x="41.308" y="13.121" size="0.8128" layer="28" rot="MR0"/>
 </element>
 <element name="Q1" library="CMU-ArtFab" package="SOT23-3" value="MMBFJ201" x="42.895" y="6.299" smashed="yes">
 <attribute name="NAME" x="42.3235" y="8.077" size="0.6604" layer="25" font="vector" ratio="15"/>
@@ -2179,8 +2179,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="84.891" y="4.754" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R1" library="CMU-ArtFab" package="R0603" value="100K" x="16.027" y="15.108" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.916" y="17.013" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="17.17" y="13.711" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="16.716" y="17.013" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="17.27" y="13.911" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R10" library="CMU-ArtFab" package="R0603" value="1.2K" x="41.021" y="2.24" smashed="yes">
 <attribute name="NAME" x="40.386" y="3.383" size="0.6604" layer="25" font="vector" ratio="15"/>
@@ -2262,7 +2262,11 @@ design rules under a new name.</description>
 <attribute name="V" value="+" x="71.764" y="2.554" size="0.6604" layer="27" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="75.375" y="2.199" size="0.6604" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="SW3" library="CMU-ArtFab" package="SWITCH_SPDT_CL-SB-12B" value="SPDT" x="79" y="17.08" smashed="yes" rot="MR180"/>
+<element name="SW3" library="CMU-ArtFab" package="SWITCH_SPDT_CL-SB-12B" value="SPDT" x="79" y="17.08" smashed="yes" rot="MR180">
+<attribute name="OFF" value="OFF" x="79.1" y="19.68" size="0.6604" layer="28" font="vector" ratio="15" rot="SMR180" display="name"/>
+<attribute name="ON" value="ON" x="77.3" y="19.68" size="0.6604" layer="28" font="vector" ratio="15" rot="SMR180" display="name"/>
+<attribute name="POWER" value="POWER" x="79.8" y="15.08" size="0.8" layer="28" font="vector" ratio="15" rot="SMR180" display="name"/>
+</element>
 <element name="J4" library="CMU-ArtFab" package="USB-B-MICRO-SMD_RED_PASTE" value="" x="50" y="2.019" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.1994" y="0.749" size="0.6604" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-11752" x="50" y="2.019" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2300,15 +2304,15 @@ design rules under a new name.</description>
 </element>
 <element name="J3" library="CMU-ArtFab" package="TRS_SJ-3524-SMT" value="Mixer" x="7.112" y="10" smashed="yes" rot="MR90">
 <attribute name="NAME" x="6.872" y="6.53" size="0.6604" layer="26" font="vector" ratio="15" rot="MR180"/>
-<attribute name="VALUE" x="5.972" y="14.36" size="0.6604" layer="28" font="vector" ratio="15" rot="MR180"/>
+<attribute name="VALUE" x="8.472" y="6.76" size="1.016" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="J1" library="CMU-ArtFab" package="TRRS_SJ-43514-SMT-TR" value="HEADPHONES" x="92.426" y="5.334" smashed="yes" rot="MR0">
-<attribute name="NAME" x="85.441" y="9.525" size="0.6604" layer="22" font="vector" ratio="15" rot="MR0"/>
-<attribute name="VALUE" x="83.409" y="9.271" size="0.6604" layer="22" font="vector" ratio="15" rot="MR270"/>
+<attribute name="NAME" x="83.475" y="6.441" size="0.6604" layer="22" font="vector" ratio="15" rot="SMR270"/>
+<attribute name="VALUE" x="88.219" y="1.399" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="J2" library="CMU-ArtFab" package="TRRS_SJ-43514-SMT-TR" value="PHONE" x="92.426" y="14.986" smashed="yes" rot="MR0">
-<attribute name="NAME" x="85.187" y="10.287" size="0.6604" layer="22" font="vector" ratio="15" rot="MR0"/>
-<attribute name="VALUE" x="82.955" y="14.143" size="0.6604" layer="22" font="vector" ratio="15" rot="MR270"/>
+<attribute name="NAME" x="83.413" y="14.087" size="0.6604" layer="22" font="vector" ratio="15" rot="SMR270"/>
+<attribute name="VALUE" x="92.443" y="18.645" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="3.83" y="2.81" smashed="yes">
 <attribute name="NAME" x="3.195" y="3.445" size="0.6604" layer="25" font="vector" ratio="15"/>
@@ -2365,7 +2369,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="47.29" y="6.87" size="0.6604" layer="21" font="vector" ratio="15"/>
 </element>
 <element name="IC2" library="CMU-ArtFab" package="SOT-23-5" value="MCP73831" x="65.2" y="14.3" smashed="yes">
-<attribute name="NAME" x="63.295" y="13.03" size="0.6604" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="63.435" y="13.55" size="0.6604" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="67.64" y="11.63" size="0.6604" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="IC3" library="CMU-ArtFab" package="SOT457R_PHILIPS" value="QS6K1" x="74.7" y="13.5" smashed="yes">
@@ -2378,7 +2382,7 @@ design rules under a new name.</description>
 </element>
 <element name="R22" library="CMU-ArtFab" package="R0603" value="10M" x="63.8" y="1.8" smashed="yes">
 <attribute name="NAME" x="63.165" y="2.435" size="0.6604" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="62.065" y="0.495" size="0.6604" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="63.025" y="0.425" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R23" library="CMU-ArtFab" package="R0603" value="10M" x="67" y="2.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.365" y="1.465" size="0.6604" layer="25" font="vector" ratio="15" rot="R90"/>
@@ -2453,14 +2457,13 @@ design rules under a new name.</description>
 <wire x1="80.01" y1="10.5156" x2="80.01" y2="13.716" width="0.1524" layer="1"/>
 <wire x1="79.248" y1="9.7536" x2="80.01" y2="10.5156" width="0.1524" layer="1"/>
 <wire x1="67.2084" y1="18.1356" x2="67.15" y2="18" width="0.1524" layer="1"/>
-<wire x1="91.1352" y1="1.2192" x2="96.6216" y2="1.2192" width="0.1524" layer="16"/>
-<wire x1="84.4296" y1="7.9248" x2="89.916" y2="2.4384" width="0.1524" layer="1"/>
-<wire x1="89.916" y1="2.4384" x2="91.1352" y2="1.2192" width="0.1524" layer="1"/>
-<wire x1="80.01" y1="7.9248" x2="84.4296" y2="7.9248" width="0.1524" layer="1"/>
+<wire x1="93.0352" y1="3.3192" x2="96.6216" y2="1.2192" width="0.1524" layer="16"/>
+<wire x1="80.01" y1="7.9248" x2="85.3752" y2="7.9248" width="0.1524" layer="1"/>
 <wire x1="96.6216" y1="1.2192" x2="96.719" y2="1.2065" width="0.1524" layer="16"/>
 <wire x1="96.6216" y1="9.144" x2="96.6216" y2="10.8204" width="0.1524" layer="16"/>
 <wire x1="96.1644" y1="8.6868" x2="96.6216" y2="9.144" width="0.1524" layer="16"/>
-<wire x1="89.916" y1="2.4384" x2="96.1644" y2="8.6868" width="0.1524" layer="1"/>
+<wire x1="91.9888" y1="4.5112" x2="89.916" y2="2.4384" width="0.1524" layer="1"/>
+<wire x1="91.9888" y1="4.5112" x2="96.1644" y2="8.6868" width="0.1524" layer="1"/>
 <wire x1="96.6216" y1="10.8204" x2="96.719" y2="10.8585" width="0.1524" layer="16"/>
 <wire x1="28.6512" y1="8.2296" x2="28.6512" y2="6.5532" width="0.1524" layer="1"/>
 <wire x1="29.8704" y1="9.4488" x2="28.6512" y2="8.2296" width="0.1524" layer="1"/>
@@ -2574,13 +2577,18 @@ design rules under a new name.</description>
 <wire x1="65.0748" y1="8.2296" x2="67.6656" y2="8.2296" width="0.1524" layer="16"/>
 <wire x1="62.1792" y1="5.334" x2="65.0748" y2="8.2296" width="0.1524" layer="16"/>
 <via x="67.6656" y="8.2296" extent="1-16" drill="0.35"/>
-<via x="91.1352" y="1.2192" extent="1-16" drill="0.35"/>
+<via x="93.0352" y="3.3192" extent="1-16" drill="0.35"/>
 <via x="96.1644" y="8.6868" extent="1-16" drill="0.35"/>
 <via x="5.1816" y="13.716" extent="1-16" drill="0.35"/>
 <via x="41.91" y="9.906" extent="1-16" drill="0.35"/>
 <via x="36.8808" y="7.9248" extent="1-16" drill="0.35"/>
 <via x="31.0896" y="8.382" extent="1-16" drill="0.35"/>
 <via x="62.1792" y="5.334" extent="1-16" drill="0.35"/>
+<wire x1="93.0352" y1="3.3192" x2="91.9888" y2="4.3656" width="0.1524" layer="1"/>
+<wire x1="91.9888" y1="4.3656" x2="91.9888" y2="4.5112" width="0.1524" layer="1"/>
+<wire x1="89.916" y1="2.4384" x2="86" y2="6.3544" width="0.1524" layer="1"/>
+<wire x1="86" y1="6.3544" x2="86" y2="7.3" width="0.1524" layer="1"/>
+<wire x1="86" y1="7.3" x2="85.3752" y2="7.9248" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R7" pad="1"/>
