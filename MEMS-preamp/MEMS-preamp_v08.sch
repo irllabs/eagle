@@ -27201,7 +27201,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="P+6" library="supply1" deviceset="+12V" device=""/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF"/>
 <part name="U4" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="SW3" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="CL-SB-12B" value="SPDT"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="LOCK" value="Battery"/>
@@ -27232,6 +27231,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="B" package3d_urn="urn:adsk.eagle:package:25911/1" value="10uF"/>
 <part name="C13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="B" package3d_urn="urn:adsk.eagle:package:25911/1" value="10uF"/>
+<part name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="B" package3d_urn="urn:adsk.eagle:package:25911/1" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -27322,7 +27322,6 @@ battery is not turning off</text>
 <instance part="C9" gate="G$1" x="365.76" y="259.08"/>
 <instance part="C10" gate="G$1" x="381" y="266.7"/>
 <instance part="P+6" gate="1" x="457.2" y="276.86"/>
-<instance part="C15" gate="G$1" x="462.28" y="256.54" rot="R90"/>
 <instance part="U4" gate="G$1" x="154.94" y="302.26"/>
 <instance part="SW3" gate="G$1" x="162.56" y="287.02"/>
 <instance part="J5" gate="G$1" x="180.34" y="292.1" rot="R180"/>
@@ -27360,6 +27359,7 @@ battery is not turning off</text>
 </instance>
 <instance part="C12" gate="G$1" x="530.86" y="259.08" rot="R90"/>
 <instance part="C13" gate="G$1" x="599.44" y="259.08" rot="R90"/>
+<instance part="C14" gate="G$1" x="462.28" y="256.54" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -27740,15 +27740,15 @@ battery is not turning off</text>
 <net name="N$3" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
-<pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="449.58" y1="256.54" x2="459.74" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="467.36" y1="256.54" x2="472.44" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$22" class="0">
