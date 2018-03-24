@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="8.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4038,7 +4038,7 @@ gnd</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP73831">
+<deviceset name="MCP73831" prefix="U">
 <gates>
 <gate name="G$1" symbol="MCP73831" x="0" y="0"/>
 </gates>
@@ -4057,7 +4057,7 @@ gnd</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="QS6K1">
+<deviceset name="QS6K1" prefix="U">
 <gates>
 <gate name="G$1" symbol="QS6K1" x="0" y="0"/>
 </gates>
@@ -24483,980 +24483,566 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <packages3d>
 <package3d name="CT3216" urn="urn:adsk.eagle:package:25799/1" type="box" library_version="1">
 <description>TANTALUM CAPACITOR</description>
-<packageinstances>
-<packageinstance name="CT3216"/>
-</packageinstances>
 </package3d>
 <package3d name="CT3528" urn="urn:adsk.eagle:package:25815/1" type="box" library_version="1">
 <description>TANTALUM CAPACITOR</description>
-<packageinstances>
-<packageinstance name="CT3528"/>
-</packageinstances>
 </package3d>
 <package3d name="CT6032" urn="urn:adsk.eagle:package:25795/1" type="box" library_version="1">
 <description>TANTALUM CAPACITOR</description>
-<packageinstances>
-<packageinstance name="CT6032"/>
-</packageinstances>
 </package3d>
 <package3d name="CT7343" urn="urn:adsk.eagle:package:25791/1" type="box" library_version="1">
 <description>CAPACITOR
 chip
 tantalum</description>
-<packageinstances>
-<packageinstance name="CT7343"/>
-</packageinstances>
 </package3d>
 <package3d name="B45181A" urn="urn:adsk.eagle:package:25796/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 body 5 x 5 mm, rectangle, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="B45181A"/>
-</packageinstances>
 </package3d>
 <package3d name="B45181B" urn="urn:adsk.eagle:package:25794/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 body 7.6 x 5 mm, rectangle, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="B45181B"/>
-</packageinstances>
 </package3d>
 <package3d name="B45181C" urn="urn:adsk.eagle:package:25789/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 body 12.7 x 7.6 mm, rectangle, grid 10.16 mm</description>
-<packageinstances>
-<packageinstance name="B45181C"/>
-</packageinstances>
 </package3d>
 <package3d name="B45181D" urn="urn:adsk.eagle:package:25806/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 body 12.5 x 12.5 mm, rectangle, grid 10.16 mm</description>
-<packageinstances>
-<packageinstance name="B45181D"/>
-</packageinstances>
 </package3d>
 <package3d name="TT2D4" urn="urn:adsk.eagle:package:25816/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 4 mm, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TT2D4"/>
-</packageinstances>
 </package3d>
 <package3d name="TT2D4L" urn="urn:adsk.eagle:package:25798/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 4 mm, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TT2D4L"/>
-</packageinstances>
 </package3d>
 <package3d name="TT2D5" urn="urn:adsk.eagle:package:25805/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 5 mm, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TT2D5"/>
-</packageinstances>
 </package3d>
 <package3d name="TT2D6" urn="urn:adsk.eagle:package:25801/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 6 mm, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TT2D6"/>
-</packageinstances>
 </package3d>
 <package3d name="TT2D6L" urn="urn:adsk.eagle:package:25810/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 6 mm, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TT2D6L"/>
-</packageinstances>
 </package3d>
 <package3d name="TT2D7L" urn="urn:adsk.eagle:package:25814/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 7 mm, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TT2D7L"/>
-</packageinstances>
 </package3d>
 <package3d name="TT2D7" urn="urn:adsk.eagle:package:25793/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 7 mm, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TT2D7"/>
-</packageinstances>
 </package3d>
 <package3d name="TT5D10" urn="urn:adsk.eagle:package:25790/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 10 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TT5D10"/>
-</packageinstances>
 </package3d>
 <package3d name="TT5D11" urn="urn:adsk.eagle:package:25817/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 11 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TT5D11"/>
-</packageinstances>
 </package3d>
 <package3d name="TT5D11L" urn="urn:adsk.eagle:package:25792/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 11 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TT5D11L"/>
-</packageinstances>
 </package3d>
 <package3d name="TT5D6" urn="urn:adsk.eagle:package:25797/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 6 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TT5D6"/>
-</packageinstances>
 </package3d>
 <package3d name="TT5D6L" urn="urn:adsk.eagle:package:25800/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 6 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TT5D6L"/>
-</packageinstances>
 </package3d>
 <package3d name="TT5D7" urn="urn:adsk.eagle:package:25809/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 7 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TT5D7"/>
-</packageinstances>
 </package3d>
 <package3d name="TT5D7L" urn="urn:adsk.eagle:package:25808/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 7 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TT5D7L"/>
-</packageinstances>
 </package3d>
 <package3d name="TT5D9" urn="urn:adsk.eagle:package:25811/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 9 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TT5D9"/>
-</packageinstances>
 </package3d>
 <package3d name="TT5D9L" urn="urn:adsk.eagle:package:25802/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 9 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TT5D9L"/>
-</packageinstances>
 </package3d>
 <package3d name="ETR1" urn="urn:adsk.eagle:package:25813/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 rectangle, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="ETR1"/>
-</packageinstances>
 </package3d>
 <package3d name="ETR2" urn="urn:adsk.eagle:package:25834/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 rectangle, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="ETR2"/>
-</packageinstances>
 </package3d>
 <package3d name="ETR3" urn="urn:adsk.eagle:package:25804/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 rectangle, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="ETR3"/>
-</packageinstances>
 </package3d>
 <package3d name="ETR4" urn="urn:adsk.eagle:package:25803/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 rectangle, grid 10.16 mm</description>
-<packageinstances>
-<packageinstance name="ETR4"/>
-</packageinstances>
 </package3d>
 <package3d name="ETR5" urn="urn:adsk.eagle:package:25812/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 rectangle, grid 10.16 mm</description>
-<packageinstances>
-<packageinstance name="ETR5"/>
-</packageinstances>
 </package3d>
 <package3d name="P128-35" urn="urn:adsk.eagle:package:25807/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR</description>
-<packageinstances>
-<packageinstance name="P128-35"/>
-</packageinstances>
 </package3d>
 <package3d name="P128-40" urn="urn:adsk.eagle:package:25820/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR</description>
-<packageinstances>
-<packageinstance name="P128-40"/>
-</packageinstances>
 </package3d>
 <package3d name="P128-50" urn="urn:adsk.eagle:package:25818/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR</description>
-<packageinstances>
-<packageinstance name="P128-50"/>
-</packageinstances>
 </package3d>
 <package3d name="P128-60" urn="urn:adsk.eagle:package:25819/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR</description>
-<packageinstances>
-<packageinstance name="P128-60"/>
-</packageinstances>
 </package3d>
 <package3d name="TAP5-45" urn="urn:adsk.eagle:package:25824/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 4.5 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TAP5-45"/>
-</packageinstances>
 </package3d>
 <package3d name="TAP5-50" urn="urn:adsk.eagle:package:25821/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 5.0 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TAP5-50"/>
-</packageinstances>
 </package3d>
 <package3d name="TAP5-70" urn="urn:adsk.eagle:package:25822/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 7.0 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TAP5-70"/>
-</packageinstances>
 </package3d>
 <package3d name="TAP5-60" urn="urn:adsk.eagle:package:25823/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 6.0 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TAP5-60"/>
-</packageinstances>
 </package3d>
 <package3d name="TAP5-80" urn="urn:adsk.eagle:package:25826/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 8.0 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TAP5-80"/>
-</packageinstances>
 </package3d>
 <package3d name="E1,8-4" urn="urn:adsk.eagle:package:25825/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 1.8 mm, diameter 4 mm</description>
-<packageinstances>
-<packageinstance name="E1,8-4"/>
-</packageinstances>
 </package3d>
 <package3d name="E15-5" urn="urn:adsk.eagle:package:25829/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 15.24 mm, diameter 5 mm</description>
-<packageinstances>
-<packageinstance name="E15-5"/>
-</packageinstances>
 </package3d>
 <package3d name="E15-6" urn="urn:adsk.eagle:package:25840/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 15.24 mm, diameter 6 mm</description>
-<packageinstances>
-<packageinstance name="E15-6"/>
-</packageinstances>
 </package3d>
 <package3d name="E15-9" urn="urn:adsk.eagle:package:25828/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 15.24 mm, diameter 9 mm</description>
-<packageinstances>
-<packageinstance name="E15-9"/>
-</packageinstances>
 </package3d>
 <package3d name="E2,5-4R" urn="urn:adsk.eagle:package:25827/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 2.54 mm, diameter 4 mm</description>
-<packageinstances>
-<packageinstance name="E2,5-4R"/>
-</packageinstances>
 </package3d>
 <package3d name="E2,5-5" urn="urn:adsk.eagle:package:25841/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 2.54 mm, diameter 5 mm</description>
-<packageinstances>
-<packageinstance name="E2,5-5"/>
-</packageinstances>
 </package3d>
 <package3d name="E2,5-6" urn="urn:adsk.eagle:package:25832/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 2.54 mm, diameter 6 mm</description>
-<packageinstances>
-<packageinstance name="E2,5-6"/>
-</packageinstances>
 </package3d>
 <package3d name="E2,5-7" urn="urn:adsk.eagle:package:25830/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 2.54 mm, diameter 7 mm</description>
-<packageinstances>
-<packageinstance name="E2,5-7"/>
-</packageinstances>
 </package3d>
 <package3d name="E2,5RE" urn="urn:adsk.eagle:package:25831/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 2.54 mm, diameter 4 mm,</description>
-<packageinstances>
-<packageinstance name="E2,5RE"/>
-</packageinstances>
 </package3d>
 <package3d name="E2-4" urn="urn:adsk.eagle:package:25835/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 2 mm, diameter 4 mm</description>
-<packageinstances>
-<packageinstance name="E2-4"/>
-</packageinstances>
 </package3d>
 <package3d name="E2-5" urn="urn:adsk.eagle:package:25833/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 2.032 mm, diameter 5 mm</description>
-<packageinstances>
-<packageinstance name="E2-5"/>
-</packageinstances>
 </package3d>
 <package3d name="E22-10" urn="urn:adsk.eagle:package:25836/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 22.86 mm, diameter 10 mm</description>
-<packageinstances>
-<packageinstance name="E22-10"/>
-</packageinstances>
 </package3d>
 <package3d name="E22-6" urn="urn:adsk.eagle:package:25838/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 22.86 mm, diameter 6 mm</description>
-<packageinstances>
-<packageinstance name="E22-6"/>
-</packageinstances>
 </package3d>
 <package3d name="E22-9" urn="urn:adsk.eagle:package:25837/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 22.86 mm, diameter 9 mm</description>
-<packageinstances>
-<packageinstance name="E22-9"/>
-</packageinstances>
 </package3d>
 <package3d name="E3,5-10" urn="urn:adsk.eagle:package:25839/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 3.5 mm, diameter 10 mm</description>
-<packageinstances>
-<packageinstance name="E3,5-10"/>
-</packageinstances>
 </package3d>
 <package3d name="E25-10" urn="urn:adsk.eagle:package:25844/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 25.4 mm, diameter 10 mm</description>
-<packageinstances>
-<packageinstance name="E25-10"/>
-</packageinstances>
 </package3d>
 <package3d name="E25-9" urn="urn:adsk.eagle:package:25843/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 25.4 mm, diameter 9 mm</description>
-<packageinstances>
-<packageinstance name="E25-9"/>
-</packageinstances>
 </package3d>
 <package3d name="E3,5-8" urn="urn:adsk.eagle:package:25842/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 3.5 mm, diameter 8 mm</description>
-<packageinstances>
-<packageinstance name="E3,5-8"/>
-</packageinstances>
 </package3d>
 <package3d name="E30-10" urn="urn:adsk.eagle:package:25848/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 30.48 mm, diameter 10 mm</description>
-<packageinstances>
-<packageinstance name="E30-10"/>
-</packageinstances>
 </package3d>
 <package3d name="E30-12" urn="urn:adsk.eagle:package:25846/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 30.48 mm, diameter 12 mm</description>
-<packageinstances>
-<packageinstance name="E30-12"/>
-</packageinstances>
 </package3d>
 <package3d name="E30-16" urn="urn:adsk.eagle:package:25847/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 30.48 mm, diameter 16 mm</description>
-<packageinstances>
-<packageinstance name="E30-16"/>
-</packageinstances>
 </package3d>
 <package3d name="E35-12" urn="urn:adsk.eagle:package:25845/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 35.56 mm, diameter 12 mm</description>
-<packageinstances>
-<packageinstance name="E35-12"/>
-</packageinstances>
 </package3d>
 <package3d name="E35-14" urn="urn:adsk.eagle:package:25849/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 30.48 mm, diameter 14 mm</description>
-<packageinstances>
-<packageinstance name="E35-14"/>
-</packageinstances>
 </package3d>
 <package3d name="E35-16" urn="urn:adsk.eagle:package:25861/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 30.48 mm, diameter 16 mm</description>
-<packageinstances>
-<packageinstance name="E35-16"/>
-</packageinstances>
 </package3d>
 <package3d name="E35-18" urn="urn:adsk.eagle:package:25851/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 30.48 mm, diameter 18 mm</description>
-<packageinstances>
-<packageinstance name="E35-18"/>
-</packageinstances>
 </package3d>
 <package3d name="E45-16" urn="urn:adsk.eagle:package:25850/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 45.72 mm, diameter 16 mm</description>
-<packageinstances>
-<packageinstance name="E45-16"/>
-</packageinstances>
 </package3d>
 <package3d name="E45-18" urn="urn:adsk.eagle:package:25857/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 45.72 mm, diameter 18 mm</description>
-<packageinstances>
-<packageinstance name="E45-18"/>
-</packageinstances>
 </package3d>
 <package3d name="E45-21" urn="urn:adsk.eagle:package:25852/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 45.72 mm, diameter 21 mm</description>
-<packageinstances>
-<packageinstance name="E45-21"/>
-</packageinstances>
 </package3d>
 <package3d name="E45-22" urn="urn:adsk.eagle:package:25853/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 45.72 mm, diameter 22 mm</description>
-<packageinstances>
-<packageinstance name="E45-22"/>
-</packageinstances>
 </package3d>
 <package3d name="E45-25" urn="urn:adsk.eagle:package:25856/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 45.72 mm, diameter 25 mm</description>
-<packageinstances>
-<packageinstance name="E45-25"/>
-</packageinstances>
 </package3d>
 <package3d name="E5-10,5" urn="urn:adsk.eagle:package:25854/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 5.08 mm, diameter 10.5 mm</description>
-<packageinstances>
-<packageinstance name="E5-10,5"/>
-</packageinstances>
 </package3d>
 <package3d name="E5-13" urn="urn:adsk.eagle:package:25855/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 5.08 mm, diameter 13 mm</description>
-<packageinstances>
-<packageinstance name="E5-13"/>
-</packageinstances>
 </package3d>
 <package3d name="E5-4" urn="urn:adsk.eagle:package:25859/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 5.05 mm, diameter 4 mm</description>
-<packageinstances>
-<packageinstance name="E5-4"/>
-</packageinstances>
 </package3d>
 <package3d name="E5-5" urn="urn:adsk.eagle:package:25868/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 5.08 mm, diameter 5 mm</description>
-<packageinstances>
-<packageinstance name="E5-5"/>
-</packageinstances>
 </package3d>
 <package3d name="E5-6" urn="urn:adsk.eagle:package:25858/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 5.08 mm, diameter 6 mm</description>
-<packageinstances>
-<packageinstance name="E5-6"/>
-</packageinstances>
 </package3d>
 <package3d name="E5-8,5" urn="urn:adsk.eagle:package:25860/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 5.08 mm, diameter 8.5 mm</description>
-<packageinstances>
-<packageinstance name="E5-8,5"/>
-</packageinstances>
 </package3d>
 <package3d name="E50-25" urn="urn:adsk.eagle:package:25862/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 50 mm, diameter 25 mm</description>
-<packageinstances>
-<packageinstance name="E50-25"/>
-</packageinstances>
 </package3d>
 <package3d name="E50-30" urn="urn:adsk.eagle:package:25863/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 50 mm, diameter 30 mm</description>
-<packageinstances>
-<packageinstance name="E50-30"/>
-</packageinstances>
 </package3d>
 <package3d name="E55-25" urn="urn:adsk.eagle:package:25865/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 55 mm, diameter 25 mm</description>
-<packageinstances>
-<packageinstance name="E55-25"/>
-</packageinstances>
 </package3d>
 <package3d name="E55-30" urn="urn:adsk.eagle:package:25864/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 55 mm, diameter 30 mm</description>
-<packageinstances>
-<packageinstance name="E55-30"/>
-</packageinstances>
 </package3d>
 <package3d name="E5R" urn="urn:adsk.eagle:package:25866/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 5.08 mm, diameter 9 mm</description>
-<packageinstances>
-<packageinstance name="E5R"/>
-</packageinstances>
 </package3d>
 <package3d name="E7,5-16" urn="urn:adsk.eagle:package:25867/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 7.62 mm, diameter 16 mm</description>
-<packageinstances>
-<packageinstance name="E7,5-16"/>
-</packageinstances>
 </package3d>
 <package3d name="E7,5-18" urn="urn:adsk.eagle:package:25870/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 7.62 mm, diameter 18 mm</description>
-<packageinstances>
-<packageinstance name="E7,5-18"/>
-</packageinstances>
 </package3d>
 <package3d name="EB20D" urn="urn:adsk.eagle:package:25869/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 10.16 mm, diameter 20 mm</description>
-<packageinstances>
-<packageinstance name="EB20D"/>
-</packageinstances>
 </package3d>
 <package3d name="EB22,5D" urn="urn:adsk.eagle:package:25879/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 10.16 mm, diameter 22.5 mm</description>
-<packageinstances>
-<packageinstance name="EB22,5D"/>
-</packageinstances>
 </package3d>
 <package3d name="EB25D" urn="urn:adsk.eagle:package:25878/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 10.16 mm, diameter 25 mm</description>
-<packageinstances>
-<packageinstance name="EB25D"/>
-</packageinstances>
 </package3d>
 <package3d name="EB30D" urn="urn:adsk.eagle:package:25871/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 10.16 mm, diameter 30 mm</description>
-<packageinstances>
-<packageinstance name="EB30D"/>
-</packageinstances>
 </package3d>
 <package3d name="EB35D" urn="urn:adsk.eagle:package:25872/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 10.16 mm, diameter 35 mm</description>
-<packageinstances>
-<packageinstance name="EB35D"/>
-</packageinstances>
 </package3d>
 <package3d name="085CS_1R" urn="urn:adsk.eagle:package:25874/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors reflow soldering
 SMD (Chip) Standard 085 CS
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="085CS_1R"/>
-</packageinstances>
 </package3d>
 <package3d name="085CS_1W" urn="urn:adsk.eagle:package:25873/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors wave soldering
 SMD (Chip) Standard 085 CS
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="085CS_1W"/>
-</packageinstances>
 </package3d>
 <package3d name="085CS_1AR" urn="urn:adsk.eagle:package:25875/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors reflow soldering
 SMD (Chip) Standard 085 CS
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="085CS_1AR"/>
-</packageinstances>
 </package3d>
 <package3d name="085CS_1AW" urn="urn:adsk.eagle:package:25876/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors wave soldering
 SMD (Chip) Standard 085 CS
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="085CS_1AW"/>
-</packageinstances>
 </package3d>
 <package3d name="139CLL-2R" urn="urn:adsk.eagle:package:25877/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors reflow soldering
 SMD (Chip) Long Life 139 CLL
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-2R"/>
-</packageinstances>
 </package3d>
 <package3d name="139CLL-2W" urn="urn:adsk.eagle:package:25880/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors wave soldering
 SMD (Chip) Long Life 139 CLL
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-2W"/>
-</packageinstances>
 </package3d>
 <package3d name="139CLL-3R" urn="urn:adsk.eagle:package:25884/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors reflow soldering
 SMD (Chip) Long Life 139 CLL
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-3R"/>
-</packageinstances>
 </package3d>
 <package3d name="139CLL-3W" urn="urn:adsk.eagle:package:25882/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors wave soldering
 SMD (Chip) Long Life 139 CLL
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-3W"/>
-</packageinstances>
 </package3d>
 <package3d name="140CLH-0810" urn="urn:adsk.eagle:package:25881/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors SMD (Chip)
 Long life base plate, High temperature 140 CLH
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="140CLH-0810"/>
-</packageinstances>
 </package3d>
 <package3d name="140CLH-1010" urn="urn:adsk.eagle:package:25883/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors SMD (Chip)
 Long life base plate, High temperature 140 CLH
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="140CLH-1010"/>
-</packageinstances>
 </package3d>
 <package3d name="140CLH-1014" urn="urn:adsk.eagle:package:25886/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors SMD (Chip)
 Long life base plate, High temperature 140 CLH
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="140CLH-1014"/>
-</packageinstances>
 </package3d>
 <package3d name="150CLZ-0810" urn="urn:adsk.eagle:package:25885/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors SMD (Chip)
 Long life base plate, very low impedance 150 CLZ
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="150CLZ-0810"/>
-</packageinstances>
 </package3d>
 <package3d name="150CLZ-1010" urn="urn:adsk.eagle:package:25887/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors SMD (Chip)
 Long life base plate, very low impedance 150 CLZ
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="150CLZ-1010"/>
-</packageinstances>
 </package3d>
 <package3d name="150CLZ-1014" urn="urn:adsk.eagle:package:25888/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors SMD (Chip)
 Long life base plate, very low impedance 150 CLZ
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="150CLZ-1014"/>
-</packageinstances>
 </package3d>
 <package3d name="153CLV-0405" urn="urn:adsk.eagle:package:25891/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors
 SMD (Chip) Long Life Vertical 153 CLV
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0405"/>
-</packageinstances>
 </package3d>
 <package3d name="153CLV-0505" urn="urn:adsk.eagle:package:25890/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors
 SMD (Chip) Long Life Vertical 153 CLV
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0505"/>
-</packageinstances>
 </package3d>
 <package3d name="153CLV-0605" urn="urn:adsk.eagle:package:25889/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors
 SMD (Chip) Long Life Vertical 153 CLV
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0605"/>
-</packageinstances>
 </package3d>
 <package3d name="153CLV-0807" urn="urn:adsk.eagle:package:25892/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors
 SMD (Chip) Long Life Vertical 153 CLV
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0807"/>
-</packageinstances>
 </package3d>
 <package3d name="153CLV-0810" urn="urn:adsk.eagle:package:25893/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors
 SMD (Chip) Long Life Vertical 153 CLV
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0810"/>
-</packageinstances>
 </package3d>
 <package3d name="153CLV-1010" urn="urn:adsk.eagle:package:25894/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors
 SMD (Chip) Long Life Vertical 153 CLV
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-1010"/>
-</packageinstances>
 </package3d>
 <package3d name="153CLV-1012" urn="urn:adsk.eagle:package:25895/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors
 SMD (Chip) Long Life Vertical 153 CLV
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-1012"/>
-</packageinstances>
 </package3d>
 <package3d name="153CLV-1014" urn="urn:adsk.eagle:package:25897/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors
 SMD (Chip) Long Life Vertical 153 CLV
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-1014"/>
-</packageinstances>
 </package3d>
 <package3d name="175TMP-0808" urn="urn:adsk.eagle:package:25896/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors
 High Temperature solid electrolytic SMD 175 TMP
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="175TMP-0808"/>
-</packageinstances>
 </package3d>
 <package3d name="175TMP-0810" urn="urn:adsk.eagle:package:25899/1" type="box" library_version="1">
 <description>Aluminum electrolytic capacitors
 High Temperature solid electrolytic SMD 175 TMP
 http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="175TMP-0810"/>
-</packageinstances>
 </package3d>
 <package3d name="A/3216-18R" urn="urn:adsk.eagle:package:25898/1" type="box" library_version="1">
 <description>Chip Capacitor Type KEMET A / EIA 3216-18 reflow solderKEMET S / EIA 3216-12</description>
-<packageinstances>
-<packageinstance name="A/3216-18R"/>
-</packageinstances>
 </package3d>
 <package3d name="A/3216-18W" urn="urn:adsk.eagle:package:25908/1" type="box" library_version="1">
 <description>Chip Capacitor Type KEMET A / EIA 3216-18 Wave solder
 KEMET S / EIA 3216-12</description>
-<packageinstances>
-<packageinstance name="A/3216-18W"/>
-</packageinstances>
 </package3d>
 <package3d name="T/3528-12R" urn="urn:adsk.eagle:package:25903/1" type="box" library_version="1">
 <description>Chip Capacitor Type KEMET T / EIA 3528-12 Reflow solder
 EIA 3528-12 (Kemet T, AVX T): 3.5 mm × 2.8 mm × 1.2 mm</description>
-<packageinstances>
-<packageinstance name="T/3528-12R"/>
-</packageinstances>
 </package3d>
 <package3d name="B/3528-21W" urn="urn:adsk.eagle:package:25900/1" type="box" library_version="1">
 <description>Chip Capacitor Type KEMET B / EIA 3528-21 Wave solder
 KEMET T / EIA 3528-12</description>
-<packageinstances>
-<packageinstance name="B/3528-21W"/>
-</packageinstances>
 </package3d>
 <package3d name="C/6032-28R" urn="urn:adsk.eagle:package:25901/1" type="box" library_version="1">
 <description>Chip Capacitor Type KEMET C / EIA 6032-28 reflow solderKEMET U / EIA 6032-15</description>
-<packageinstances>
-<packageinstance name="C/6032-28R"/>
-</packageinstances>
 </package3d>
 <package3d name="C/6032-28W" urn="urn:adsk.eagle:package:25902/1" type="box" library_version="1">
 <description>Chip Capacitor Type KEMET C / EIA 6032-28 Wafe solder
 KEMET U / EIA 6032-15</description>
-<packageinstances>
-<packageinstance name="C/6032-28W"/>
-</packageinstances>
 </package3d>
 <package3d name="D/7343-31R" urn="urn:adsk.eagle:package:25905/1" type="box" library_version="1">
 <description>Chip Capacitor Type KEMET D / EIA 7343-21KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder</description>
-<packageinstances>
-<packageinstance name="D/7343-31R"/>
-</packageinstances>
 </package3d>
 <package3d name="D/7343-31W" urn="urn:adsk.eagle:package:25904/1" type="box" library_version="1">
 <description>Chip Capacitor Type KEMET D / EIA 7343-21
 KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
-<packageinstances>
-<packageinstance name="D/7343-31W"/>
-</packageinstances>
 </package3d>
 <package3d name="E/7260-38R" urn="urn:adsk.eagle:package:25906/1" type="box" library_version="1">
 <description>Chip Capacitor Type KEMET E / EIA 7260-38 reflow solder</description>
-<packageinstances>
-<packageinstance name="E/7260-38R"/>
-</packageinstances>
 </package3d>
 <package3d name="E/7260-38W" urn="urn:adsk.eagle:package:25909/1" type="box" library_version="1">
 <description>Chip Capacitor Type KEMET E / EIA 7260-38 Wafe solder</description>
-<packageinstances>
-<packageinstance name="E/7260-38W"/>
-</packageinstances>
 </package3d>
 <package3d name="R/2012-12R" urn="urn:adsk.eagle:package:25907/1" type="box" library_version="1">
 <description>Chip Capacitor Type KEMET R/EIA 2012-12 reflow solder</description>
-<packageinstances>
-<packageinstance name="R/2012-12R"/>
-</packageinstances>
 </package3d>
 <package3d name="R/2012-12W" urn="urn:adsk.eagle:package:25910/1" type="box" library_version="1">
 <description>Chip Capacitor Type KEMET R/EIA 2012-12 Wafe solder</description>
-<packageinstances>
-<packageinstance name="R/2012-12W"/>
-</packageinstances>
 </package3d>
 <package3d name="PANASONIC_A" urn="urn:adsk.eagle:package:25912/1" type="box" library_version="1">
 <description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package A</description>
-<packageinstances>
-<packageinstance name="PANASONIC_A"/>
-</packageinstances>
 </package3d>
 <package3d name="PANASONIC_B" urn="urn:adsk.eagle:package:25911/1" type="box" library_version="1">
 <description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package B</description>
-<packageinstances>
-<packageinstance name="PANASONIC_B"/>
-</packageinstances>
 </package3d>
 <package3d name="PANASONIC_C" urn="urn:adsk.eagle:package:25913/1" type="box" library_version="1">
 <description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package C</description>
-<packageinstances>
-<packageinstance name="PANASONIC_C"/>
-</packageinstances>
 </package3d>
 <package3d name="PANASONIC_D" urn="urn:adsk.eagle:package:25914/1" type="box" library_version="1">
 <description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package D</description>
-<packageinstances>
-<packageinstance name="PANASONIC_D"/>
-</packageinstances>
 </package3d>
 <package3d name="PANASONIC_E" urn="urn:adsk.eagle:package:25915/1" type="box" library_version="1">
 <description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E</description>
-<packageinstances>
-<packageinstance name="PANASONIC_E"/>
-</packageinstances>
 </package3d>
 <package3d name="PANASONIC_F" urn="urn:adsk.eagle:package:25916/1" type="box" library_version="1">
 <description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package F</description>
-<packageinstances>
-<packageinstance name="PANASONIC_F"/>
-</packageinstances>
 </package3d>
 <package3d name="PANASONIC_G" urn="urn:adsk.eagle:package:25917/1" type="box" library_version="1">
 <description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package G</description>
-<packageinstances>
-<packageinstance name="PANASONIC_G"/>
-</packageinstances>
 </package3d>
 <package3d name="TT2D5L" urn="urn:adsk.eagle:package:25918/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 diameter 5 mm, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TT2D5L"/>
-</packageinstances>
 </package3d>
 <package3d name="E2,5-6E" urn="urn:adsk.eagle:package:25924/1" type="box" library_version="1">
 <description>ELECTROLYTIC CAPACITOR
 grid 2.54 mm, diameter 6 mm</description>
-<packageinstances>
-<packageinstance name="E2,5-6E"/>
-</packageinstances>
 </package3d>
 <package3d name="SMC_A" urn="urn:adsk.eagle:package:25926/1" type="box" library_version="1">
 <description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
 Siemens Matsushita Components B 45 194, B 45 197, B 45 198
 Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_A"/>
-</packageinstances>
 </package3d>
 <package3d name="SMC_Z" urn="urn:adsk.eagle:package:25927/1" type="box" library_version="1">
 <description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
 Siemens Matsushita Components B 45 194
 Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_Z"/>
-</packageinstances>
 </package3d>
 <package3d name="SMC_P" urn="urn:adsk.eagle:package:25919/1" type="box" library_version="1">
 <description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
 Siemens Matsushita Components B 45 194
 Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_P"/>
-</packageinstances>
 </package3d>
 <package3d name="SMC_B" urn="urn:adsk.eagle:package:25920/1" type="box" library_version="1">
 <description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
 Siemens Matsushita Components B 45 194, B 45 197, B 45 198
 Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_B"/>
-</packageinstances>
 </package3d>
 <package3d name="SMC_C" urn="urn:adsk.eagle:package:25921/1" type="box" library_version="1">
 <description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
 Siemens Matsushita Components B 45 194, B 45 197, B 45 198
 Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_C"/>
-</packageinstances>
 </package3d>
 <package3d name="SMC_D" urn="urn:adsk.eagle:package:25923/1" type="box" library_version="1">
 <description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
 Siemens Matsushita Components B 45 194, B 45 197, B 45 198
 Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_D"/>
-</packageinstances>
 </package3d>
 <package3d name="SMC_E" urn="urn:adsk.eagle:package:25922/1" type="box" library_version="1">
 <description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
 Siemens Matsushita Components B 45 194, B 45 197, B 45 198
 Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_E"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -27153,7 +26739,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="R12" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="150k"/>
+<part name="R14" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="150k"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M05" device="LOCK" value="ICS40300">
 <attribute name="CON1" value="Vin"/>
 <attribute name="CON2" value="3V"/>
@@ -27161,77 +26747,77 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="CON4" value="AC"/>
 <attribute name="CON5" value="DC"/>
 </part>
-<part name="R13" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="150k"/>
-<part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="GND10" library="supply1" deviceset="GND" device=""/>
+<part name="R13" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="150k"/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="R16" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="POT1" library="CMU-ArtFab" deviceset="POT-DUAL-PTV112" device="-4420" value="20K"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="390"/>
 <part name="U1" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="U5" library="microbuilder" deviceset="VBAT" device=""/>
+<part name="U7" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="D1" library="SparkFun" deviceset="DIODE" device="SMA" value="10BQ015"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
-<part name="R7" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="R8" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="R6" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="15k"/>
+<part name="R9" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R10" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R8" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="15k"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="IC5" library="CMU-ArtFab" deviceset="TPS7A49" device=""/>
-<part name="R9" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="R10" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="11k"/>
+<part name="IC3" library="CMU-ArtFab" deviceset="TPS7A49" device=""/>
+<part name="R11" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R12" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="11k"/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="C11" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="IC4" library="CMU-ArtFab" deviceset="SC4503" device=""/>
+<part name="C13" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="IC2" library="CMU-ArtFab" deviceset="SC4503" device=""/>
 <part name="J3" library="CMU-ArtFab" deviceset="TRS-1/8&quot;-3.5MM" device="" value="TRS-1/8&quot;-3.5MM"/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="CR54" value="2.7uH"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="68uF"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="56nF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2pF"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="68uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="56nF"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2pF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="P+6" library="supply1" deviceset="+12V" device=""/>
-<part name="U4" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="SW3" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="CL-SB-12B" value="SPDT"/>
-<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="LOCK" value="Battery"/>
-<part name="J4" library="CMU-ArtFab" deviceset="USB_MICRO-B" device="REDUCED_PASTE"/>
+<part name="U6" library="microbuilder" deviceset="VBAT" device=""/>
+<part name="SW1" library="CMU-ArtFab" deviceset="SWITCH_SPDT" device="CL-SB-12B" value="SPDT"/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="LOCK" value="Battery"/>
+<part name="J1" library="CMU-ArtFab" deviceset="USB_MICRO-B" device="REDUCED_PASTE"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="Charge"/>
-<part name="R2" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="470"/>
-<part name="R3" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="5k"/>
+<part name="R5" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="470"/>
+<part name="R2" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="5k"/>
 <part name="IC1" library="CMU-ArtFab" deviceset="BQ297X-BATTERY-MANAGER" device="LONG" value="BQ297X"/>
-<part name="U3" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R16" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="330"/>
+<part name="U5" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R7" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="330"/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="IC3" library="CMU-ArtFab" deviceset="MCP73831" device=""/>
-<part name="U2" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="IC6" library="CMU-ArtFab" deviceset="QS6K1" device=""/>
-<part name="R4" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="2.2k"/>
-<part name="R22" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10M"/>
-<part name="R23" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10M"/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="VUSB"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="U3" library="CMU-ArtFab" deviceset="MCP73831" device=""/>
+<part name="U4" library="microbuilder" deviceset="VBAT" device=""/>
+<part name="U2" library="CMU-ArtFab" deviceset="QS6K1" device=""/>
+<part name="R6" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="2.2k"/>
+<part name="R4" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10M"/>
+<part name="R3" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10M"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="VUSB"/>
-<part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="OPA2*" device="UA" package3d_urn="urn:adsk.eagle:package:16404/2" technology="134"/>
-<part name="C17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" value="0.1uF"/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="VUSB"/>
+<part name="IC4" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="OPA2*" device="UA" package3d_urn="urn:adsk.eagle:package:16404/2" technology="134"/>
+<part name="C15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805K" value="0.1uF"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L3225M" package3d_urn="urn:adsk.eagle:package:23477/1" value="100uH/500mA"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="B" package3d_urn="urn:adsk.eagle:package:25911/1" value="10uF"/>
-<part name="C13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="B" package3d_urn="urn:adsk.eagle:package:25911/1" value="10uF"/>
 <part name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="B" package3d_urn="urn:adsk.eagle:package:25911/1" value="10uF"/>
+<part name="C16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="B" package3d_urn="urn:adsk.eagle:package:25911/1" value="10uF"/>
+<part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="B" package3d_urn="urn:adsk.eagle:package:25911/1" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -27262,7 +26848,7 @@ battery is not turning off</text>
 <instance part="GND13" gate="1" x="502.92" y="231.14" smashed="yes">
 <attribute name="VALUE" x="500.38" y="228.6" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="R12" gate="G$1" x="472.44" y="276.86" rot="R90"/>
+<instance part="R14" gate="G$1" x="472.44" y="276.86" rot="R90"/>
 <instance part="JP1" gate="G$1" x="441.96" y="254" smashed="yes">
 <attribute name="CON1" x="449.58" y="248.92" size="1.778" layer="96"/>
 <attribute name="CON2" x="449.58" y="251.46" size="1.778" layer="96"/>
@@ -27272,15 +26858,15 @@ battery is not turning off</text>
 <attribute name="VALUE" x="439.42" y="243.84" size="1.778" layer="96"/>
 <attribute name="NAME" x="439.42" y="262.382" size="1.778" layer="95"/>
 </instance>
-<instance part="R13" gate="G$1" x="477.52" y="256.54"/>
+<instance part="R15" gate="G$1" x="477.52" y="256.54"/>
 <instance part="GND10" gate="1" x="454.66" y="243.84" smashed="yes">
 <attribute name="VALUE" x="452.12" y="241.3" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="R11" gate="G$1" x="472.44" y="292.1" rot="R90"/>
+<instance part="R13" gate="G$1" x="472.44" y="292.1" rot="R90"/>
 <instance part="GND15" gate="1" x="619.76" y="248.92" smashed="yes">
 <attribute name="VALUE" x="617.22" y="246.38" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="R15" gate="G$1" x="553.72" y="259.08"/>
+<instance part="R16" gate="G$1" x="553.72" y="259.08"/>
 <instance part="POT1" gate="/1" x="515.62" y="238.76" rot="R90"/>
 <instance part="POT1" gate="/2" x="591.82" y="241.3" rot="R90"/>
 <instance part="LED1" gate="G$1" x="-35.56" y="264.16"/>
@@ -27289,77 +26875,77 @@ battery is not turning off</text>
 </instance>
 <instance part="R1" gate="G$1" x="-35.56" y="274.32" rot="R90"/>
 <instance part="U1" gate="G$1" x="-35.56" y="287.02"/>
-<instance part="U5" gate="G$1" x="193.04" y="281.94"/>
+<instance part="U7" gate="G$1" x="193.04" y="281.94"/>
 <instance part="D1" gate="G$1" x="254" y="276.86" smashed="yes">
 <attribute name="NAME" x="248.92" y="277.3426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="256.54" y="277.0886" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="193.04" y="261.62"/>
 <instance part="GND8" gate="1" x="276.86" y="261.62"/>
-<instance part="R7" gate="G$1" x="269.24" y="269.24" rot="R90"/>
-<instance part="R8" gate="G$1" x="269.24" y="256.54" rot="R90"/>
-<instance part="R6" gate="G$1" x="210.82" y="269.24" rot="R90"/>
+<instance part="R9" gate="G$1" x="269.24" y="269.24" rot="R90"/>
+<instance part="R10" gate="G$1" x="269.24" y="256.54" rot="R90"/>
+<instance part="R8" gate="G$1" x="210.82" y="269.24" rot="R90"/>
 <instance part="GND7" gate="1" x="269.24" y="246.38"/>
 <instance part="GND5" gate="1" x="210.82" y="246.38"/>
 <instance part="GND6" gate="1" x="256.54" y="246.38"/>
 <instance part="P+4" gate="1" x="330.2" y="284.48"/>
-<instance part="IC5" gate="G$1" x="342.9" y="266.7"/>
-<instance part="R9" gate="G$1" x="314.96" y="269.24" rot="R270"/>
-<instance part="R10" gate="G$1" x="314.96" y="256.54" rot="R270"/>
+<instance part="IC3" gate="G$1" x="342.9" y="266.7"/>
+<instance part="R11" gate="G$1" x="314.96" y="269.24" rot="R270"/>
+<instance part="R12" gate="G$1" x="314.96" y="256.54" rot="R270"/>
 <instance part="GND9" gate="1" x="304.8" y="243.84"/>
 <instance part="P+3" gate="1" x="292.1" y="287.02"/>
 <instance part="P+5" gate="1" x="370.84" y="287.02"/>
-<instance part="C11" gate="G$1" x="480.06" y="276.86"/>
-<instance part="IC4" gate="G$1" x="238.76" y="261.62" rot="MR0"/>
+<instance part="C13" gate="G$1" x="480.06" y="276.86"/>
+<instance part="IC2" gate="G$1" x="238.76" y="261.62" rot="MR0"/>
 <instance part="J3" gate="G$1" x="629.92" y="256.54" rot="R180"/>
 <instance part="L1" gate="G$1" x="233.68" y="276.86" rot="R90"/>
-<instance part="C6" gate="G$1" x="276.86" y="271.78"/>
-<instance part="C3" gate="G$1" x="193.04" y="271.78"/>
-<instance part="C4" gate="G$1" x="210.82" y="256.54"/>
-<instance part="C5" gate="G$1" x="259.08" y="269.24"/>
-<instance part="C7" gate="G$1" x="304.8" y="271.78"/>
-<instance part="C8" gate="G$1" x="322.58" y="271.78"/>
-<instance part="C9" gate="G$1" x="365.76" y="259.08"/>
-<instance part="C10" gate="G$1" x="381" y="266.7"/>
+<instance part="C7" gate="G$1" x="276.86" y="271.78"/>
+<instance part="C4" gate="G$1" x="193.04" y="271.78"/>
+<instance part="C5" gate="G$1" x="210.82" y="256.54"/>
+<instance part="C6" gate="G$1" x="259.08" y="269.24"/>
+<instance part="C8" gate="G$1" x="304.8" y="271.78"/>
+<instance part="C9" gate="G$1" x="322.58" y="271.78"/>
+<instance part="C10" gate="G$1" x="365.76" y="259.08"/>
+<instance part="C11" gate="G$1" x="381" y="266.7"/>
 <instance part="P+6" gate="1" x="457.2" y="276.86"/>
-<instance part="U4" gate="G$1" x="154.94" y="302.26"/>
-<instance part="SW3" gate="G$1" x="162.56" y="287.02"/>
-<instance part="J5" gate="G$1" x="180.34" y="292.1" rot="R180"/>
-<instance part="J4" gate="G$1" x="12.7" y="294.64" rot="MR0"/>
+<instance part="U6" gate="G$1" x="154.94" y="302.26"/>
+<instance part="SW1" gate="G$1" x="162.56" y="287.02"/>
+<instance part="J2" gate="G$1" x="180.34" y="292.1" rot="R180"/>
+<instance part="J1" gate="G$1" x="12.7" y="294.64" rot="MR0"/>
 <instance part="LED2" gate="G$1" x="106.68" y="287.02" rot="R270"/>
-<instance part="R2" gate="G$1" x="91.44" y="287.02" rot="R180"/>
-<instance part="R3" gate="G$1" x="27.94" y="287.02"/>
+<instance part="R5" gate="G$1" x="91.44" y="287.02" rot="R180"/>
+<instance part="R2" gate="G$1" x="27.94" y="287.02"/>
 <instance part="IC1" gate="G$1" x="96.52" y="246.38" rot="MR180"/>
-<instance part="U3" gate="G$1" x="149.86" y="228.6" rot="R180"/>
-<instance part="GND2" gate="1" x="134.62" y="220.98" smashed="yes">
+<instance part="U5" gate="G$1" x="149.86" y="228.6" rot="R180"/>
+<instance part="GND3" gate="1" x="134.62" y="220.98" smashed="yes">
 <attribute name="VALUE" x="132.08" y="218.44" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="R16" gate="G$1" x="149.86" y="238.76" rot="R90"/>
-<instance part="GND3" gate="1" x="60.96" y="218.44" smashed="yes">
+<instance part="R7" gate="G$1" x="149.86" y="238.76" rot="R90"/>
+<instance part="GND2" gate="1" x="60.96" y="218.44" smashed="yes">
 <attribute name="VALUE" x="58.42" y="215.9" size="1.778" layer="96" ratio="12"/>
 </instance>
 <instance part="C1" gate="G$1" x="25.4" y="297.18"/>
-<instance part="C2" gate="G$1" x="149.86" y="254"/>
-<instance part="IC3" gate="G$1" x="58.42" y="294.64" rot="R180"/>
-<instance part="U2" gate="G$1" x="83.82" y="309.88"/>
-<instance part="IC6" gate="G$1" x="40.64" y="248.92" rot="MR0"/>
-<instance part="R4" gate="G$1" x="134.62" y="231.14" rot="R90"/>
-<instance part="R22" gate="G$1" x="71.12" y="233.68" rot="R90"/>
-<instance part="R23" gate="G$1" x="63.5" y="233.68" rot="R90"/>
-<instance part="C16" gate="G$1" x="88.9" y="299.72"/>
-<instance part="P+2" gate="1" x="22.86" y="304.8"/>
-<instance part="P+1" gate="1" x="119.38" y="289.56"/>
-<instance part="IC2" gate="A" x="502.92" y="259.08"/>
-<instance part="IC2" gate="B" x="579.12" y="259.08"/>
-<instance part="C17" gate="G$1" x="541.02" y="289.56"/>
+<instance part="C3" gate="G$1" x="149.86" y="254"/>
+<instance part="U3" gate="G$1" x="58.42" y="294.64" rot="R180"/>
+<instance part="U4" gate="G$1" x="83.82" y="309.88"/>
+<instance part="U2" gate="G$1" x="40.64" y="248.92" rot="MR0"/>
+<instance part="R6" gate="G$1" x="134.62" y="231.14" rot="R90"/>
+<instance part="R4" gate="G$1" x="71.12" y="233.68" rot="R90"/>
+<instance part="R3" gate="G$1" x="63.5" y="233.68" rot="R90"/>
+<instance part="C2" gate="G$1" x="88.9" y="299.72"/>
+<instance part="P+1" gate="1" x="22.86" y="304.8"/>
+<instance part="P+2" gate="1" x="119.38" y="289.56"/>
+<instance part="IC4" gate="A" x="502.92" y="259.08"/>
+<instance part="IC4" gate="B" x="579.12" y="259.08"/>
+<instance part="C15" gate="G$1" x="541.02" y="289.56"/>
 <instance part="P+7" gate="1" x="561.34" y="304.8"/>
 <instance part="L2" gate="G$1" x="553.72" y="297.18" rot="R270"/>
 <instance part="GND14" gate="1" x="541.02" y="276.86" smashed="yes">
 <attribute name="VALUE" x="538.48" y="274.32" size="1.778" layer="96" ratio="12"/>
 </instance>
-<instance part="C12" gate="G$1" x="530.86" y="259.08" rot="R90"/>
-<instance part="C13" gate="G$1" x="599.44" y="259.08" rot="R90"/>
-<instance part="C14" gate="G$1" x="462.28" y="256.54" rot="R90"/>
+<instance part="C14" gate="G$1" x="530.86" y="259.08" rot="R90"/>
+<instance part="C16" gate="G$1" x="599.44" y="259.08" rot="R90"/>
+<instance part="C12" gate="G$1" x="462.28" y="256.54" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -27367,12 +26953,12 @@ battery is not turning off</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="502.92" y1="233.68" x2="502.92" y2="251.46" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="V-"/>
+<pinref part="IC4" gate="A" pin="V-"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="3"/>
@@ -27393,38 +26979,38 @@ battery is not turning off</text>
 <segment>
 <wire x1="276.86" y1="266.7" x2="276.86" y2="264.16" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="266.7" x2="193.04" y2="264.16" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="IC4" gate="G$1" pin="GND"/>
+<pinref part="IC2" gate="G$1" pin="GND"/>
 <wire x1="254" y1="261.62" x2="256.54" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="261.62" x2="256.54" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="210.82" y1="251.46" x2="210.82" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="269.24" y1="251.46" x2="269.24" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="304.8" y1="266.7" x2="304.8" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="304.8" y1="248.92" x2="304.8" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="251.46" x2="314.96" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="248.92" x2="304.8" y2="248.92" width="0.1524" layer="91"/>
 <junction x="304.8" y="248.92"/>
-<pinref part="IC5" gate="G$1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
 <wire x1="332.74" y1="264.16" x2="330.2" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="264.16" x2="330.2" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="248.92" x2="314.96" y2="248.92" width="0.1524" layer="91"/>
@@ -27435,37 +27021,37 @@ battery is not turning off</text>
 <wire x1="381" y1="261.62" x2="381" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="381" y1="248.92" x2="365.76" y2="248.92" width="0.1524" layer="91"/>
 <junction x="365.76" y="248.92"/>
-<pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="2S2"/>
+<pinref part="U2" gate="G$1" pin="2S2"/>
 <wire x1="60.96" y1="248.92" x2="68.58" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="248.92" x2="68.58" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="68.58" y1="223.52" x2="63.5" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="223.52" x2="60.96" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="223.52" x2="60.96" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="228.6" x2="71.12" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="223.52" x2="68.58" y2="223.52" width="0.1524" layer="91"/>
 <junction x="68.58" y="223.52"/>
-<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="228.6" x2="63.5" y2="223.52" width="0.1524" layer="91"/>
 <junction x="63.5" y="223.52"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="134.62" y1="226.06" x2="134.62" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="541.02" y1="284.48" x2="541.02" y2="279.4" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
@@ -27477,8 +27063,8 @@ battery is not turning off</text>
 <wire x1="492.76" y1="284.48" x2="492.76" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="492.76" y1="271.78" x2="492.76" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="492.76" y1="261.62" x2="495.3" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="472.44" y1="287.02" x2="472.44" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="472.44" y1="284.48" x2="472.44" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="480.06" y1="284.48" x2="472.44" y2="284.48" width="0.1524" layer="91"/>
@@ -27488,21 +27074,21 @@ battery is not turning off</text>
 <wire x1="568.96" y1="261.62" x2="568.96" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="568.96" y1="271.78" x2="492.76" y2="271.78" width="0.1524" layer="91"/>
 <junction x="492.76" y="271.78"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<pinref part="IC2" gate="A" pin="+IN"/>
-<pinref part="IC2" gate="B" pin="+IN"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="IC4" gate="A" pin="+IN"/>
+<pinref part="IC4" gate="B" pin="+IN"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <wire x1="487.68" y1="238.76" x2="508" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="482.6" y1="256.54" x2="487.68" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="487.68" y1="256.54" x2="495.3" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="487.68" y1="238.76" x2="487.68" y2="256.54" width="0.1524" layer="91"/>
 <junction x="487.68" y="256.54"/>
 <pinref part="POT1" gate="/1" pin="E"/>
-<pinref part="IC2" gate="A" pin="-IN"/>
+<pinref part="IC4" gate="A" pin="-IN"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -27512,8 +27098,8 @@ battery is not turning off</text>
 <wire x1="515.62" y1="259.08" x2="528.32" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="515.62" y1="243.84" x2="515.62" y2="259.08" width="0.1524" layer="91"/>
 <junction x="515.62" y="259.08"/>
-<pinref part="IC2" gate="A" pin="OUT"/>
-<pinref part="C12" gate="G$1" pin="+"/>
+<pinref part="IC4" gate="A" pin="OUT"/>
+<pinref part="C14" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -27526,15 +27112,15 @@ battery is not turning off</text>
 <wire x1="629.92" y1="261.62" x2="614.68" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="614.68" y1="261.62" x2="614.68" y2="259.08" width="0.1524" layer="91"/>
 <junction x="614.68" y="259.08"/>
-<pinref part="C13" gate="G$1" pin="-"/>
+<pinref part="C16" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUT"/>
+<pinref part="IC3" gate="G$1" pin="OUT"/>
 <wire x1="332.74" y1="271.78" x2="332.74" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="274.32" x2="330.2" y2="274.32" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="330.2" y1="274.32" x2="322.58" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="274.32" x2="314.96" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="274.32" x2="304.8" y2="274.32" width="0.1524" layer="91"/>
@@ -27542,9 +27128,9 @@ battery is not turning off</text>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <wire x1="330.2" y1="281.94" x2="330.2" y2="274.32" width="0.1524" layer="91"/>
 <junction x="330.2" y="274.32"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <junction x="322.58" y="274.32"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
@@ -27560,9 +27146,9 @@ battery is not turning off</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="535.94" y1="259.08" x2="548.64" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="-"/>
+<pinref part="C14" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -27572,8 +27158,8 @@ battery is not turning off</text>
 <wire x1="591.82" y1="259.08" x2="586.74" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="591.82" y1="246.38" x2="591.82" y2="259.08" width="0.1524" layer="91"/>
 <junction x="591.82" y="259.08"/>
-<pinref part="IC2" gate="B" pin="OUT"/>
-<pinref part="C13" gate="G$1" pin="+"/>
+<pinref part="IC4" gate="B" pin="OUT"/>
+<pinref part="C16" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -27587,35 +27173,35 @@ battery is not turning off</text>
 <wire x1="223.52" y1="276.86" x2="210.82" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="276.86" x2="193.04" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="276.86" x2="193.04" y2="274.32" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="VBAT"/>
+<pinref part="U7" gate="G$1" pin="VBAT"/>
 <wire x1="193.04" y1="276.86" x2="193.04" y2="279.4" width="0.1524" layer="91"/>
 <junction x="193.04" y="276.86"/>
 <wire x1="223.52" y1="276.86" x2="223.52" y2="266.7" width="0.1524" layer="91"/>
 <junction x="223.52" y="276.86"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="276.86" x2="210.82" y2="274.32" width="0.1524" layer="91"/>
 <junction x="210.82" y="276.86"/>
-<pinref part="IC4" gate="G$1" pin="IN"/>
+<pinref part="IC2" gate="G$1" pin="IN"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="VBAT"/>
+<pinref part="U6" gate="G$1" pin="VBAT"/>
 <wire x1="154.94" y1="292.1" x2="154.94" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="292.1" x2="172.72" y2="292.1" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="U3" gate="G$1" pin="VBAT"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="U5" gate="G$1" pin="VBAT"/>
 <wire x1="149.86" y1="233.68" x2="149.86" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="3VBAT"/>
-<pinref part="U2" gate="G$1" pin="VBAT"/>
+<pinref part="U3" gate="G$1" pin="3VBAT"/>
+<pinref part="U4" gate="G$1" pin="VBAT"/>
 <wire x1="81.28" y1="302.26" x2="83.82" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="302.26" x2="83.82" y2="307.34" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="302.26" x2="88.9" y2="302.26" width="0.1524" layer="91"/>
 <junction x="83.82" y="302.26"/>
 </segment>
@@ -27631,7 +27217,7 @@ battery is not turning off</text>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="276.86" x2="246.38" y2="276.86" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="SW"/>
+<pinref part="IC2" gate="G$1" pin="SW"/>
 <wire x1="246.38" y1="276.86" x2="251.46" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="254" y1="266.7" x2="254" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="254" y1="274.32" x2="246.38" y2="274.32" width="0.1524" layer="91"/>
@@ -27642,28 +27228,28 @@ battery is not turning off</text>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="264.16" x2="210.82" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="261.62" x2="210.82" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="256.54" x2="210.82" y2="261.62" width="0.1524" layer="91"/>
 <junction x="210.82" y="261.62"/>
-<pinref part="IC4" gate="G$1" pin="SHDN"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="G$1" pin="SHDN"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <wire x1="259.08" y1="261.62" x2="259.08" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="261.62" x2="269.24" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="269.24" y1="264.16" x2="269.24" y2="261.62" width="0.1524" layer="91"/>
 <junction x="269.24" y="261.62"/>
-<pinref part="IC4" gate="G$1" pin="FB"/>
+<pinref part="IC2" gate="G$1" pin="FB"/>
 <wire x1="254" y1="256.54" x2="259.08" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="256.54" x2="259.08" y2="261.62" width="0.1524" layer="91"/>
 <junction x="259.08" y="261.62"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -27676,57 +27262,57 @@ battery is not turning off</text>
 <junction x="276.86" y="276.86"/>
 <label x="279.4" y="276.86" size="1.778" layer="95"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="269.24" y1="274.32" x2="269.24" y2="276.86" width="0.1524" layer="91"/>
 <junction x="269.24" y="276.86"/>
 <wire x1="259.08" y1="276.86" x2="259.08" y2="271.78" width="0.1524" layer="91"/>
 <junction x="259.08" y="276.86"/>
 <pinref part="P+3" gate="1" pin="V+"/>
 <wire x1="292.1" y1="276.86" x2="292.1" y2="284.48" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="IN"/>
+<pinref part="IC3" gate="G$1" pin="IN"/>
 <wire x1="360.68" y1="271.78" x2="370.84" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="271.78" x2="381" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="381" y1="271.78" x2="381" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="EN"/>
+<pinref part="IC3" gate="G$1" pin="EN"/>
 <wire x1="360.68" y1="264.16" x2="370.84" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="264.16" x2="370.84" y2="271.78" width="0.1524" layer="91"/>
 <junction x="370.84" y="271.78"/>
 <pinref part="P+5" gate="1" pin="V+"/>
 <wire x1="370.84" y1="284.48" x2="370.84" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="FB"/>
+<pinref part="IC3" gate="G$1" pin="FB"/>
 <wire x1="332.74" y1="269.24" x2="327.66" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="269.24" x2="327.66" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="266.7" x2="322.58" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="266.7" x2="322.58" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="322.58" y1="261.62" x2="314.96" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="314.96" y1="261.62" x2="314.96" y2="264.16" width="0.1524" layer="91"/>
 <junction x="314.96" y="261.62"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <junction x="322.58" y="266.7"/>
 </segment>
 </net>
 <net name="N$48" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="NR/SS"/>
+<pinref part="IC3" gate="G$1" pin="NR/SS"/>
 <wire x1="360.68" y1="266.7" x2="365.76" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="266.7" x2="365.76" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="558.8" y1="259.08" x2="568.96" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="568.96" y1="259.08" x2="568.96" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="568.96" y1="256.54" x2="571.5" y2="256.54" width="0.1524" layer="91"/>
@@ -27734,34 +27320,34 @@ battery is not turning off</text>
 <wire x1="568.96" y1="256.54" x2="568.96" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="568.96" y1="241.3" x2="584.2" y2="241.3" width="0.1524" layer="91"/>
 <junction x="568.96" y="256.54"/>
-<pinref part="IC2" gate="B" pin="-IN"/>
+<pinref part="IC4" gate="B" pin="-IN"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <wire x1="449.58" y1="256.54" x2="459.74" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="+"/>
+<pinref part="C12" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="467.36" y1="256.54" x2="472.44" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="-"/>
+<pinref part="C12" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="101.6" y1="287.02" x2="96.52" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="BATGND" class="0">
 <segment>
 <wire x1="157.48" y1="287.02" x2="129.54" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="SW3" gate="G$1" pin="2"/>
+<pinref part="SW1" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="287.02" x2="129.54" y2="269.24" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VSS"/>
 <wire x1="15.24" y1="269.24" x2="119.38" y2="269.24" width="0.1524" layer="91"/>
@@ -27776,9 +27362,9 @@ battery is not turning off</text>
 <wire x1="124.46" y1="259.08" x2="124.46" y2="269.24" width="0.1524" layer="91"/>
 <junction x="119.38" y="259.08"/>
 <junction x="124.46" y="269.24"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="269.24" x2="15.24" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="6D1"/>
+<pinref part="U2" gate="G$1" pin="6D1"/>
 <wire x1="15.24" y1="256.54" x2="20.32" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -27786,55 +27372,55 @@ battery is not turning off</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="BAT"/>
 <wire x1="119.38" y1="246.38" x2="149.86" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="246.38" x2="149.86" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="246.38" x2="149.86" y2="248.92" width="0.1524" layer="91"/>
 <junction x="149.86" y="246.38"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="5PROG"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="U3" gate="G$1" pin="5PROG"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="287.02" x2="35.56" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="IC3" gate="G$1" pin="1STAT"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="U3" gate="G$1" pin="1STAT"/>
 <wire x1="86.36" y1="287.02" x2="81.28" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="5S1"/>
-<pinref part="IC6" gate="G$1" pin="4D2"/>
+<pinref part="U2" gate="G$1" pin="5S1"/>
+<pinref part="U2" gate="G$1" pin="4D2"/>
 <wire x1="20.32" y1="248.92" x2="20.32" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="1G1"/>
+<pinref part="U2" gate="G$1" pin="1G1"/>
 <wire x1="60.96" y1="256.54" x2="63.5" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="256.54" x2="68.58" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="256.54" x2="68.58" y2="254" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="DRAIN-FET"/>
 <wire x1="68.58" y1="254" x2="73.66" y2="254" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="256.54" x2="63.5" y2="238.76" width="0.1524" layer="91"/>
 <junction x="63.5" y="256.54"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="3G2"/>
+<pinref part="U2" gate="G$1" pin="3G2"/>
 <wire x1="60.96" y1="241.3" x2="71.12" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="CHG-FET"/>
 <wire x1="71.12" y1="241.3" x2="71.12" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="246.38" x2="73.66" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="241.3" x2="71.12" y2="238.76" width="0.1524" layer="91"/>
 <junction x="71.12" y="241.3"/>
 </segment>
@@ -27843,14 +27429,14 @@ battery is not turning off</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="V-"/>
 <wire x1="119.38" y1="238.76" x2="134.62" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="236.22" x2="134.62" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USBGND" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="J4" gate="G$1" pin="GND"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="292.1" x2="25.4" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="289.56" x2="17.78" y2="289.56" width="0.1524" layer="91"/>
@@ -27862,9 +27448,9 @@ battery is not turning off</text>
 <junction x="20.32" y="287.02"/>
 <wire x1="20.32" y1="279.4" x2="124.46" y2="279.4" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="294.64" x2="124.46" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <junction x="88.9" y="294.64"/>
-<pinref part="IC3" gate="G$1" pin="2VSS"/>
+<pinref part="U3" gate="G$1" pin="2VSS"/>
 <wire x1="124.46" y1="294.64" x2="129.54" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="294.64" x2="88.9" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="279.4" x2="124.46" y2="294.64" width="0.1524" layer="91"/>
@@ -27873,9 +27459,9 @@ battery is not turning off</text>
 <wire x1="129.54" y1="307.34" x2="190.5" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="307.34" x2="190.5" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="281.94" x2="170.18" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="SW3" gate="G$1" pin="1"/>
+<pinref part="SW1" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="289.56" x2="170.18" y2="289.56" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="289.56" x2="172.72" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="281.94" x2="170.18" y2="289.56" width="0.1524" layer="91"/>
 <junction x="170.18" y="289.56"/>
@@ -27883,7 +27469,7 @@ battery is not turning off</text>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="VBUS"/>
+<pinref part="J1" gate="G$1" pin="VBUS"/>
 <wire x1="22.86" y1="302.26" x2="22.86" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="299.72" x2="17.78" y2="299.72" width="0.1524" layer="91"/>
 <junction x="22.86" y="299.72"/>
@@ -27891,28 +27477,28 @@ battery is not turning off</text>
 <wire x1="25.4" y1="299.72" x2="22.86" y2="299.72" width="0.1524" layer="91"/>
 <junction x="25.4" y="299.72"/>
 <wire x1="25.4" y1="302.26" x2="25.4" y2="299.72" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="4VDD"/>
+<pinref part="U3" gate="G$1" pin="4VDD"/>
 <wire x1="35.56" y1="302.26" x2="25.4" y2="302.26" width="0.1524" layer="91"/>
-<pinref part="P+2" gate="1" pin="+5V"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="109.22" y1="287.02" x2="119.38" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="P+1" gate="1" pin="+5V"/>
+<pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="L2" gate="G$1" pin="2"/>
-<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="541.02" y1="297.18" x2="541.02" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="541.02" y1="297.18" x2="548.64" y2="297.18" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="472.44" y1="299.72" x2="472.44" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="502.92" y1="299.72" x2="502.92" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="502.92" y1="294.64" x2="502.92" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="472.44" y1="299.72" x2="502.92" y2="299.72" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="V+"/>
+<pinref part="IC4" gate="A" pin="V+"/>
 <wire x1="541.02" y1="297.18" x2="502.92" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="502.92" y1="297.18" x2="502.92" y2="294.64" width="0.1524" layer="91"/>
 <junction x="541.02" y="297.18"/>
