@@ -172,7 +172,7 @@
 <plain>
 <wire x1="0" y1="19" x2="0" y2="1" width="0.0762" layer="20"/>
 <wire x1="1" y1="0" x2="100" y2="0" width="0.0762" layer="20"/>
-<text x="1.516" y="18.487" size="0.6604" layer="1" font="vector" ratio="15">piezo-rev-3-7</text>
+<text x="1.516" y="18.487" size="0.6604" layer="1" font="vector" ratio="15">piezo-rev-3-8</text>
 <wire x1="0" y1="1" x2="1.016" y2="1" width="0.0762" layer="20"/>
 <wire x1="1.016" y1="1" x2="1" y2="0" width="0.0762" layer="20"/>
 <wire x1="1" y1="20" x2="1" y2="19" width="0.0762" layer="20"/>
