@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.2">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13516,8 +13516,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="IC6" library="CMU-ArtFab" deviceset="TPS7A49" device=""/>
-<part name="R49" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="91.2k"/>
-<part name="R50" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R49" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R50" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="11k"/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>

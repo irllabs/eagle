@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.2">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2180,11 +2180,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.724" y="7.975" size="0.6096" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="53.549" y="3.355" size="0.6096" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
-<element name="R49" library="CMU-ArtFab" package="R0603" value="91.2k" x="56.914" y="8.184" smashed="yes" rot="MR180">
+<element name="R49" library="CMU-ArtFab" package="R0603" value="100k" x="56.914" y="8.184" smashed="yes" rot="MR180">
 <attribute name="NAME" x="56.119" y="7.399" size="0.6096" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="55.779" y="9.699" size="0.6096" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="R50" library="CMU-ArtFab" package="R0603" value="100k" x="61.064" y="4.498" smashed="yes" rot="MR180">
+<element name="R50" library="CMU-ArtFab" package="R0603" value="11k" x="61.064" y="4.498" smashed="yes" rot="MR180">
 <attribute name="NAME" x="60.289" y="3.763" size="0.6096" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="59.979" y="5.953" size="0.6096" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
