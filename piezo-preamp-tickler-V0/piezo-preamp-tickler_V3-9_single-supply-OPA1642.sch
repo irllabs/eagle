@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24716,16 +24716,16 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="J3" library="CMU-ArtFab" deviceset="TRS-1/8&quot;-3.5MM" device="" value="Mixer"/>
 <part name="J1" library="CMU-ArtFab" deviceset="TRRS-1/8&quot;-3.5MM" device="LGPADS" value="HEADPHONES"/>
 <part name="J2" library="CMU-ArtFab" deviceset="TRRS-1/8&quot;-3.5MM" device="LGPADS" value="PHONE"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="56nF"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2pF"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="68uF"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="56nF"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2pF"/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="68uF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="R6" library="CMU-ArtFab" deviceset="POT" device="THUMBPOT14" value="50K"/>
 <part name="IC2" library="CMU-ArtFab" deviceset="MCP73831" device=""/>
 <part name="U2" library="microbuilder" deviceset="VBAT" device=""/>
@@ -24733,7 +24733,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="R17" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="2.2k"/>
 <part name="R16" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10M"/>
 <part name="R15" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="10M"/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="VUSB"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="VUSB"/>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="TL072" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" value="OPA1642"/>
@@ -25195,23 +25195,23 @@ battery is not turning off</text>
 </instance>
 <instance part="IC5" gate="G$1" x="276.86" y="160.02" rot="MR0"/>
 <instance part="L2" gate="G$1" x="287.02" y="175.26" rot="R90"/>
-<instance part="C8" gate="G$1" x="226.06" y="170.18"/>
-<instance part="C9" gate="G$1" x="243.84" y="154.94"/>
-<instance part="C10" gate="G$1" x="312.42" y="167.64"/>
-<instance part="C11" gate="G$1" x="330.2" y="170.18"/>
+<instance part="C9" gate="G$1" x="226.06" y="170.18"/>
+<instance part="C10" gate="G$1" x="243.84" y="154.94"/>
+<instance part="C11" gate="G$1" x="312.42" y="167.64"/>
+<instance part="C12" gate="G$1" x="330.2" y="170.18"/>
 <instance part="C6" gate="G$1" x="48.26" y="193.04"/>
-<instance part="C7" gate="G$1" x="172.72" y="149.86"/>
-<instance part="C12" gate="G$1" x="358.14" y="170.18"/>
-<instance part="C13" gate="G$1" x="375.92" y="170.18"/>
-<instance part="C14" gate="G$1" x="419.1" y="157.48"/>
-<instance part="C15" gate="G$1" x="434.34" y="165.1"/>
+<instance part="C8" gate="G$1" x="172.72" y="149.86"/>
+<instance part="C13" gate="G$1" x="358.14" y="170.18"/>
+<instance part="C14" gate="G$1" x="375.92" y="170.18"/>
+<instance part="C15" gate="G$1" x="419.1" y="157.48"/>
+<instance part="C16" gate="G$1" x="434.34" y="165.1"/>
 <instance part="IC2" gate="G$1" x="81.28" y="190.5" rot="R180"/>
 <instance part="U2" gate="G$1" x="106.68" y="205.74"/>
 <instance part="IC3" gate="G$1" x="63.5" y="144.78" rot="MR0"/>
 <instance part="R17" gate="G$1" x="157.48" y="127" rot="R90"/>
 <instance part="R16" gate="G$1" x="93.98" y="129.54" rot="R90"/>
 <instance part="R15" gate="G$1" x="86.36" y="129.54" rot="R90"/>
-<instance part="C16" gate="G$1" x="111.76" y="195.58"/>
+<instance part="C7" gate="G$1" x="111.76" y="195.58"/>
 <instance part="P+2" gate="1" x="45.72" y="200.66"/>
 <instance part="P+3" gate="1" x="142.24" y="185.42"/>
 </instances>
@@ -25227,12 +25227,12 @@ battery is not turning off</text>
 <segment>
 <wire x1="330.2" y1="165.1" x2="330.2" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="165.1" x2="226.06" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -25243,7 +25243,7 @@ battery is not turning off</text>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="243.84" y1="149.86" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
@@ -25269,9 +25269,9 @@ battery is not turning off</text>
 <wire x1="434.34" y1="160.02" x2="434.34" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="434.34" y1="147.32" x2="419.1" y2="147.32" width="0.1524" layer="91"/>
 <junction x="419.1" y="147.32"/>
-<pinref part="C12" gate="G$1" pin="2"/>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="2S2"/>
@@ -25316,7 +25316,7 @@ battery is not turning off</text>
 <wire x1="261.62" y1="165.1" x2="261.62" y2="175.26" width="0.1524" layer="91"/>
 <junction x="261.62" y="175.26"/>
 <pinref part="L2" gate="G$1" pin="1"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VBAT"/>
@@ -25334,7 +25334,7 @@ battery is not turning off</text>
 <pinref part="U2" gate="G$1" pin="VBAT"/>
 <wire x1="104.14" y1="198.12" x2="106.68" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="198.12" x2="106.68" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="198.12" x2="111.76" y2="198.12" width="0.1524" layer="91"/>
 <junction x="106.68" y="198.12"/>
 </segment>
@@ -25368,7 +25368,7 @@ battery is not turning off</text>
 <wire x1="256.54" y1="160.02" x2="256.54" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="SHDN"/>
 <wire x1="256.54" y1="154.94" x2="261.62" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -25383,7 +25383,7 @@ battery is not turning off</text>
 <junction x="312.42" y="160.02"/>
 <pinref part="IC5" gate="G$1" pin="FB"/>
 <wire x1="312.42" y1="154.94" x2="292.1" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -25402,8 +25402,8 @@ battery is not turning off</text>
 <junction x="312.42" y="175.26"/>
 <pinref part="P+4" gate="1" pin="V+"/>
 <wire x1="345.44" y1="175.26" x2="345.44" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="IN"/>
@@ -25416,7 +25416,7 @@ battery is not turning off</text>
 <junction x="424.18" y="170.18"/>
 <pinref part="P+6" gate="1" pin="V+"/>
 <wire x1="424.18" y1="182.88" x2="424.18" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -25431,7 +25431,7 @@ battery is not turning off</text>
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="368.3" y1="160.02" x2="368.3" y2="162.56" width="0.1524" layer="91"/>
 <junction x="368.3" y="160.02"/>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 <junction x="375.92" y="165.1"/>
 </segment>
 </net>
@@ -25440,7 +25440,7 @@ battery is not turning off</text>
 <pinref part="IC6" gate="G$1" pin="NR/SS"/>
 <wire x1="414.02" y1="165.1" x2="419.1" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="165.1" x2="419.1" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -25456,8 +25456,8 @@ battery is not turning off</text>
 <pinref part="P+5" gate="1" pin="+12V"/>
 <wire x1="383.54" y1="180.34" x2="383.54" y2="172.72" width="0.1524" layer="91"/>
 <junction x="383.54" y="172.72"/>
-<pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 <junction x="375.92" y="172.72"/>
 </segment>
 </net>
@@ -25486,7 +25486,7 @@ battery is not turning off</text>
 <wire x1="147.32" y1="154.94" x2="147.32" y2="165.1" width="0.1524" layer="91"/>
 <junction x="142.24" y="154.94"/>
 <junction x="147.32" y="165.1"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="165.1" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="6D1"/>
 <wire x1="38.1" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
@@ -25500,7 +25500,7 @@ battery is not turning off</text>
 <wire x1="172.72" y1="142.24" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="142.24" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
 <junction x="172.72" y="142.24"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -25572,7 +25572,7 @@ battery is not turning off</text>
 <junction x="43.18" y="182.88"/>
 <wire x1="43.18" y1="175.26" x2="147.32" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="190.5" x2="147.32" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <junction x="111.76" y="190.5"/>
 <pinref part="IC2" gate="G$1" pin="2VSS"/>
 <wire x1="147.32" y1="190.5" x2="152.4" y2="190.5" width="0.1524" layer="91"/>
