@@ -26758,7 +26758,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="R1" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="390"/>
 <part name="U1" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="U7" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="D1" library="SparkFun" deviceset="DIODE" device="SMA" value="10BQ015"/>
+<part name="D1" library="SparkFun" deviceset="DIODE" device="SMA" value="B130-13-F"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="R9" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="1M"/>
