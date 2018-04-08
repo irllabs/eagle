@@ -24705,7 +24705,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="J4" library="CMU-ArtFab" deviceset="USB_MICRO-B" device="REDUCED_PASTE"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="Charge"/>
 <part name="R14" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="470"/>
-<part name="R13" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="5k"/>
+<part name="R13" library="CMU-ArtFab" deviceset="R-US_" device="R0603" value="4.7K"/>
 <part name="IC4" library="CMU-ArtFab" deviceset="BQ297X-BATTERY-MANAGER" device="LONG" value="BQ297X"/>
 <part name="U3" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

@@ -3368,7 +3368,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="73.26" y="16.094" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="72.797" y="12.941" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R13" library="CMU-ArtFab" package="R0603" value="5k" x="65.375" y="10.115" smashed="yes">
+<element name="R13" library="CMU-ArtFab" package="R0603" value="4.7K" x="65.375" y="10.115" smashed="yes">
 <attribute name="NAME" x="66.14" y="11.405" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="64.65" y="8.771" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
