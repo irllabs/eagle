@@ -19931,10 +19931,10 @@ Metric Code Size 5664</description>
 <part name="C8" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="C15" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="C16" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
-<part name="R27" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R27" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
-<part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
 <part name="C21" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
@@ -20013,10 +20013,10 @@ Metric Code Size 5664</description>
 </part>
 <part name="C3" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="C9" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
-<part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
-<part name="R30" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R30" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
 <part name="J2" library="CMU-ArtFab" deviceset="TRS-1/8&quot;-3.5MM" device="" value=""/>
@@ -20050,10 +20050,10 @@ Metric Code Size 5664</description>
 </part>
 <part name="C4" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="C10" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
-<part name="R31" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R31" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
-<part name="R32" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R32" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
 <part name="J3" library="CMU-ArtFab" deviceset="TRS-1/8&quot;-3.5MM" device="" value=""/>
@@ -20087,10 +20087,10 @@ Metric Code Size 5664</description>
 </part>
 <part name="C5" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="C11" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
-<part name="R33" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R33" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
-<part name="R34" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R34" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
 <part name="J4" library="CMU-ArtFab" deviceset="TRS-1/8&quot;-3.5MM" device="" value=""/>
@@ -20124,10 +20124,10 @@ Metric Code Size 5664</description>
 </part>
 <part name="C6" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="C12" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
-<part name="R35" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R35" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
-<part name="R36" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R36" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
 <part name="J5" library="CMU-ArtFab" deviceset="TRS-1/8&quot;-3.5MM" device="" value=""/>
@@ -20161,15 +20161,14 @@ Metric Code Size 5664</description>
 </part>
 <part name="C7" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="C13" library="adafruit" deviceset="C-US" device="C0805K" value="10uF"/>
-<part name="R37" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R37" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
-<part name="R38" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K">
+<part name="R38" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
 <part name="J6" library="CMU-ArtFab" deviceset="TRS-1/8&quot;-3.5MM" device="" value=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -20452,7 +20451,6 @@ battery is not turning off</text>
 <instance part="R38" gate="G$1" x="154.94" y="-254"/>
 <instance part="J6" gate="G$1" x="68.58" y="-231.14"/>
 <instance part="P+15" gate="1" x="276.86" y="281.94"/>
-<instance part="P+17" gate="1" x="396.24" y="243.84"/>
 <instance part="P+2" gate="1" x="134.62" y="276.86"/>
 <instance part="P+4" gate="1" x="134.62" y="182.88"/>
 <instance part="P+5" gate="1" x="134.62" y="137.16"/>
@@ -21083,11 +21081,6 @@ battery is not turning off</text>
 <pinref part="C24" gate="G$1" pin="1"/>
 <junction x="401.32" y="-403.86"/>
 <pinref part="C23" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="R51" gate="G$1" pin="2"/>
-<wire x1="396.24" y1="241.3" x2="396.24" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="P+17" gate="1" pin="+12V"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -21823,6 +21816,10 @@ battery is not turning off</text>
 <wire x1="256.54" y1="274.32" x2="264.16" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="274.32" x2="256.54" y2="274.32" width="0.1524" layer="91"/>
 <junction x="256.54" y="274.32"/>
+<wire x1="256.54" y1="274.32" x2="256.54" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="289.56" x2="396.24" y2="289.56" width="0.1524" layer="91"/>
+<pinref part="R51" gate="G$1" pin="2"/>
+<wire x1="396.24" y1="289.56" x2="396.24" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
