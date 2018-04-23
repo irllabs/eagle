@@ -1282,8 +1282,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <pad name="2.2" x="1" y="-11" drill="1.1" diameter="1.6764" rot="R270"/>
 <pad name="2.3" x="3" y="-11" drill="1.1" diameter="1.6764" rot="R270"/>
 <pad name="1.3" x="5" y="-11" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="M2" x="6.8" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
-<pad name="M1" x="-6.8" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
+<pad name="M2" x="6.8" y="0" drill="2.032" diameter="2.8" shape="square" rot="R270"/>
+<pad name="M1" x="-6.8" y="0" drill="2.032" diameter="2.8" shape="square" rot="R270"/>
 </package>
 <package name="1/8&quot;-F-STEREO-PCB">
 <wire x1="0" y1="0" x2="11.684" y2="0" width="0.127" layer="21"/>
