@@ -170,23 +170,9 @@
 </layers>
 <board>
 <plain>
-<hole x="-29.5" y="49" drill="2.5"/>
-<hole x="-29.5" y="10.5" drill="2.5"/>
-<hole x="-67.5" y="49" drill="2.5"/>
-<hole x="-67.5" y="10.5" drill="2.5"/>
-<wire x1="-70.5" y1="10.5" x2="-70.5" y2="49" width="0.1524" layer="20"/>
-<wire x1="-70.5" y1="49" x2="-67.5" y2="52" width="0.1524" layer="20" curve="-90"/>
-<wire x1="-67.5" y1="52" x2="-29.5" y2="52" width="0.1524" layer="20"/>
-<wire x1="-29.5" y1="52" x2="-26.5" y2="49" width="0.1524" layer="20" curve="-90"/>
-<wire x1="-26.5" y1="49" x2="-26.5" y2="10.5" width="0.1524" layer="20"/>
-<wire x1="-26.5" y1="10.5" x2="-29.5" y2="7.5" width="0.1524" layer="20" curve="-90"/>
-<wire x1="-29.5" y1="7.5" x2="-67.5" y2="7.5" width="0.1524" layer="20"/>
-<wire x1="-67.5" y1="7.5" x2="-70.5" y2="10.5" width="0.1524" layer="20" curve="-90"/>
-<text x="-39.7" y="50.9" size="0.6604" layer="28" font="vector" ratio="15" rot="MR0">ON</text>
-<text x="-30.3" y="50.7" size="0.6604" layer="28" font="vector" ratio="15" rot="MR0">OFF</text>
 <wire x1="-69.9" y1="1" x2="-69.9" y2="-17" width="0.0762" layer="20"/>
 <wire x1="-68.9" y1="-18" x2="30.1" y2="-18" width="0.0762" layer="20"/>
-<text x="-65.784" y="0.487" size="0.6604" layer="1" font="vector" ratio="15">MEMs-rev-10</text>
+<text x="-65.784" y="0.487" size="0.6604" layer="1" font="vector" ratio="15">MEMS-rev-12</text>
 <wire x1="-69.9" y1="-17" x2="-68.884" y2="-17" width="0.0762" layer="20"/>
 <wire x1="-68.884" y1="-17" x2="-68.9" y2="-18" width="0.0762" layer="20"/>
 <wire x1="-68.9" y1="2" x2="-68.9" y2="1" width="0.0762" layer="20"/>
