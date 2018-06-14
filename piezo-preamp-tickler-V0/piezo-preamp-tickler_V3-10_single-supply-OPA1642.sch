@@ -25449,6 +25449,7 @@ battery is not turning off</text>
 <wire x1="38.1" y1="165.1" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="6D1"/>
 <wire x1="38.1" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
+<junction x="142.24" y="165.1"/>
 </segment>
 </net>
 <net name="N$42" class="0">
