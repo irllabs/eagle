@@ -24954,7 +24954,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.3048" drill="0">
+</class>
+<class number="1" name="audio" width="0.508" drill="0">
 </class>
 </classes>
 <parts>
@@ -25105,7 +25107,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="R14" gate="G$1" pin="1"/>
@@ -25136,7 +25138,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$8" class="1">
 <segment>
 <wire x1="480.06" y1="284.48" x2="480.06" y2="279.4" width="0.1524" layer="91"/>
 <wire x1="480.06" y1="284.48" x2="492.76" y2="284.48" width="0.1524" layer="91"/>
@@ -25159,7 +25161,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="IC2" gate="B" pin="+IN"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="N$5" class="1">
 <segment>
 <wire x1="487.68" y1="238.76" x2="508" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
@@ -25171,7 +25173,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="IC2" gate="A" pin="-IN"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="N$9" class="1">
 <segment>
 <wire x1="510.54" y1="259.08" x2="515.62" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="POT1" gate="/1" pin="S"/>
@@ -25182,7 +25184,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="IC2" gate="A" pin="OUT"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="N$7" class="1">
 <segment>
 <wire x1="614.68" y1="259.08" x2="614.68" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="614.68" y1="256.54" x2="629.92" y2="256.54" width="0.1524" layer="91"/>
@@ -25195,7 +25197,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="614.68" y="259.08"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="1">
 <segment>
 <pinref part="P+7" gate="1" pin="+12V"/>
 <wire x1="561.34" y1="302.26" x2="558.8" y2="297.18" width="0.1524" layer="91"/>
@@ -25207,14 +25209,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="462.28" y1="271.78" x2="462.28" y2="279.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="N$4" class="1">
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="535.94" y1="259.08" x2="548.64" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="-"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="N$10" class="1">
 <segment>
 <wire x1="596.9" y1="259.08" x2="591.82" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="POT1" gate="/2" pin="S"/>
@@ -25225,7 +25227,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="IC2" gate="B" pin="OUT"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="N$21" class="1">
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="558.8" y1="259.08" x2="568.96" y2="259.08" width="0.1524" layer="91"/>
@@ -25238,21 +25240,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="IC2" gate="B" pin="-IN"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="N$3" class="1">
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <pinref part="C13" gate="G$1" pin="+"/>
 <wire x1="449.58" y1="256.54" x2="459.74" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="N$23" class="1">
 <segment>
 <pinref part="C13" gate="G$1" pin="-"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="467.36" y1="256.54" x2="472.44" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="N$15" class="1">
 <segment>
 <pinref part="L2" gate="G$1" pin="2"/>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -25270,7 +25272,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="502.92" y="297.18"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="VIN" class="1">
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="449.58" y1="248.92" x2="457.2" y2="248.92" width="0.1524" layer="91"/>
@@ -25278,7 +25280,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="457.2" y1="266.7" x2="457.2" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VBAT" class="0">
+<net name="VBAT" class="1">
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="VBAT"/>
@@ -25373,7 +25375,7 @@ battery is not turning off</text>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="GND16" gate="1" pin="GND"/>
@@ -25450,7 +25452,7 @@ battery is not turning off</text>
 <wire x1="152.4" y1="12.7" x2="152.4" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VBAT" class="0">
+<net name="VBAT" class="1">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="U6" gate="G$1" pin="VBAT"/>
@@ -25598,7 +25600,7 @@ battery is not turning off</text>
 <pinref part="C25" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="1">
 <segment>
 <pinref part="IC7" gate="G$1" pin="OUT"/>
 <wire x1="381" y1="60.96" x2="381" y2="63.5" width="0.1524" layer="91"/>
