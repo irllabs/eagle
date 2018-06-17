@@ -3199,19 +3199,19 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-62.425" y="-10.515" size="0.6604" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R15" library="CMU-ArtFab" package="R0603" value="1k" x="-47.5" y="-8.69" smashed="yes">
-<attribute name="NAME" x="-47.033903125" y="-9.888403125" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="-46.993903125" y="-6.906103125" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="-46.733903125" y="-6.888403125" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="-47.093903125" y="-9.806103125" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R13" library="CMU-ArtFab" package="R0603" value="150k" x="-44.2875" y="-3.4625" smashed="yes" rot="R180">
-<attribute name="NAME" x="-45.0036" y="-5.2116" size="0.6604" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="-42.9439" y="-1.7161" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="-45.1036" y="-2.3116" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-43.1439" y="-4.6161" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R14" library="CMU-ArtFab" package="R0603" value="150k" x="-49.99" y="-3.415" smashed="yes">
-<attribute name="NAME" x="-50.6661" y="-5.0841" size="0.6604" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="-51.0236" y="-2.4114" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="-50.7661" y="-2.1841" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-50.9236" y="-5.2114" size="0.6604" layer="25" font="vector" ratio="15"/>
 </element>
 <element name="R16" library="CMU-ArtFab" package="R0603" value="1k" x="-40.46" y="-16.005" smashed="yes">
-<attribute name="NAME" x="-41.225" y="-15.13" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="-42.125" y="-14.93" size="0.6604" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="-40.815" y="-17.44" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="POT1" library="CMU-ArtFab" package="PTV112" value="10K" x="-20.1" y="-5.7" smashed="yes" rot="MR0">
@@ -3225,16 +3225,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-26.7291" y="-0.019690625" size="0.6604" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="C12" library="adafruit" package="C0805" value="0.1uF" x="-40.374" y="-11.702" smashed="yes" rot="R180">
-<attribute name="NAME" x="-39.645" y="-12.894" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="-39.195" y="-10" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="-39.445" y="-9.994" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="-39.095" y="-12.8" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C16" library="CMU-ArtFab" package="PANASONIC_B" value="10uF" x="-53.745" y="-15.1" smashed="yes">
 <attribute name="NAME" x="-55.824" y="-12.768" size="0.6604" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="-51.744" y="-17.262" size="0.6604" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-51.444" y="-16.762" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C15" library="CMU-ArtFab" package="PANASONIC_B" value="10uF" x="-47.03" y="-14.995" smashed="yes">
 <attribute name="NAME" x="-49.079" y="-12.499" size="0.6604" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="-45.589" y="-17.401" size="0.6604" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-44.689" y="-16.601" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="J3" library="CMU-ArtFab" package="TRS_SJ-3524-SMT" value="" x="-62.8" y="-8.4" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-62.2" y="-12.01" size="0.6604" layer="26" font="vector" ratio="15" rot="MR180"/>
@@ -3264,7 +3264,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="15.093" y="0.215" size="0.6604" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R5" library="CMU-ArtFab" package="R0603" value="390" x="22.182" y="-0.332" smashed="yes">
-<attribute name="NAME" x="21.937" y="1.306" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="22.637" y="1.306" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="21.409" y="-1.754" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="D1" library="SparkFun" package="SMA-DIODE" value="B130-13-F" x="-23.959" y="-1.495" smashed="yes" rot="R90">
@@ -3276,12 +3276,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="1.929" y="-1.311" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R7" library="CMU-ArtFab" package="R0603" value="100k" x="-15.848" y="-1.14" smashed="yes">
-<attribute name="NAME" x="-15.683" y="-2.705" size="0.6604" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="-17.037" y="-0.31" size="0.6604" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="-16.283" y="-0.005" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-16.737" y="-2.91" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R8" library="CMU-ArtFab" package="R0603" value="15k" x="-10.472" y="-9.322" smashed="yes">
 <attribute name="NAME" x="-11.907" y="-8.287" size="0.6604" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="-11.034" y="-10.946" size="0.6604" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-11.634" y="-11.046" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="IC7" library="CMU-ArtFab" package="MSOP-8" value="TPS7A49" x="26.71" y="-6.724" smashed="yes">
 <attribute name="NAME" x="24.887" y="-7.546" size="0.6604" layer="25" font="vector" ratio="15" rot="R90"/>
@@ -3292,7 +3292,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="24.12" y="-17.656" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R10" library="CMU-ArtFab" package="R0603" value="11k" x="28.468" y="-15.878" smashed="yes">
-<attribute name="NAME" x="27.179" y="-15.208" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="27.179" y="-15.008" size="0.6604" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="27.825" y="-17.683" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02_LOCK" value="Battery" x="8.645" y="-15.565" smashed="yes" rot="R180">
@@ -3318,8 +3318,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-2.251" y="-16.595" size="0.6604" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R11" library="CMU-ArtFab" package="R0603" value="470" x="3.137" y="-11.319" smashed="yes">
-<attribute name="NAME" x="3.84" y="-12.994" size="0.6604" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="1.603" y="-10.041" size="0.6604" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="2.14" y="-10.194" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="2.703" y="-13.141" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R24" library="CMU-ArtFab" package="R0603" value="4.7K" x="6.575" y="-4.785" smashed="yes">
 <attribute name="NAME" x="7.34" y="-3.495" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
@@ -3330,16 +3330,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="17.547" y="-9.235" size="0.6604" layer="27" font="vector" ratio="15" rot="R180" align="top-left"/>
 </element>
 <element name="R25" library="CMU-ArtFab" package="R0603" value="330" x="12.889" y="-15.557" smashed="yes">
-<attribute name="NAME" x="12.042" y="-17.007" size="0.6604" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="11.879" y="-14.471" size="0.6604" layer="27" font="vector" ratio="15"/>
+<attribute name="NAME" x="12.042" y="-14.507" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="12.179" y="-17.271" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="IC9" library="CMU-ArtFab" package="SOT23-5" value="SC4503" x="-2.068" y="-2.518" smashed="yes" rot="R180">
 <attribute name="NAME" x="-0.199" y="-1.76" size="0.6604" layer="25" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="-4.456" y="-0.672" size="0.6604" layer="27" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="-4.556" y="-0.872" size="0.6604" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="L3" library="SparkFun-Passives" package="CR54" value="2.7uH" x="-5.528" y="-8.414" smashed="yes" rot="R180">
 <attribute name="NAME" x="-8.588" y="-5.424" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="-2.276" y="-7.088" size="0.6604" layer="27" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="-5.512" y="-12.276" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="-19.77" y="-1.09" smashed="yes">
 <attribute name="NAME" x="-20.605" y="-0.055" size="0.6604" layer="25" font="vector" ratio="15"/>
@@ -3352,14 +3352,14 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-8.875" y="-4.525" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2pF" x="2.49" y="-3.51" smashed="yes" rot="R180">
-<attribute name="NAME" x="3.325" y="-4.245" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="3.525" y="-1.745" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="2.49" y="-3.51" size="0.6604" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="4.125" y="-1.705" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="3.825" y="-4.605" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="68uF" x="-8.27" y="0" smashed="yes">
-<attribute name="NAME" x="-9.24" y="-1.67" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="-10.54" y="1.23" size="0.6604" layer="25" font="vector" ratio="15"/>
 <attribute name="SPICEPREFIX" value="C" x="-8.27" y="0" size="0.6604" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="-9.56" y="1.04" size="0.6604" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-10.56" y="-1.96" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF" x="12.34" y="-6.16" smashed="yes">
 <attribute name="NAME" x="10.705" y="-5.425" size="0.6604" layer="25" font="vector" ratio="15"/>
@@ -3367,29 +3367,29 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="11.705" y="-7.895" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="16.8" y="-15.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="17.435" y="-16.135" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="16.535" y="-13.735" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="16.8" y="-15.5" size="0.6604" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="17.835" y="-13.995" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="18.335" y="-16.595" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="24.95" y="-12.43" smashed="yes">
-<attribute name="NAME" x="24.015" y="-13.875" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="24.415" y="-11.375" size="0.6604" layer="25" font="vector" ratio="15"/>
 <attribute name="SPICEPREFIX" value="C" x="24.95" y="-12.43" size="0.6604" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="23.595" y="-11.655" size="0.6604" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="23.895" y="-14.055" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF" x="28.41" y="-12.42" smashed="yes">
-<attribute name="NAME" x="27.505" y="-13.845" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="27.605" y="-11.345" size="0.6604" layer="25" font="vector" ratio="15"/>
 <attribute name="SPICEPREFIX" value="C" x="28.41" y="-12.42" size="0.6604" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="27.105" y="-11.445" size="0.6604" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="27.405" y="-14.045" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF" x="26.98" y="-0.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="27.815" y="-1.415" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="27.915" y="1.285" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="26.98" y="-0.38" size="0.6604" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="27.915" y="1.265" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="28.215" y="-1.535" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="22.1" y="-5" smashed="yes">
-<attribute name="NAME" x="21.235" y="-6.705" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="20.735" y="-3.805" size="0.6604" layer="25" font="vector" ratio="15"/>
 <attribute name="SPICEPREFIX" value="C" x="22.1" y="-5" size="0.6604" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="23.375" y="-3.325" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="23.275" y="-6.325" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="IC10" library="CMU-ArtFab" package="SOT-23-5" value="MCP73831" x="7.3" y="-10.5" smashed="yes">
 <attribute name="NAME" x="5.535" y="-11.25" size="0.6604" layer="25" font="vector" ratio="15" rot="R90"/>
@@ -3400,8 +3400,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="19.1" y="-12.3" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R26" library="CMU-ArtFab" package="R0603" value="2.2k" x="20.5" y="-15.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.235" y="-16.335" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="21.335" y="-13.895" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="21.535" y="-13.835" size="0.6604" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="21.535" y="-16.695" size="0.6604" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R27" library="CMU-ArtFab" package="R0603" value="10M" x="11.7" y="-10.6" smashed="yes">
 <attribute name="NAME" x="11.065" y="-9.965" size="0.6604" layer="25" font="vector" ratio="15"/>
@@ -3412,9 +3412,9 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="16.665" y="-7.605" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF" x="-19.7" y="-9.8" smashed="yes">
-<attribute name="NAME" x="-20.435" y="-8.965" size="0.6604" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="-20.435" y="-8.765" size="0.6604" layer="25" font="vector" ratio="15"/>
 <attribute name="SPICEPREFIX" value="C" x="-19.7" y="-9.8" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-20.735" y="-11.105" size="0.6604" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-20.735" y="-11.505" size="0.6604" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_3_NO_SILK" package3d_urn="urn:adsk.eagle:package:39285/1" value="Power Source" x="-32.9" y="-1" smashed="yes" rot="R180">
 <attribute name="CON1" value="12V" x="-36.5" y="-1.4" size="0.6604" layer="27" font="vector" ratio="15"/>
