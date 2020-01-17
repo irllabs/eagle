@@ -1,0 +1,40 @@
+Partlist
+
+Exported from piezo-preamp-tickler_V3-2_single-supply-OPA1642.sch at 12/20/2017 9:03 PM
+
+EAGLE Version 8.5.1 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Assembly variant: 
+
+Part       Value          Device                    Package               Library             Sheet
+
+C2         10uF           C-USC1206                 C1206                 rcl                 1
+C3         100uF          CAP_TANTALUMD/7343_REFLOW EIA7343-31/D-R        microbuilder        1
+C4         0.1uF          C-USC0805K                C0805K                adafruit            1
+C5         0.1uF          C-USC0805K                C0805K                adafruit            1
+C6         10uF           C-USC1206                 C1206                 adafruit            1
+CN1                       JST_2PIN-THM              JST-PH-2-THM          adafruit            1
+D1         1N4148W        ZENER-DIOD                SOD123                CMU-ArtFab          1
+D2         1N4148W        ZENER-DIOD                SOD123                CMU-ArtFab          1
+HEADSET    SJ-43514       TRRS-3.5MMLGPADS          TRRS_SJ-43514-SMT-TR  CMU-ArtFab          1
+IC1        OPA1612        OPA2134UA                 SO08                  linear              1
+J1                        CONN_02LOCK               1X02_LOCK             SparkFun-Connectors 1
+L1         100uH          L-USL3225P                L3225P                rcl                 1
+LED1                      LED3MM                    LED3MM                led                 1
+MIXER-OUT  TRS-1/8"-3.5MM TRS-1/8"-3.5MM            TRS_SJ-3524-SMT       CMU-ArtFab          1
+PHONE      SJ-43514       TRRS-3.5MMLGPADS          TRRS_SJ-43514-SMT-TR  CMU-ArtFab          1
+Q2         MMBFJ201       SST5484                   SOT23                 transistor-fet      1
+R1         100K           R-US_R0603                R0603                 CMU-ArtFab          1
+R2         10M            R-US_R0603                R0603                 CMU-ArtFab          1
+R6         100K           R-US_R0603                R0603                 CMU-ArtFab          1
+R7         100K           R-US_R0603                R0603                 CMU-ArtFab          1
+R8         220            R-US_R0603                R0603                 CMU-ArtFab          1
+R9         220            R-US_R0603                R0603                 CMU-ArtFab          1
+R10        1K             R-US_R0603                R0603                 CMU-ArtFab          1
+R11        1M             R-US_R0603                R0603                 CMU-ArtFab          1
+R12        1.2K           R-US_R0603                R0603                 CMU-ArtFab          1
+R13        2.2K           R-US_R0603                R0603                 CMU-ArtFab          1
+R14        1.2K           R-US_R0603                R0603                 CMU-ArtFab          1
+R15        20K            POTTRIMPOT-MULTI          TRIMPOT-MULTI         CMU-ArtFab          1
+SW1-INPUT  SPDTCSS-1210B  SWITCH_SPDTCSS-1210B      SWITCH_SPDT_CSS-1210B CMU-ArtFab          1
+SW1-OUTPUT SWITCH_DPDT    SWITCH_DPDT               SWITCH_DPDT_CL-SB-22B CMU-ArtFab          1

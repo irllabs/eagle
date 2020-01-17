@@ -1,0 +1,72 @@
+Partlist
+
+Exported from piezo-preamp-tickler_V3-3_single-supply-OPA1642.sch at 12/22/17 3:42 PM
+
+EAGLE Version 8.5.0 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Assembly variant: 
+
+Part       Value             Device                    Package                                       Library             Sheet
+
+BATTERY1                     CONN_02LOCK               1X02_LOCK                                     SparkFun-Connectors 2
+C1         10uF              C-USC0603                 C0603                                         adafruit            1
+C2         0.1uF             C-USC0805K                C0805K                                        adafruit            1
+C3         10uF              C-USC0805K                C0805K                                        adafruit            1
+C4         0.1uF             C-USC0805K                C0805K                                        adafruit            1
+C5         10nF              C-USC0603                 C0603                                         adafruit            2
+C6         100uF             CAP_TANTALUMA/3216_REFLOW EIA3216-18/A-R                                microbuilder        1
+C7         10uF              C-USC0603                 C0603                                         adafruit            2
+C8         2.2pf             CAP_POL1206               EIA3216                                       SparkFun            2
+C9         56nf              CAP_POL3528               EIA3528                                       SparkFun            2
+C10        0.1uF             C-USC0805K                C0805K                                        adafruit            2
+C11        10nF              C-USC0603                 C0603                                         adafruit            2
+C12        0.1uF             C-USC0805K                C0805K                                        adafruit            2
+C13        10uF              CAP_POL1206               EIA3216                                       SparkFun            2
+C14        68uF              CAP_POL3528               EIA3528                                       SparkFun            2
+C15        10uF              C-USC0603                 C0603                                         adafruit            2
+D1                           DIODE-SOD123              SOD123                                        diode               1
+D2                           DIODE-SOD123              SOD123                                        diode               1
+D4         BAT54S            BAT54S                    SOT23                                         diode               1
+D7         10BQ015           DIODESMA                  SMA-DIODE                                     SparkFun            2
+DW01A      DW01A             DW01A                     SOT23-6                                       CMU-ArtFab          2
+F8205A     F8205A            F8205A                    F8205A                                        CMU-ArtFab          2
+IC1        OPA2134UA         OPA2134UA                 SO08                                          linear              1
+J1                           USB_MICRO-BREDUCED_PASTE  USB-B-MICRO-SMD_RED_PASTE                     SparkFun-Connectors 2
+L1                           L-USL3225P                L3225P                                        rcl                 1
+L4         2.7uH             INDUCTORCR54              CR54                                          SparkFun            2
+LED1                         LED3MM                    LED3MM                                        led                 2
+LED2                         LED3MM                    LED3MM                                        led                 2
+LED3                         LED3MM                    LED3MM                                        led                 2
+PIEZO                        JST_2PIN-THM              JST-PH-2-THM                                  adafruit            1
+POWER      SPDT              SWITCH_SPDTCL-SB-12B      SWITCH_SPDT_CL-SB-12B                         CMU-ArtFab          2
+Q2         MMBFJ201          J201SOT-23                SOT23-3                                       CMU-ArtFab          1
+R1         2.2K              R-US_R0603                R0603                                         CMU-ArtFab          1
+R2         1.2K              R-US_R0603                R0603                                         CMU-ArtFab          1
+R3         1M                R-US_R0603                R0603                                         CMU-ArtFab          1
+R4         10M               R-US_R0603                R0603                                         CMU-ArtFab          2
+R5         100K              R-US_R0603                R0603                                         CMU-ArtFab          1
+R6         100K              R-US_R0603                R0603                                         CMU-ArtFab          1
+R7         220               R-US_R0603                R0603                                         CMU-ArtFab          1
+R8         220               R-US_R0603                R0603                                         CMU-ArtFab          1
+R9         866k              R-US_R0603                R0603                                         CMU-ArtFab          2
+R10        1K                R-US_R0603                R0603                                         CMU-ArtFab          1
+R11        1M                R-US_R0603                R0603                                         CMU-ArtFab          2
+R12        390               R-US_R0805                R0805                                         CMU-ArtFab          2
+R13        10M               R-US_R0603                R0603                                         CMU-ArtFab          1
+R14        100K              R-US_R0603                R0603                                         CMU-ArtFab          1
+R18        100k              R-US_R0603                R0603                                         CMU-ArtFab          2
+R19        15k               R-US_R0603                R0603                                         CMU-ArtFab          2
+R20        1.2k              R-US_R0603                R0603                                         CMU-ArtFab          2
+R21        1k                R-US_R0603                R0603                                         CMU-ArtFab          2
+R22        1k                R-US_R0603                R0603                                         CMU-ArtFab          2
+R23        nfo               R-US_R0603                R0603                                         CMU-ArtFab          2
+R24        100               R-US_R0603                R0603                                         CMU-ArtFab          2
+SC4503     VREG12_SOT23-5    VREG12_SOT23-5            SOT23-5                                       CMU-ArtFab          2
+SW2-SPST   INPUT-select      SWITCH_SPDTCL-SB-12B      SWITCH_SPDT_CL-SB-12B                         CMU-ArtFab          1
+TO-HEADSET AUDIO-JACK3LGPADS AUDIO-JACK3LGPADS         AUDIO-JACK-TRRS-SMD                           Daniel              1
+TO-PHONE   AUDIO-JACK3LGPADS AUDIO-JACK3LGPADS         AUDIO-JACK-TRRS-SMD                           Daniel              1
+TP4056     TP4056-CHIP       TP4056-CHIP               SO08                                          CMU-ArtFab          2
+U$1        TRS-1/8"-3.5MM    TRS-1/8"-3.5MM            TRS_SJ-3524-SMT                               CMU-ArtFab          1
+U$2        SWITCH_DPDT       SWITCH_DPDT               SWITCH_DPDT_CL-SB-22B                         CMU-ArtFab          1
+U$4                          POTPOT-THUMB-ALPHA        POT-THUMB-14MM_ALPHA-RV100F-30-4K1B-B10K-B301 CMU-ArtFab          1
+U$5        TPS7A49           TPS7A49                   MSOP-8                                        CMU-ArtFab          2
